@@ -38,7 +38,7 @@ Figures 3 and A1–A3):
 
 Check against the published 1 mm values (`results/baseline.json`):
 
-| | median log10 N (published / rebuilt) | Pf | top inputs, U90 reduction (published → rebuilt) |
+| | mean log10 N (published / rebuilt) | Pf | top inputs, U90 reduction (published → rebuilt) |
 | --- | --- | --- | --- |
 | Bar | 5.59 / 5.59 | 93 % / 93 % | depth 26 → 31 %, κ 10 → 8 %, load 9 → 8 %, material 10 → 6 % |
 | Plate | 4.41 / 4.41 | 99 % / 99 % | depth 29 → 26 %, stress 8 → 9 %, κ 6 → 5 %, α 3 → 2 % |
@@ -75,6 +75,18 @@ reported as changes against this rebuilt baseline, on the same random numbers.
   halving both changes log10 N by < 0.01.
 * Uncertain inputs: h, n_b, SOLR, overload plastic-zone factor β (2 plane stress to 6 plane strain).
 * Not modelled: underload acceleration, strip-yield closure (Newman 1981).
+
+## Headline results (`results/*.json`, figures `results/fig_*.png`)
+
+* Residual stress, depth-varying tensile profile: life of 0.2–1 mm cracks falls by
+  0.25–0.4 decades, ~0 by 4 mm; never-grow share of small cracks falls to 1–2 %.
+  Amplitude and decay length rank 5th or lower (≤ 5 % U90 reduction). A uniform
+  stress (check C) instead ranks amplitude 1st–2nd (9–17 %) and costs ~0.9 decades.
+  Compressive (rolled/peened) bar surface: never-grow share 27 % → 64 % at 0.5 mm.
+* Variable amplitude: no-interaction block +0.0–0.22 decades and removes the
+  threshold (bar 0.5 mm never-grow 27 % → 0 %); Willenborg adds +0.2–0.3 decades.
+  Spectrum and interaction inputs rank ≤ 3 %; β has no effect with frequent peaks.
+* Crack depth stays first at 1 mm in every scenario.
 
 ## Multiple or interacting cracks
 

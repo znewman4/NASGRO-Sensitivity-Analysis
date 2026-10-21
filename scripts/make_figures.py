@@ -118,20 +118,25 @@ def va_figures():
             rows.append((lab, [r["depth_mm"] for r in rr],
                          [r["stats"]["median"] - r["baseline_stats"]["median"] for r in rr], style))
         _delta_plot(ax, rows, title)
-        ax.legend(frameon=False, fontsize=9, loc="upper left")
+        ax.set_ylim(-0.05, 0.42)
+    h, lab = axes[0].get_legend_handles_labels()
+    fig.legend(h, lab, frameon=False, fontsize=9.5, ncol=2, loc="upper left", bbox_to_anchor=(0.06, 0.93))
     axes[0].set_ylabel("Change in median log10 life [decades]")
     fig.suptitle("Variable amplitude: change in median remaining life against constant amplitude "
                  "(same damage-equivalent amplitude)", x=0.01, ha="left", fontsize=12)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 0.9))
     fig.savefig(os.path.join(OUT, "fig_va_life.png"), dpi=150)
 
-    fig, axes = plt.subplots(1, 4, figsize=(17, 4.6), gridspec_kw=dict(width_ratios=[4, 5, 2, 3]))
+    fig, axes = plt.subplots(1, 4, figsize=(18, 5.0), gridspec_kw=dict(width_ratios=[4, 5, 2, 3]))
     for ax, case, st, title in [(axes[0], "bar", 1, "Bar: spectrum, no interaction"),
                                 (axes[1], "plate", 1, "Plate: spectrum, no interaction"),
                                 (axes[2], "bar", 2, "Bar: + Willenborg"),
                                 (axes[3], "plate", 2, "Plate: + Willenborg")]:
         rr = sorted([r for r in va if r["case"] == case and r["stage"] == st], key=lambda r: r["depth_mm"])
-        _heat(ax, rr, title)
+        extra = ["spectrum shape h", "block length n_b"]
+        if st == 2:
+            extra += ["shut-off ratio SOLR", "overload plastic-zone factor beta"]
+        _heat(ax, rr, title, max_rows=6 if st == 1 else 5, always=extra)
     fig.suptitle("Variable amplitude: U90 reduction when one input is known exactly "
                  "(Willenborg at 3,000 samples, so about ±3 % noise)", x=0.01, ha="left", fontsize=12)
     fig.tight_layout()
