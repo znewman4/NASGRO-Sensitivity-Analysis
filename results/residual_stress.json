@@ -1,0 +1,1309 @@
+{
+ "results": [
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.770785515166152,
+    "sigma": 0.3777459252196591,
+    "u90": 1.2360145361382164,
+    "pf": 0.9934,
+    "median": 4.76609219344176
+   },
+   "reduction": {
+    "crack depth": 0.12739831858089257,
+    "stress amplitude": 0.07992355640347792,
+    "crack opening factor kappa": 0.040423022721857826,
+    "constraint factor alpha": 0.006601239589583252,
+    "SIF solution error": 0.028358127239472952,
+    "growth curve C-n": 0.02608914732235479,
+    "crack shape a/c": 0.09032443608269547,
+    "critical-shape exponent q": 0.005934537350538727,
+    "toughness Kc": 0.004650675326351994,
+    "intrinsic crack length a0": -0.0019316771119568532,
+    "threshold-shape exponent p": 0.004926257733492312,
+    "Smax/sigma0": -0.00040481238800960107,
+    "threshold dKth0": -0.0004461310437671173,
+    "stress ratio R": 0.012154162321253326,
+    "thickness t": -0.0001832486231096997,
+    "Cth (R >= 0)": 0.0031399359894088708,
+    "width W": -2.9019126244200777e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06579965286808986,
+    "residual stress amplitude": 0.006840188457172713,
+    "residual stress decay length": 0.0063400341556959505
+   },
+   "baseline_stats": {
+    "mu": 5.078504453108844,
+    "sigma": 0.3532790473240184,
+    "u90": 1.1661502123068495,
+    "pf": 0.7994,
+    "median": 5.073456128680743
+   },
+   "scenario": "plate_weld",
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.478405926655939,
+    "sigma": 0.3938535858744812,
+    "u90": 1.2864947733108911,
+    "pf": 0.999,
+    "median": 4.48081098547759
+   },
+   "reduction": {
+    "crack depth": 0.12012482491924714,
+    "stress amplitude": 0.07951598704029095,
+    "crack opening factor kappa": 0.044868903006054395,
+    "constraint factor alpha": 0.007982497471333616,
+    "SIF solution error": 0.02894318075226332,
+    "growth curve C-n": 0.01510113493890608,
+    "crack shape a/c": 0.10198342966327589,
+    "critical-shape exponent q": 0.00935655135109481,
+    "toughness Kc": 0.007224568898054562,
+    "intrinsic crack length a0": -0.001246583774594523,
+    "threshold-shape exponent p": 0.0029626834437322946,
+    "Smax/sigma0": -0.002098305690656055,
+    "threshold dKth0": -0.0024466992466127824,
+    "stress ratio R": 0.0024882463357110973,
+    "thickness t": 0.00011647748812426695,
+    "Cth (R >= 0)": -0.0023695052510792625,
+    "width W": -1.3766763689027073e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06209785580036087,
+    "residual stress amplitude": 0.004317394912736194,
+    "residual stress decay length": 0.01166826381670183
+   },
+   "baseline_stats": {
+    "mu": 4.803852810796562,
+    "sigma": 0.39692571666873927,
+    "u90": 1.3000795720095164,
+    "pf": 0.976,
+    "median": 4.8026910482217495
+   },
+   "scenario": "plate_weld",
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.141005548730852,
+    "sigma": 0.41582034463076434,
+    "u90": 1.3582858036349115,
+    "pf": 0.999,
+    "median": 4.1397108355045
+   },
+   "reduction": {
+    "crack depth": 0.17983720797785874,
+    "stress amplitude": 0.09026306722596622,
+    "crack opening factor kappa": 0.050269985090963254,
+    "constraint factor alpha": 0.01192612227667289,
+    "SIF solution error": 0.03386251388495021,
+    "growth curve C-n": 0.009129941107936856,
+    "crack shape a/c": 0.13379155676219334,
+    "critical-shape exponent q": 0.017611209310764875,
+    "toughness Kc": 0.0107853799908878,
+    "intrinsic crack length a0": -0.0006891336985379581,
+    "threshold-shape exponent p": 0.001828096597670581,
+    "Smax/sigma0": 0.0005296933782409363,
+    "threshold dKth0": -2.0131279123036805e-05,
+    "stress ratio R": 0.011769512375500502,
+    "thickness t": 0.0007327819862387175,
+    "Cth (R >= 0)": 0.0008604736575548166,
+    "width W": -2.8963703838646992e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0015557646794777114,
+    "residual stress amplitude": 0.0033942376928409734,
+    "residual stress decay length": 0.020999923323177794
+   },
+   "baseline_stats": {
+    "mu": 4.406183431406051,
+    "sigma": 0.40987114183462064,
+    "u90": 1.3515160537829076,
+    "pf": 0.9852,
+    "median": 4.392975027567051
+   },
+   "scenario": "plate_weld",
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.8257171632940676,
+    "sigma": 0.4003950555880268,
+    "u90": 1.2981025942687765,
+    "pf": 1.0,
+    "median": 3.8465979918591815
+   },
+   "reduction": {
+    "crack depth": 0.057020862009373285,
+    "stress amplitude": 0.1210345374730829,
+    "crack opening factor kappa": 0.060330482327607626,
+    "constraint factor alpha": 0.029772342560304588,
+    "SIF solution error": 0.04069976201818981,
+    "growth curve C-n": 0.020221835579239622,
+    "crack shape a/c": 0.19247242671821618,
+    "critical-shape exponent q": 0.03434453773538926,
+    "toughness Kc": 0.025062039542551595,
+    "intrinsic crack length a0": -1.754128881170658e-05,
+    "threshold-shape exponent p": 0.00019105873668923135,
+    "Smax/sigma0": -0.0007653325905427888,
+    "threshold dKth0": 0.001535216528909089,
+    "stress ratio R": 0.013312875485754438,
+    "thickness t": -0.00042193707693383153,
+    "Cth (R >= 0)": 6.750380286113522e-05,
+    "width W": 6.34915645856271e-05,
+    "Cth (R < 0)": -1.3000711618360583e-12,
+    "crack tilt": -0.00012514272352892597,
+    "residual stress amplitude": 0.006387002367740591,
+    "residual stress decay length": 0.04188840098334912
+   },
+   "baseline_stats": {
+    "mu": 4.008902459757926,
+    "sigma": 0.3699069998244455,
+    "u90": 1.2112643390607052,
+    "pf": 1.0,
+    "median": 4.016269208883969
+   },
+   "scenario": "plate_weld",
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.3755481007894574,
+    "sigma": 0.4788925377003509,
+    "u90": 1.4589284703195244,
+    "pf": 1.0,
+    "median": 3.417656121948209
+   },
+   "reduction": {
+    "crack depth": 0.0397292648654467,
+    "stress amplitude": 0.127212278492153,
+    "crack opening factor kappa": 0.04635131950671445,
+    "constraint factor alpha": 0.028188466952504765,
+    "SIF solution error": 0.023338011646731882,
+    "growth curve C-n": 0.011979568139008245,
+    "crack shape a/c": 0.24925884264430054,
+    "critical-shape exponent q": 0.027451983785341083,
+    "toughness Kc": 0.030805994448756757,
+    "intrinsic crack length a0": -0.00017932353319993766,
+    "threshold-shape exponent p": -0.00033898505638862986,
+    "Smax/sigma0": -0.0004123663033843705,
+    "threshold dKth0": 0.002028766743093824,
+    "stress ratio R": 0.01106117751617175,
+    "thickness t": 0.002264187287401631,
+    "Cth (R >= 0)": -0.000160884266694028,
+    "width W": -0.00017215602252829143,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.007289271260849217,
+    "residual stress amplitude": 0.000348771981528162,
+    "residual stress decay length": 0.033247774422475174
+   },
+   "baseline_stats": {
+    "mu": 3.443173152214857,
+    "sigma": 0.420705398501094,
+    "u90": 1.3512664736335842,
+    "pf": 1.0,
+    "median": 3.469362540839107
+   },
+   "scenario": "plate_weld",
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.859654277058191,
+    "sigma": 0.36273002770264645,
+    "u90": 1.1874482272281979,
+    "pf": 0.985,
+    "median": 4.851971962412508
+   },
+   "reduction": {
+    "crack depth": 0.1310237453205877,
+    "stress amplitude": 0.055634421492262276,
+    "crack opening factor kappa": 0.052588784313122305,
+    "constraint factor alpha": 0.013131841319636406,
+    "SIF solution error": 0.025240111336994553,
+    "growth curve C-n": 0.029287247750702017,
+    "crack shape a/c": 0.08570716510516097,
+    "critical-shape exponent q": 0.007324334633207141,
+    "toughness Kc": -0.005615709659613444,
+    "intrinsic crack length a0": -0.004066484905721257,
+    "threshold-shape exponent p": 0.004352315339686719,
+    "Smax/sigma0": 0.0003138705503517025,
+    "threshold dKth0": -0.0008218117403286929,
+    "stress ratio R": 0.010461425613809805,
+    "thickness t": -0.0003994930820991893,
+    "Cth (R >= 0)": 0.002454958760177539,
+    "width W": 6.852432007597997e-06,
+    "Cth (R < 0)": 4.848384405065076e-08,
+    "crack tilt": 0.06856368642088784,
+    "residual stress amplitude": 0.0,
+    "residual stress decay length": -0.0006407053213395297
+   },
+   "baseline_stats": {
+    "mu": 5.078504453108844,
+    "sigma": 0.3532790473240184,
+    "u90": 1.1661502123068495,
+    "pf": 0.7994,
+    "median": 5.073456128680743
+   },
+   "scenario": "plate_weld_sd",
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.568369282862233,
+    "sigma": 0.3794959696920684,
+    "u90": 1.2402100516958892,
+    "pf": 0.9987,
+    "median": 4.566820396954667
+   },
+   "reduction": {
+    "crack depth": 0.13924566950224893,
+    "stress amplitude": 0.06092277584205319,
+    "crack opening factor kappa": 0.059156853338775406,
+    "constraint factor alpha": 0.017520087874488,
+    "SIF solution error": 0.02847220929512273,
+    "growth curve C-n": 0.019831354748295227,
+    "crack shape a/c": 0.09180244409103244,
+    "critical-shape exponent q": 0.011120945886612832,
+    "toughness Kc": -0.0009937627559564177,
+    "intrinsic crack length a0": -0.0019079967085262606,
+    "threshold-shape exponent p": 0.003187349327621769,
+    "Smax/sigma0": -0.0015598673623706816,
+    "threshold dKth0": -0.0012808377373265678,
+    "stress ratio R": 0.008445620678741217,
+    "thickness t": -0.00039305310094239765,
+    "Cth (R >= 0)": -0.00034198705764509896,
+    "width W": 3.5762240159442626e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.07807251027637974,
+    "residual stress amplitude": 0.0,
+    "residual stress decay length": 0.005113467533381932
+   },
+   "baseline_stats": {
+    "mu": 4.803852810796562,
+    "sigma": 0.39692571666873927,
+    "u90": 1.3000795720095164,
+    "pf": 0.976,
+    "median": 4.8026910482217495
+   },
+   "scenario": "plate_weld_sd",
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.224928897417466,
+    "sigma": 0.396092811197617,
+    "u90": 1.3070704611042379,
+    "pf": 0.9983,
+    "median": 4.21639926547895
+   },
+   "reduction": {
+    "crack depth": 0.21871196776817636,
+    "stress amplitude": 0.07564378513447634,
+    "crack opening factor kappa": 0.057895355936589565,
+    "constraint factor alpha": 0.024466851776823617,
+    "SIF solution error": 0.035531888519128474,
+    "growth curve C-n": 0.021651039666293892,
+    "crack shape a/c": 0.12882590926157078,
+    "critical-shape exponent q": 0.023043699884898516,
+    "toughness Kc": 0.013232982497150436,
+    "intrinsic crack length a0": -0.0034051288363798893,
+    "threshold-shape exponent p": -0.0002636600684573498,
+    "Smax/sigma0": 0.002400717313891909,
+    "threshold dKth0": -0.0027878537544210324,
+    "stress ratio R": 0.014271347175632387,
+    "thickness t": -9.828982541204567e-07,
+    "Cth (R >= 0)": -0.002542210770021258,
+    "width W": 3.74295957663584e-05,
+    "Cth (R < 0)": 5.6443410167972274e-08,
+    "crack tilt": -0.000753931800594021,
+    "residual stress amplitude": 0.0,
+    "residual stress decay length": 0.010209144876135778
+   },
+   "baseline_stats": {
+    "mu": 4.406183431406051,
+    "sigma": 0.40987114183462064,
+    "u90": 1.3515160537829076,
+    "pf": 0.9852,
+    "median": 4.392975027567051
+   },
+   "scenario": "plate_weld_sd",
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.890062597963247,
+    "sigma": 0.3712221290794031,
+    "u90": 1.214071395969854,
+    "pf": 1.0,
+    "median": 3.902892226143651
+   },
+   "reduction": {
+    "crack depth": 0.07019522948099732,
+    "stress amplitude": 0.10789076530848185,
+    "crack opening factor kappa": 0.05933561587582181,
+    "constraint factor alpha": 0.032129186098656226,
+    "SIF solution error": 0.04049615882952984,
+    "growth curve C-n": 0.018543330304112038,
+    "crack shape a/c": 0.18017097358808254,
+    "critical-shape exponent q": 0.027414633551848366,
+    "toughness Kc": 0.0129923848800233,
+    "intrinsic crack length a0": -8.253102511157628e-05,
+    "threshold-shape exponent p": -0.002194082710739176,
+    "Smax/sigma0": -0.00032816924265732794,
+    "threshold dKth0": -0.00035622830768744507,
+    "stress ratio R": 0.006250896983989174,
+    "thickness t": -1.3243340476476462e-05,
+    "Cth (R >= 0)": -0.00046948874049612677,
+    "width W": -7.067600080734593e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0034140354319251998,
+    "residual stress amplitude": 0.0,
+    "residual stress decay length": 0.016563066486021794
+   },
+   "baseline_stats": {
+    "mu": 4.008902459757926,
+    "sigma": 0.3699069998244455,
+    "u90": 1.2112643390607052,
+    "pf": 1.0,
+    "median": 4.016269208883969
+   },
+   "scenario": "plate_weld_sd",
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4039641946814285,
+    "sigma": 0.44053398024124363,
+    "u90": 1.3981981793094582,
+    "pf": 1.0,
+    "median": 3.433703064689261
+   },
+   "reduction": {
+    "crack depth": 0.04896878184661757,
+    "stress amplitude": 0.12449224955393945,
+    "crack opening factor kappa": 0.05152345405994185,
+    "constraint factor alpha": 0.03259925947633402,
+    "SIF solution error": 0.03162388514278802,
+    "growth curve C-n": 0.015426302822710514,
+    "crack shape a/c": 0.23763639191501162,
+    "critical-shape exponent q": 0.03912577640931103,
+    "toughness Kc": 0.030645567403619345,
+    "intrinsic crack length a0": -5.851106554577434e-05,
+    "threshold-shape exponent p": 0.0042741075841568055,
+    "Smax/sigma0": 0.0032406727878692143,
+    "threshold dKth0": -0.00044443139405614396,
+    "stress ratio R": 0.005184920491965395,
+    "thickness t": 0.00374013133547324,
+    "Cth (R >= 0)": 4.296434910688873e-05,
+    "width W": -7.714093914579223e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.00023798702521449222,
+    "residual stress amplitude": 3.3793766980316775e-06,
+    "residual stress decay length": 0.014555528446092758
+   },
+   "baseline_stats": {
+    "mu": 3.443173152214857,
+    "sigma": 0.420705398501094,
+    "u90": 1.3512664736335842,
+    "pf": 1.0,
+    "median": 3.469362540839107
+   },
+   "scenario": "plate_weld_sd",
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.639878592189782,
+    "sigma": 0.40984478808870234,
+    "u90": 1.3402813141965235,
+    "pf": 0.9939,
+    "median": 4.639361962814943
+   },
+   "reduction": {
+    "crack depth": 0.18212175918758922,
+    "stress amplitude": 0.06792906781985697,
+    "crack opening factor kappa": 0.03624710971279188,
+    "constraint factor alpha": 0.007715330791689068,
+    "SIF solution error": 0.024036014327661892,
+    "growth curve C-n": 0.02128066241968052,
+    "crack shape a/c": 0.07478919082282809,
+    "critical-shape exponent q": 0.004138977192259974,
+    "toughness Kc": 0.009828255966298993,
+    "intrinsic crack length a0": 0.0002679777890961521,
+    "threshold-shape exponent p": 0.00048722349570440304,
+    "Smax/sigma0": 0.0005828788081164715,
+    "threshold dKth0": 0.00034603546919154127,
+    "stress ratio R": 0.01811011805758478,
+    "thickness t": 0.00012427096828360185,
+    "Cth (R >= 0)": 0.0054034098237844,
+    "width W": 2.7817714898237256e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06552978828797573,
+    "residual stress amplitude": 0.009476265091366676
+   },
+   "baseline_stats": {
+    "mu": 5.078504453108844,
+    "sigma": 0.3532790473240184,
+    "u90": 1.1661502123068495,
+    "pf": 0.7994,
+    "median": 5.073456128680743
+   },
+   "scenario": "plate_uniform",
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.219133161085442,
+    "sigma": 0.48131197659941055,
+    "u90": 1.533999818362349,
+    "pf": 0.9992,
+    "median": 4.240699711940806
+   },
+   "reduction": {
+    "crack depth": 0.22941563106627083,
+    "stress amplitude": 0.05169007737715059,
+    "crack opening factor kappa": 0.029930038448776064,
+    "constraint factor alpha": 0.006053108124120188,
+    "SIF solution error": 0.02061995707752784,
+    "growth curve C-n": 0.015885335632372377,
+    "crack shape a/c": 0.07113916220642347,
+    "critical-shape exponent q": 0.006405946402844642,
+    "toughness Kc": 0.017621682389233118,
+    "intrinsic crack length a0": -0.0014671926947091851,
+    "threshold-shape exponent p": -0.0009362546624895884,
+    "Smax/sigma0": -0.00012916326041501058,
+    "threshold dKth0": -8.701767248275871e-05,
+    "stress ratio R": 0.009298972672223127,
+    "thickness t": 0.0009704915483071952,
+    "Cth (R >= 0)": -8.589314930396164e-05,
+    "width W": -3.387363041174041e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.029814653682870174,
+    "residual stress amplitude": 0.010087353099860863
+   },
+   "baseline_stats": {
+    "mu": 4.803852810796562,
+    "sigma": 0.39692571666873927,
+    "u90": 1.3000795720095164,
+    "pf": 0.976,
+    "median": 4.8026910482217495
+   },
+   "scenario": "plate_uniform",
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.640521621112255,
+    "sigma": 0.6518089210856585,
+    "u90": 2.037752988014865,
+    "pf": 0.999,
+    "median": 3.6831227545668135
+   },
+   "reduction": {
+    "crack depth": 0.36307985358606687,
+    "stress amplitude": 0.05027198687723944,
+    "crack opening factor kappa": 0.021573988618347806,
+    "constraint factor alpha": 0.0049670436968580756,
+    "SIF solution error": 0.039594958768158106,
+    "growth curve C-n": 0.009124303235505282,
+    "crack shape a/c": 0.10366972796732288,
+    "critical-shape exponent q": 0.03082155205312298,
+    "toughness Kc": 0.043103830444672475,
+    "intrinsic crack length a0": -0.00309008466521421,
+    "threshold-shape exponent p": 0.0009604751127992861,
+    "Smax/sigma0": 0.00027861687281338643,
+    "threshold dKth0": 0.0003307672456166477,
+    "stress ratio R": 0.01445646610655782,
+    "thickness t": 0.00035106841236354214,
+    "Cth (R >= 0)": 0.00011772710277768716,
+    "width W": -2.5028594632381385e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0037742861376299786,
+    "residual stress amplitude": 0.044512756792826735
+   },
+   "baseline_stats": {
+    "mu": 4.406183431406051,
+    "sigma": 0.40987114183462064,
+    "u90": 1.3515160537829076,
+    "pf": 0.9852,
+    "median": 4.392975027567051
+   },
+   "scenario": "plate_uniform",
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 2.7617233726609642,
+    "sigma": 0.9675538751107913,
+    "u90": 3.880211771004718,
+    "pf": 1.0,
+    "median": 2.990144233900966
+   },
+   "reduction": {
+    "crack depth": 0.3150481779209744,
+    "stress amplitude": 0.016430987428506016,
+    "crack opening factor kappa": 0.014748439898833121,
+    "constraint factor alpha": 0.003729553563992738,
+    "SIF solution error": 0.007916466427093205,
+    "growth curve C-n": 0.0014103531967738503,
+    "crack shape a/c": 0.2676072202761889,
+    "critical-shape exponent q": 0.01106655335782758,
+    "toughness Kc": 0.24276814347989595,
+    "intrinsic crack length a0": -0.00012344432672861672,
+    "threshold-shape exponent p": -0.00013229754825783147,
+    "Smax/sigma0": -0.00053735371001018,
+    "threshold dKth0": 1.541616668920831e-05,
+    "stress ratio R": 0.005069155462226194,
+    "thickness t": -3.331311686216587e-05,
+    "Cth (R >= 0)": -0.0003091857015575794,
+    "width W": 2.268398614613254e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.004221867825929371,
+    "residual stress amplitude": 0.21798730392981702
+   },
+   "baseline_stats": {
+    "mu": 4.008902459757926,
+    "sigma": 0.3699069998244455,
+    "u90": 1.2112643390607052,
+    "pf": 1.0,
+    "median": 4.016269208883969
+   },
+   "scenario": "plate_uniform",
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 0.9292113560627404,
+    "sigma": 1.1439213728840427,
+    "u90": 2.9765148650794466,
+    "pf": 1.0,
+    "median": 0.0
+   },
+   "reduction": {
+    "crack depth": 0.026308119858594714,
+    "stress amplitude": 0.030167267316638324,
+    "crack opening factor kappa": 0.012680167097155026,
+    "constraint factor alpha": 0.005631333462138843,
+    "SIF solution error": 0.019743041360821723,
+    "growth curve C-n": 0.004884455455011705,
+    "crack shape a/c": 0.056894800728581885,
+    "critical-shape exponent q": 0.019975874127377113,
+    "toughness Kc": 0.014342228957486491,
+    "intrinsic crack length a0": -1.0217102043075244e-05,
+    "threshold-shape exponent p": 6.472270293467197e-05,
+    "Smax/sigma0": -0.00017285171749592543,
+    "threshold dKth0": 6.720209254262866e-05,
+    "stress ratio R": 0.0020468356039535784,
+    "thickness t": 0.0006965171294953665,
+    "Cth (R >= 0)": 9.881599171057687e-05,
+    "width W": -5.093323578231335e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.010473545153187325,
+    "residual stress amplitude": 0.05010118091088034
+   },
+   "baseline_stats": {
+    "mu": 3.443173152214857,
+    "sigma": 0.420705398501094,
+    "u90": 1.3512664736335842,
+    "pf": 1.0,
+    "median": 3.469362540839107
+   },
+   "scenario": "plate_uniform",
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.609638108329491,
+    "sigma": 0.35038677064493334,
+    "u90": 1.1284667296318336,
+    "pf": 0.9793,
+    "median": 5.59350643330792
+   },
+   "reduction": {
+    "crack depth": 0.09537733989617236,
+    "material fit (C, m, p, dKth0)": 0.07201972040053106,
+    "load amplitude": 0.06609298144275633,
+    "crack opening factor kappa": 0.09948955540538251,
+    "SIF solution error": 0.028807371049489827,
+    "diameter D": 0.012098092108009273,
+    "crack tilt": 0.08242035256548763,
+    "toughness Kc": 0.0016837067754815749,
+    "intrinsic crack length a0": -0.002408072513031101,
+    "stress ratio R": -0.0019705116325698935,
+    "residual stress amplitude": 0.040839981740064646,
+    "residual stress decay length": 0.03344479861072425
+   },
+   "baseline_stats": {
+    "mu": 6.01470054236206,
+    "sigma": 0.43094453821655737,
+    "u90": 1.3441807941953767,
+    "pf": 0.7253,
+    "median": 5.988781702832714
+   },
+   "scenario": "bar_tensile",
+   "label": "Bar, tensile surface profile (fit or weld repair, no relaxation)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.309850191472875,
+    "sigma": 0.3307475681568031,
+    "u90": 1.0694401678704013,
+    "pf": 0.9878,
+    "median": 5.2934355776912465
+   },
+   "reduction": {
+    "crack depth": 0.18322844726812093,
+    "material fit (C, m, p, dKth0)": 0.05558380762547799,
+    "load amplitude": 0.085181586473566,
+    "crack opening factor kappa": 0.1034681480050772,
+    "SIF solution error": 0.03039866156161164,
+    "diameter D": 0.008725924448777289,
+    "crack tilt": 0.0007451598104531998,
+    "toughness Kc": 0.000579322412583072,
+    "intrinsic crack length a0": 0.0017609606383107712,
+    "stress ratio R": -0.0016568303192092682,
+    "residual stress amplitude": 0.02690154288748481,
+    "residual stress decay length": 0.04312457764541777
+   },
+   "baseline_stats": {
+    "mu": 5.590095872039178,
+    "sigma": 0.3980273028715249,
+    "u90": 1.2461700372069462,
+    "pf": 0.9312,
+    "median": 5.564123597392485
+   },
+   "scenario": "bar_tensile",
+   "label": "Bar, tensile surface profile (fit or weld repair, no relaxation)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.999006996977569,
+    "sigma": 0.3001007839382106,
+    "u90": 0.9830565375821232,
+    "pf": 1.0,
+    "median": 4.9932353890429955
+   },
+   "reduction": {
+    "crack depth": 0.12666986881212083,
+    "material fit (C, m, p, dKth0)": 0.07024207066241728,
+    "load amplitude": 0.12224221248583333,
+    "crack opening factor kappa": 0.1209013540284849,
+    "SIF solution error": 0.030106051308288806,
+    "diameter D": 0.017261072712307257,
+    "crack tilt": 0.0008554873024348986,
+    "toughness Kc": 0.004070824571106968,
+    "intrinsic crack length a0": 0.0002480304027744351,
+    "stress ratio R": 0.002348819988261419,
+    "residual stress amplitude": 0.012095073135393597,
+    "residual stress decay length": 0.05302155503083528
+   },
+   "baseline_stats": {
+    "mu": 5.135292191736303,
+    "sigma": 0.32864418801232775,
+    "u90": 1.070704401456287,
+    "pf": 0.9996,
+    "median": 5.126513474634759
+   },
+   "scenario": "bar_tensile",
+   "label": "Bar, tensile surface profile (fit or weld repair, no relaxation)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.417868471343662,
+    "sigma": 0.3032853821395605,
+    "u90": 0.99407865721949,
+    "pf": 1.0,
+    "median": 4.417433861477057
+   },
+   "reduction": {
+    "crack depth": 0.14283355344682402,
+    "material fit (C, m, p, dKth0)": 0.07950320810770273,
+    "load amplitude": 0.13731684474931827,
+    "crack opening factor kappa": 0.10952971739044115,
+    "SIF solution error": 0.03879181499996076,
+    "diameter D": 0.018790795224881918,
+    "crack tilt": 0.0025668928280346837,
+    "toughness Kc": -0.0001120724542063023,
+    "intrinsic crack length a0": -2.8106909397696e-06,
+    "stress ratio R": 0.0015362740408868536,
+    "residual stress amplitude": 0.005086721663688842,
+    "residual stress decay length": 0.01546685839897477
+   },
+   "baseline_stats": {
+    "mu": 4.423192201224096,
+    "sigma": 0.3074810935714916,
+    "u90": 0.9996314068398426,
+    "pf": 1.0,
+    "median": 4.422688590721485
+   },
+   "scenario": "bar_tensile",
+   "label": "Bar, tensile surface profile (fit or weld repair, no relaxation)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.645499091268632,
+    "sigma": 0.340417277343805,
+    "u90": 1.0967267403105492,
+    "pf": 0.9771,
+    "median": 5.630441163395832
+   },
+   "reduction": {
+    "crack depth": 0.12255858439805511,
+    "material fit (C, m, p, dKth0)": 0.08352258994206607,
+    "load amplitude": 0.055426616850091426,
+    "crack opening factor kappa": 0.10798991092013643,
+    "SIF solution error": 0.026447028836043218,
+    "diameter D": 0.009275042665439548,
+    "crack tilt": 0.09180489326517915,
+    "toughness Kc": 0.0019243348748099187,
+    "intrinsic crack length a0": -0.0030526275945050863,
+    "stress ratio R": 0.000290556891142546,
+    "residual stress amplitude": 0.022148308546724227,
+    "residual stress decay length": 0.030219854059973628
+   },
+   "baseline_stats": {
+    "mu": 6.01470054236206,
+    "sigma": 0.43094453821655737,
+    "u90": 1.3441807941953767,
+    "pf": 0.7253,
+    "median": 5.988781702832714
+   },
+   "scenario": "bar_tensile_sd",
+   "label": "Bar, tensile surface profile, first-cycle shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.33318391711541,
+    "sigma": 0.3243078595435189,
+    "u90": 1.0527334790111027,
+    "pf": 0.9856,
+    "median": 5.31745073646204
+   },
+   "reduction": {
+    "crack depth": 0.20842534006668834,
+    "material fit (C, m, p, dKth0)": 0.06462496807513407,
+    "load amplitude": 0.08378251727621167,
+    "crack opening factor kappa": 0.11149057291770725,
+    "SIF solution error": 0.029645690599459207,
+    "diameter D": 0.014490280095910357,
+    "crack tilt": 0.002939859828784863,
+    "toughness Kc": 0.0012982524662641381,
+    "intrinsic crack length a0": 0.003456761094002836,
+    "stress ratio R": -0.0017160996499923087,
+    "residual stress amplitude": 0.01835053865280778,
+    "residual stress decay length": 0.04700742747955078
+   },
+   "baseline_stats": {
+    "mu": 5.590095872039178,
+    "sigma": 0.3980273028715249,
+    "u90": 1.2461700372069462,
+    "pf": 0.9312,
+    "median": 5.564123597392485
+   },
+   "scenario": "bar_tensile_sd",
+   "label": "Bar, tensile surface profile, first-cycle shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.010545755489356,
+    "sigma": 0.29687279657736415,
+    "u90": 0.9705403432950988,
+    "pf": 1.0,
+    "median": 5.004123444270716
+   },
+   "reduction": {
+    "crack depth": 0.13527275080076118,
+    "material fit (C, m, p, dKth0)": 0.07003778433926167,
+    "load amplitude": 0.1157520841506724,
+    "crack opening factor kappa": 0.12365264957635913,
+    "SIF solution error": 0.031860706518689774,
+    "diameter D": 0.013593210270543388,
+    "crack tilt": -0.0006214967277884398,
+    "toughness Kc": -0.0001499680300363071,
+    "intrinsic crack length a0": 0.0004261954766140441,
+    "stress ratio R": 0.00469344718674003,
+    "residual stress amplitude": 0.003071244500189696,
+    "residual stress decay length": 0.04107096131612287
+   },
+   "baseline_stats": {
+    "mu": 5.135292191736303,
+    "sigma": 0.32864418801232775,
+    "u90": 1.070704401456287,
+    "pf": 0.9996,
+    "median": 5.126513474634759
+   },
+   "scenario": "bar_tensile_sd",
+   "label": "Bar, tensile surface profile, first-cycle shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.418154188673798,
+    "sigma": 0.30317126759236884,
+    "u90": 0.9917929262856644,
+    "pf": 1.0,
+    "median": 4.417378229555191
+   },
+   "reduction": {
+    "crack depth": 0.14453212881088773,
+    "material fit (C, m, p, dKth0)": 0.07721973309998487,
+    "load amplitude": 0.13463190588630947,
+    "crack opening factor kappa": 0.10853260712846269,
+    "SIF solution error": 0.0359535776907981,
+    "diameter D": 0.015181802720181992,
+    "crack tilt": 0.0022425988950769415,
+    "toughness Kc": -0.0004222276761929322,
+    "intrinsic crack length a0": -0.0005543666375111833,
+    "stress ratio R": -0.0002932407987759067,
+    "residual stress amplitude": 0.0021549394187709847,
+    "residual stress decay length": 0.010235885287173119
+   },
+   "baseline_stats": {
+    "mu": 4.423192201224096,
+    "sigma": 0.3074810935714916,
+    "u90": 0.9996314068398426,
+    "pf": 1.0,
+    "median": 4.422688590721485
+   },
+   "scenario": "bar_tensile_sd",
+   "label": "Bar, tensile surface profile, first-cycle shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.993924007085844,
+    "sigma": 0.47249598227314227,
+    "u90": 1.4361828474484035,
+    "pf": 0.3587,
+    "median": 5.961966339163633
+   },
+   "reduction": {
+    "crack depth": 0.047693735850302454,
+    "material fit (C, m, p, dKth0)": 0.22508769297545406,
+    "load amplitude": 0.017042222633977033,
+    "crack opening factor kappa": 0.04219740600968602,
+    "SIF solution error": 0.010344368705294094,
+    "diameter D": 0.017249965379255605,
+    "crack tilt": 0.016750457398418628,
+    "toughness Kc": 0.0005599322414087116,
+    "intrinsic crack length a0": -0.002955859916829784,
+    "stress ratio R": -0.010982606980717957,
+    "residual stress amplitude": -0.0015365820609678504,
+    "residual stress decay length": -0.008579044401279656
+   },
+   "baseline_stats": {
+    "mu": 6.01470054236206,
+    "sigma": 0.43094453821655737,
+    "u90": 1.3441807941953767,
+    "pf": 0.7253,
+    "median": 5.988781702832714
+   },
+   "scenario": "bar_compressive",
+   "label": "Bar, compressive surface (deep rolled or peened), shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.597407839460729,
+    "sigma": 0.41578540833704036,
+    "u90": 1.3063459885199054,
+    "pf": 0.8169,
+    "median": 5.566297575274539
+   },
+   "reduction": {
+    "crack depth": 0.25498646688471194,
+    "material fit (C, m, p, dKth0)": 0.07899936565788435,
+    "load amplitude": 0.058592085441537156,
+    "crack opening factor kappa": 0.07399597182098516,
+    "SIF solution error": 0.02116419687843718,
+    "diameter D": 0.02117035299835668,
+    "crack tilt": -0.005720712805355355,
+    "toughness Kc": 0.0015992564198040737,
+    "intrinsic crack length a0": 0.006941496673454783,
+    "stress ratio R": 0.00042537051901514467,
+    "residual stress amplitude": 0.0029784987376836325,
+    "residual stress decay length": 0.00961882403406833
+   },
+   "baseline_stats": {
+    "mu": 5.590095872039178,
+    "sigma": 0.3980273028715249,
+    "u90": 1.2461700372069462,
+    "pf": 0.9312,
+    "median": 5.564123597392485
+   },
+   "scenario": "bar_compressive",
+   "label": "Bar, compressive surface (deep rolled or peened), shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.128362669759667,
+    "sigma": 0.3433522185219987,
+    "u90": 1.121069309545775,
+    "pf": 0.9975,
+    "median": 5.1116936545729015
+   },
+   "reduction": {
+    "crack depth": 0.2629079212955834,
+    "material fit (C, m, p, dKth0)": 0.05592430327452769,
+    "load amplitude": 0.1068762973302072,
+    "crack opening factor kappa": 0.10104467721496813,
+    "SIF solution error": 0.03465761358499675,
+    "diameter D": 0.004102349710328079,
+    "crack tilt": 0.005545210853707627,
+    "toughness Kc": -0.0012488435989459479,
+    "intrinsic crack length a0": -0.0009330732227375016,
+    "stress ratio R": 0.00184290553865607,
+    "residual stress amplitude": -0.00166697701181584,
+    "residual stress decay length": 0.013535291844809616
+   },
+   "baseline_stats": {
+    "mu": 5.135292191736303,
+    "sigma": 0.32864418801232775,
+    "u90": 1.070704401456287,
+    "pf": 0.9996,
+    "median": 5.126513474634759
+   },
+   "scenario": "bar_compressive",
+   "label": "Bar, compressive surface (deep rolled or peened), shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.40608800181297,
+    "sigma": 0.305061893834942,
+    "u90": 0.9945606048536875,
+    "pf": 1.0,
+    "median": 4.405589276556167
+   },
+   "reduction": {
+    "crack depth": 0.16113287997275316,
+    "material fit (C, m, p, dKth0)": 0.06920829750323032,
+    "load amplitude": 0.12075437772550668,
+    "crack opening factor kappa": 0.10647990996366608,
+    "SIF solution error": 0.028796236624716753,
+    "diameter D": 0.012728518136940092,
+    "crack tilt": 0.0029272681002794343,
+    "toughness Kc": -0.0003964639580755769,
+    "intrinsic crack length a0": -3.555651843889507e-05,
+    "stress ratio R": -0.0013695573747907197,
+    "residual stress amplitude": 0.0006599167728529309,
+    "residual stress decay length": 0.0037356658738142423
+   },
+   "baseline_stats": {
+    "mu": 4.423192201224096,
+    "sigma": 0.3074810935714916,
+    "u90": 0.9996314068398426,
+    "pf": 1.0,
+    "median": 4.422688590721485
+   },
+   "scenario": "bar_compressive",
+   "label": "Bar, compressive surface (deep rolled or peened), shakedown"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.1569720372760655,
+    "sigma": 0.42397876458547745,
+    "u90": 1.3670562412674832,
+    "pf": 0.9855,
+    "median": 5.144879919030182
+   },
+   "reduction": {
+    "crack depth": 0.22488588317624336,
+    "material fit (C, m, p, dKth0)": 0.0487057741784811,
+    "load amplitude": 0.021852372719094237,
+    "crack opening factor kappa": 0.071580610980156,
+    "SIF solution error": 0.026414124101079572,
+    "diameter D": 0.004699332814226298,
+    "crack tilt": 0.06548112881740265,
+    "toughness Kc": -0.0003445339966201555,
+    "intrinsic crack length a0": -0.0021405465570440985,
+    "stress ratio R": 0.0005461717397720056,
+    "residual stress amplitude": 0.10558051726779516
+   },
+   "baseline_stats": {
+    "mu": 6.01470054236206,
+    "sigma": 0.43094453821655737,
+    "u90": 1.3441807941953767,
+    "pf": 0.7253,
+    "median": 5.988781702832714
+   },
+   "scenario": "bar_uniform",
+   "label": "Bar, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.703372750581798,
+    "sigma": 0.4308319060862416,
+    "u90": 1.4051379930484842,
+    "pf": 0.9887,
+    "median": 4.6751213682037065
+   },
+   "reduction": {
+    "crack depth": 0.3353460614916832,
+    "material fit (C, m, p, dKth0)": 0.028049214103271658,
+    "load amplitude": 0.018634065088384166,
+    "crack opening factor kappa": 0.060795195447012174,
+    "SIF solution error": 0.019076287219774946,
+    "diameter D": 0.0016981720417535984,
+    "crack tilt": -0.0023859153570484626,
+    "toughness Kc": 0.00042701211650153503,
+    "intrinsic crack length a0": 0.0020937017154902815,
+    "stress ratio R": -0.0020535426391472544,
+    "residual stress amplitude": 0.09435425997075608
+   },
+   "baseline_stats": {
+    "mu": 5.590095872039178,
+    "sigma": 0.3980273028715249,
+    "u90": 1.2461700372069462,
+    "pf": 0.9312,
+    "median": 5.564123597392485
+   },
+   "scenario": "bar_uniform",
+   "label": "Bar, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.214296873616935,
+    "sigma": 0.36103513665770265,
+    "u90": 1.1880440736919655,
+    "pf": 1.0,
+    "median": 4.21263164151593
+   },
+   "reduction": {
+    "crack depth": 0.19649819706573324,
+    "material fit (C, m, p, dKth0)": 0.05634875269752371,
+    "load amplitude": 0.037278907263638694,
+    "crack opening factor kappa": 0.0898398677604203,
+    "SIF solution error": 0.03207799864881211,
+    "diameter D": 0.009252200980536363,
+    "crack tilt": 0.00022067897931010716,
+    "toughness Kc": 0.0002627776905510526,
+    "intrinsic crack length a0": 5.397015085806256e-05,
+    "stress ratio R": 0.0019246261906129547,
+    "residual stress amplitude": 0.1495746309125522
+   },
+   "baseline_stats": {
+    "mu": 5.135292191736303,
+    "sigma": 0.32864418801232775,
+    "u90": 1.070704401456287,
+    "pf": 0.9996,
+    "median": 5.126513474634759
+   },
+   "scenario": "bar_uniform",
+   "label": "Bar, uniform tensile (check C analogue)"
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4638496439421798,
+    "sigma": 0.371895933053772,
+    "u90": 1.2190895747936956,
+    "pf": 1.0,
+    "median": 3.4705768981451515
+   },
+   "reduction": {
+    "crack depth": 0.14429339996736368,
+    "material fit (C, m, p, dKth0)": 0.07104930633707562,
+    "load amplitude": 0.03427724770713236,
+    "crack opening factor kappa": 0.08252856535121911,
+    "SIF solution error": 0.03809330768490082,
+    "diameter D": 0.009867234720102092,
+    "crack tilt": 0.0010618993775662888,
+    "toughness Kc": 0.0060299356534742055,
+    "intrinsic crack length a0": -3.541922639405115e-06,
+    "stress ratio R": 0.0005511484950502243,
+    "residual stress amplitude": 0.1716130268194962
+   },
+   "baseline_stats": {
+    "mu": 4.423192201224096,
+    "sigma": 0.3074810935714916,
+    "u90": 0.9996314068398426,
+    "pf": 1.0,
+    "median": 4.422688590721485
+   },
+   "scenario": "bar_uniform",
+   "label": "Bar, uniform tensile (check C analogue)"
+  }
+ ],
+ "scenarios": {
+  "plate_weld": {
+   "case": "plate",
+   "A": [
+    0.5,
+    1.0
+   ],
+   "L": [
+    0.0025,
+    0.3
+   ],
+   "shape": "decaying",
+   "shakedown": false,
+   "label": "Plate, as-welded tensile profile (no relaxation)"
+  },
+  "plate_weld_sd": {
+   "case": "plate",
+   "A": [
+    0.5,
+    1.0
+   ],
+   "L": [
+    0.0025,
+    0.3
+   ],
+   "shape": "decaying",
+   "shakedown": true,
+   "label": "Plate, as-welded tensile profile, first-cycle shakedown"
+  },
+  "plate_uniform": {
+   "case": "plate",
+   "A": [
+    0.5,
+    1.0
+   ],
+   "L": null,
+   "shape": "uniform",
+   "shakedown": false,
+   "label": "Plate, uniform tensile (check C analogue)"
+  },
+  "bar_tensile": {
+   "case": "bar",
+   "A": [
+    0.25,
+    0.75
+   ],
+   "L": [
+    0.002,
+    0.3
+   ],
+   "shape": "decaying",
+   "shakedown": false,
+   "label": "Bar, tensile surface profile (fit or weld repair, no relaxation)"
+  },
+  "bar_tensile_sd": {
+   "case": "bar",
+   "A": [
+    0.25,
+    0.75
+   ],
+   "L": [
+    0.002,
+    0.3
+   ],
+   "shape": "decaying",
+   "shakedown": true,
+   "label": "Bar, tensile surface profile, first-cycle shakedown"
+  },
+  "bar_compressive": {
+   "case": "bar",
+   "A": [
+    -0.8,
+    -0.4
+   ],
+   "L": [
+    0.0008,
+    0.3
+   ],
+   "shape": "decaying",
+   "shakedown": true,
+   "label": "Bar, compressive surface (deep rolled or peened), shakedown"
+  },
+  "bar_uniform": {
+   "case": "bar",
+   "A": [
+    0.25,
+    0.75
+   ],
+   "L": null,
+   "shape": "uniform",
+   "shakedown": false,
+   "label": "Bar, uniform tensile (check C analogue)"
+  }
+ }
+}
