@@ -5,6 +5,7 @@ import sys
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
+import matplotlib.ticker  # noqa: E402,F401
 import numpy as np  # noqa: E402
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -143,9 +144,87 @@ def va_figures():
     fig.savefig(os.path.join(OUT, "fig_va_rank.png"), dpi=150)
 
 
+def mm_figures():
+    s1 = runner.load("mixed_mode_step1.json")["results"]
+    base = {(r["case"], r["depth_mm"]): r["stats"]["u90"] for r in runner.load("baseline.json")["results"]}
+    depths = {"bar": [0.5, 1.0, 4.0], "plate": [0.2, 1.0, 4.0]}
+    fig, axes = plt.subplots(2, 3, figsize=(13, 7.2), sharex=True, sharey=True)
+    styles = {"projection": "-", "full mode I": ":", "energy": "-", "tanaka": "-"}
+    for i, case in enumerate(("bar", "plate")):
+        for j, d in enumerate(depths[case]):
+            ax = axes[i, j]
+            for k, name in enumerate(("projection", "full mode I", "energy", "tanaka")):
+                r = [x for x in s1 if x["case"] == case and x["depth_mm"] == d and x["model"] == name][0]
+                y0 = r["log10_life"][0]
+                th = [t for t, v in zip(r["theta_deg"], r["log10_life"]) if v is not None]
+                y = [v - y0 for v in r["log10_life"] if v is not None]
+                lab = {"projection": "Projection (a cos θ, mode I)", "full mode I": "Full-depth mode I (zero line)",
+                       "energy": "Energy criterion", "tanaka": "Tanaka criterion"}[name]
+                ax.plot(th, y, styles[name], color=SERIES[k], label=lab)
+                if len(th) < len(r["theta_deg"]):        # arrests beyond the last finite tilt
+                    ax.plot(th[-1], y[-1], "^", color=SERIES[k], markersize=8,
+                            markeredgecolor=SURF, markeredgewidth=1.5)
+            ax.axhline(0, color=INK2, lw=1)
+            ax.set_ylim(-0.05, 1.0)
+            ax.set_title(f"{'Bar' if case == 'bar' else 'Plate'}, {d:g} mm  (baseline U90 {base[(case, d)]:.2f} decades)",
+                         loc="left", fontsize=10)
+            if i == 1:
+                ax.set_xlabel("Crack tilt θ from the principal plane [deg]")
+            if j == 0:
+                ax.set_ylabel("Change in log10 life vs θ = 0 [decades]")
+    h, lab = axes[0, 0].get_legend_handles_labels()
+    fig.legend(h, lab, frameon=False, ncol=4, loc="upper left", bbox_to_anchor=(0.06, 0.94), fontsize=9.5)
+    fig.suptitle("Mixed mode, no Monte Carlo: life for each tilt model with every other input at nominal "
+                 "(▲ = arrests at larger tilts)", x=0.01, ha="left", fontsize=12)
+    fig.tight_layout(rect=(0, 0, 1, 0.91))
+    fig.savefig(os.path.join(OUT, "fig_mm_models.png"), dpi=150)
+
+    res = runner.load("mixed_mode.json")["results"]
+    fig, axes = plt.subplots(2, 2, figsize=(13, 7.4), sharey=True)
+    for i, prior in enumerate(("uniaxial", "inclined")):
+        for j, case in enumerate(("bar", "plate")):
+            ax = axes[i, j]
+            rr = sorted([r for r in res if r["prior"] == prior and r["case"] == case and not r["sized"]],
+                        key=lambda r: r["depth_mm"])
+            x = np.arange(len(rr))
+            tilt = [r["reduction"]["crack tilt (mixed mode)"] for r in rr]
+            mod = [r["reduction"]["mixed-mode criterion (mean over the three)"] for r in rr]
+            lo = [min(v["reduction"] for v in r["per_model"].values()) for r in rr]
+            hi = [max(v["reduction"] for v in r["per_model"].values()) for r in rr]
+            ut = [r["sizing_reduction"] for r in rr]
+            dep = [r["reduction"]["crack depth"] for r in rr]
+            w = 0.2
+            ax.bar(x - 1.5 * w, dep, w, color=GRID, edgecolor=INK2, linewidth=0.6, label="know crack depth (reference)")
+            ax.bar(x - 0.5 * w, tilt, w, color=SERIES[0], label="know the tilt exactly")
+            ax.bar(x + 0.5 * w, ut, w, color=SERIES[2], label="UT-size the tilt (±15° → ±5°)")
+            ax.bar(x + 1.5 * w, mod, w, color=SERIES[1], label="know which criterion is right (mean; whisker = range)")
+            ax.errorbar(x + 1.5 * w, mod, yerr=[np.array(mod) - lo, np.array(hi) - mod], fmt="none",
+                        ecolor=INK, elinewidth=1, capsize=3)
+            ax.axhline(0, color=INK2, lw=1)
+            ax.set_xticks(x)
+            ax.set_xticklabels([f"{r['depth_mm']:g}" for r in rr])
+            ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
+            ax.grid(axis="x", visible=False)
+            ax.set_title(f"{'Bar' if case == 'bar' else 'Plate'}: tilt prior centred on "
+                         f"{runner.load('mixed_mode.json')['priors'][prior]['mean']:.0f}° (sd 15°)",
+                         loc="left", fontsize=10.5)
+            if i == 1:
+                ax.set_xlabel("Initial crack depth [mm]")
+            if j == 0:
+                ax.set_ylabel("U90 reduction")
+    h, lab = axes[0, 0].get_legend_handles_labels()
+    fig.legend(h, lab, frameon=False, ncol=2, loc="upper left", bbox_to_anchor=(0.06, 0.945), fontsize=9.5)
+    fig.suptitle("Mixed mode, Monte Carlo: value of knowing the tilt against knowing the model",
+                 x=0.01, ha="left", fontsize=12)
+    fig.tight_layout(rect=(0, 0, 1, 0.88))
+    fig.savefig(os.path.join(OUT, "fig_mm_value.png"), dpi=150)
+
+
 if __name__ == "__main__":
-    which = sys.argv[1:] or ["rs", "va"]
+    which = sys.argv[1:] or ["rs", "va", "mm"]
     if "rs" in which:
         residual_figures()
     if "va" in which:
         va_figures()
+    if "mm" in which:
+        mm_figures()

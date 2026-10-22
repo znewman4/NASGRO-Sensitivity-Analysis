@@ -101,3 +101,28 @@ def test_willenborg_without_retardation_matches_stage1(case):
 def test_retardation_extends_life(case):
     s = va.add_inputs(nominal(case), case, 1, fixed=ALL)
     assert np.all(va.stage2_life(case, s) >= va.stage1_life(case, s))
+
+
+from nasgro_scenarios import mixed_mode as mm  # noqa: E402
+
+
+@pytest.mark.parametrize("case", ["bar", "plate"])
+def test_mixed_mode_models_agree_at_zero_tilt(case):
+    lives = [mm.nominal_life(case, 1.0, 0.0, k) for k in range(len(mm.MODELS))]
+    s = nominal(case)
+    s["tilt"][:] = 0.0
+    np.testing.assert_allclose(lives, life.ca_life(case, s)[0], rtol=1e-9)
+
+
+def test_mixed_mode_equivalent_k_factors():
+    th = np.deg2rad(30.0)
+    m = mm.m_factor(np.array([0, 1, 2, 3]), th)
+    kI, kII = np.cos(th) ** 2, np.sin(th) * np.cos(th)
+    np.testing.assert_allclose(m, [1.0, 1.0, np.hypot(kI, kII), (kI**4 + 8 * kII**4) ** 0.25])
+
+
+@pytest.mark.parametrize("case", ["bar", "plate"])
+def test_tilt_lengthens_life_except_full_mode_one(case):
+    for k in (0, 2, 3):
+        assert mm.nominal_life(case, 1.0, 30.0, k) > mm.nominal_life(case, 1.0, 0.0, k)
+    assert mm.nominal_life(case, 1.0, 30.0, 1) == pytest.approx(mm.nominal_life(case, 1.0, 0.0, 1))

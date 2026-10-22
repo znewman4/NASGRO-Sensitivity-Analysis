@@ -10,6 +10,7 @@ tied to its assumptions.
 | `scripts/run_baseline_check.py` | Rebuilt constant-amplitude baseline: U90 ranking at every depth, checked against the study's published 1 mm statistics |
 | `scripts/run_residual_stress.py` | Residual stress: K_res(a) superposed on applied K (7 scenarios) |
 | `scripts/run_variable_amplitude.py` | Variable amplitude: stage 1 repeating block without interaction; stage 2 generalised Willenborg retardation |
+| `scripts/run_mixed_mode.py` | Mixed mode (tilted crack): step 1 model comparison at nominal inputs; step 2 Monte Carlo, knowing the tilt vs knowing the criterion |
 | `scripts/make_figures.py` | Figures in `results/` |
 
 ```bash
@@ -18,6 +19,7 @@ python -m pytest -q tests
 python scripts/run_baseline_check.py
 python scripts/run_residual_stress.py          # ~20 min on 4 cores, n = 10 000
 python scripts/run_variable_amplitude.py       # stage 1 n = 10 000, stage 2 n = 3 000
+python scripts/run_mixed_mode.py               # ~5 min
 python scripts/make_figures.py
 ```
 
@@ -86,6 +88,12 @@ reported as changes against this rebuilt baseline, on the same random numbers.
 * Variable amplitude: no-interaction block +0.0–0.22 decades and removes the
   threshold (bar 0.5 mm never-grow 27 % → 0 %); Willenborg adds +0.2–0.3 decades.
   Spectrum and interaction inputs rank ≤ 3 %; β has no effect with frequent peaks.
+* Mixed mode (`nasgro_scenarios/mixed_mode.py`: projection a cos θ, full-depth mode I,
+  energy √(K_I²+K_II²), Tanaka (K_I⁴+8K_II⁴)^¼, the latter two relaxing to mode I over
+  one start depth): up to 30° the three criteria agree within 0.06 decades; at 45–60°
+  the four models span 0.2–0.8. Monte Carlo: tilt centred on 0° is worth ≤ 2 %;
+  centred on 30° it is worth 8–13 % at 2–4 mm (bar), and UT sizing to ±5° recovers
+  nearly all of it. Knowing which criterion is right is worth ≈ 0 %.
 * Crack depth stays first at 1 mm in every scenario.
 
 ## Multiple or interacting cracks

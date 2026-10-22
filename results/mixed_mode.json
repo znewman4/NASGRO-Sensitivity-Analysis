@@ -1,0 +1,2340 @@
+{
+ "results": [
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.960032197753252,
+    "sigma": 0.4177154032487264,
+    "u90": 1.2929908138970836,
+    "pf": 0.7686,
+    "median": 5.934477185198535
+   },
+   "reduction": {
+    "crack depth": 0.23120741289587,
+    "material fit (C, m, p, dKth0)": 0.1983799550635359,
+    "load amplitude": 0.06730499792442879,
+    "crack opening factor kappa": 0.07031267652253681,
+    "SIF solution error": 0.017558272940093933,
+    "diameter D": 0.010046994858102898,
+    "toughness Kc": 0.00047329948484331474,
+    "intrinsic crack length a0": -0.0026922164425216,
+    "stress ratio R": -0.0027592266849523206,
+    "crack tilt (mixed mode)": -0.0009999141122500887,
+    "mixed-mode criterion (mean over the three)": -0.003039732386131274
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.9545653424675,
+      "sigma": 0.4123467962906987,
+      "u90": 1.28777445398467,
+      "pf": 0.7844,
+      "median": 5.930374112361134
+     },
+     "reduction": 0.0040343364054470365
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.9601375756114665,
+      "sigma": 0.42228427690524317,
+      "u90": 1.3027419236551525,
+      "pf": 0.7633,
+      "median": 5.933880050261729
+     },
+     "reduction": -0.007541515108432151
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.964803704963936,
+      "sigma": 0.42501157968681824,
+      "u90": 1.300247102207348,
+      "pf": 0.7548,
+      "median": 5.935700386194236
+     },
+     "reduction": -0.005612018455408707
+    }
+   },
+   "sizing_reduction": -0.0009139821265913284
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.604038004100401,
+    "sigma": 0.39084829364281826,
+    "u90": 1.2440271326147858,
+    "pf": 0.9258,
+    "median": 5.577716202512816
+   },
+   "reduction": {
+    "crack depth": 0.29752795651878106,
+    "material fit (C, m, p, dKth0)": 0.07720192523011049,
+    "load amplitude": 0.084138126211873,
+    "crack opening factor kappa": 0.08557629199158334,
+    "SIF solution error": 0.030978919717143838,
+    "diameter D": 0.01111091948215337,
+    "toughness Kc": -0.0012083608601538565,
+    "intrinsic crack length a0": 0.0022621744313033876,
+    "stress ratio R": 0.000500663987920591,
+    "crack tilt (mixed mode)": -0.008330550256770541,
+    "mixed-mode criterion (mean over the three)": 0.0003162447514294027
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.597490136385229,
+      "sigma": 0.3909327268346842,
+      "u90": 1.245248024272695,
+      "pf": 0.9293,
+      "median": 5.570368793251461
+     },
+     "reduction": -0.0009814027571433126
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.605140108972024,
+      "sigma": 0.3949309262266338,
+      "u90": 1.2489984271113173,
+      "pf": 0.925,
+      "median": 5.579118692510962
+     },
+     "reduction": -0.0039961302822089095
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.610218172614264,
+      "sigma": 0.3899165478238498,
+      "u90": 1.2366546953063695,
+      "pf": 0.9226,
+      "median": 5.585984737349347
+     },
+     "reduction": 0.00592626729364043
+    }
+   },
+   "sizing_reduction": -0.007680118139385517
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.157808291547196,
+    "sigma": 0.3295832571177039,
+    "u90": 1.0726995892183995,
+    "pf": 0.9996,
+    "median": 5.145523759289325
+   },
+   "reduction": {
+    "crack depth": 0.2221223499815962,
+    "material fit (C, m, p, dKth0)": 0.05618752841302466,
+    "load amplitude": 0.11457213219686935,
+    "crack opening factor kappa": 0.09792160349018497,
+    "SIF solution error": 0.03054751307222381,
+    "diameter D": 0.009581725782053185,
+    "toughness Kc": 0.00039451901349130125,
+    "intrinsic crack length a0": -0.0002709435103995794,
+    "stress ratio R": 0.00036503866554415954,
+    "crack tilt (mixed mode)": 0.0028607527059560933,
+    "mixed-mode criterion (mean over the three)": 0.0006321846873741747
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.150568382431458,
+      "sigma": 0.3281378607506024,
+      "u90": 1.0655571890610993,
+      "pf": 0.9996,
+      "median": 5.139080280949116
+     },
+     "reduction": 0.006658341467721041
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.157657685860625,
+      "sigma": 0.33130246940664515,
+      "u90": 1.0763160420078535,
+      "pf": 0.9996,
+      "median": 5.145081846782218
+     },
+     "reduction": -0.00337135655294607
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.165821336408814,
+      "sigma": 0.3302500120795476,
+      "u90": 1.0741911038228764,
+      "pf": 0.9995,
+      "median": 5.15322066342008
+     },
+     "reduction": -0.0013904308526524467
+    }
+   },
+   "sizing_reduction": 0.0044765406156338505
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.456347210479861,
+    "sigma": 0.31050842514170757,
+    "u90": 1.015585678029256,
+    "pf": 1.0,
+    "median": 4.454456349245052
+   },
+   "reduction": {
+    "crack depth": 0.16238172325618028,
+    "material fit (C, m, p, dKth0)": 0.06700959836837883,
+    "load amplitude": 0.1171890958954045,
+    "crack opening factor kappa": 0.10522492819628593,
+    "SIF solution error": 0.02895855676542003,
+    "diameter D": 0.014954716014476066,
+    "toughness Kc": -0.000399815268927739,
+    "intrinsic crack length a0": -0.000737611225679391,
+    "stress ratio R": 0.004617564324128298,
+    "crack tilt (mixed mode)": 0.015219397412343683,
+    "mixed-mode criterion (mean over the three)": -0.0012964002780707269
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.456140273410702,
+      "sigma": 0.31034060630481886,
+      "u90": 1.014790140538608,
+      "pf": 1.0,
+      "median": 4.45424265652543
+     },
+     "reduction": 0.0007833287804843714
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.451706559923027,
+      "sigma": 0.31152225996097943,
+      "u90": 1.0194810506518674,
+      "pf": 1.0,
+      "median": 4.449907930177211
+     },
+     "reduction": -0.0038355923157269434
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.46159437328325,
+      "sigma": 0.31007240543323844,
+      "u90": 1.016435659563498,
+      "pf": 1.0,
+      "median": 4.4606854944115515
+     },
+     "reduction": -0.0008369372989696089
+    }
+   },
+   "sizing_reduction": 0.014790266307542432
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.021531544467889,
+    "sigma": 0.3452078704526047,
+    "u90": 1.1360967381080682,
+    "pf": 0.8429,
+    "median": 5.016840466437498
+   },
+   "reduction": {
+    "crack depth": 0.11400891493077892,
+    "stress amplitude": 0.07576614785170543,
+    "crack opening factor kappa": 0.06887410299892205,
+    "constraint factor alpha": 0.03843420565010769,
+    "SIF solution error": 0.01988237755400135,
+    "growth curve C-n": 0.041409274226144266,
+    "crack shape a/c": 0.06856870291513362,
+    "critical-shape exponent q": 0.0017197422848507227,
+    "toughness Kc": 0.001892096041111735,
+    "intrinsic crack length a0": 0.006026610332200311,
+    "threshold-shape exponent p": 0.018332026400998513,
+    "Smax/sigma0": -0.001680490718302563,
+    "threshold dKth0": 0.003596848069242875,
+    "stress ratio R": -0.0005802317069305563,
+    "thickness t": 0.00013123938691483872,
+    "Cth (R >= 0)": 0.0004679375838427813,
+    "width W": 2.265811004931173e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.00678662264112595,
+    "mixed-mode criterion (mean over the three)": -0.0026463818931048433
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.020870811228862,
+      "sigma": 0.34711359639290806,
+      "u90": 1.142287433280635,
+      "pf": 0.8588,
+      "median": 5.017062562477461
+     },
+     "reduction": -0.00544909158253204
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.019604791191533,
+      "sigma": 0.34474795168474437,
+      "u90": 1.13915461601251,
+      "pf": 0.8354,
+      "median": 5.014951027232857
+     },
+     "reduction": -0.0026915647249670105
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.022747370370683,
+      "sigma": 0.3444526955729346,
+      "u90": 1.1358678025406936,
+      "pf": 0.8293,
+      "median": 5.018834641529433
+     },
+     "reduction": 0.00020151062818452026
+    }
+   },
+   "sizing_reduction": -0.006530829887664957
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.726039366154365,
+    "sigma": 0.3772461822836796,
+    "u90": 1.2362313855434017,
+    "pf": 0.9872,
+    "median": 4.72593968896191
+   },
+   "reduction": {
+    "crack depth": 0.19533794349822886,
+    "stress amplitude": 0.08753455680828615,
+    "crack opening factor kappa": 0.06129390701810211,
+    "constraint factor alpha": 0.024630243177045097,
+    "SIF solution error": 0.02606918564368943,
+    "growth curve C-n": 0.024965833780520086,
+    "crack shape a/c": 0.06869493232435686,
+    "critical-shape exponent q": 0.004145128934286979,
+    "toughness Kc": 0.007147356218435541,
+    "intrinsic crack length a0": 0.001716974147819017,
+    "threshold-shape exponent p": 0.009296194837655425,
+    "Smax/sigma0": 0.0021810836625840713,
+    "threshold dKth0": -0.0010175058933754588,
+    "stress ratio R": 0.007706684745635961,
+    "thickness t": 0.00047919802587503835,
+    "Cth (R >= 0)": 0.00045192467493715416,
+    "width W": 6.257055759073538e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": 0.002213129013536097,
+    "mixed-mode criterion (mean over the three)": -0.0023380987601775427
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.719616323874624,
+      "sigma": 0.377376993913133,
+      "u90": 1.2396661911731348,
+      "pf": 0.9895,
+      "median": 4.7201168719104665
+     },
+     "reduction": -0.0027784488162168053
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.7267192804584965,
+      "sigma": 0.3777482005272602,
+      "u90": 1.2390679276794136,
+      "pf": 0.9859,
+      "median": 4.726678398006919
+     },
+     "reduction": -0.0022945074596736337
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.732299679162197,
+      "sigma": 0.37724321575286157,
+      "u90": 1.2386313309871513,
+      "pf": 0.9859,
+      "median": 4.731040774690953
+     },
+     "reduction": -0.0019413400046421891
+    }
+   },
+   "sizing_reduction": 0.002387222330055616
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.416597285477489,
+    "sigma": 0.4058663503278326,
+    "u90": 1.3398830230091971,
+    "pf": 0.9832,
+    "median": 4.403595331259577
+   },
+   "reduction": {
+    "crack depth": 0.24630434322555872,
+    "stress amplitude": 0.08623394126570605,
+    "crack opening factor kappa": 0.05331258235424985,
+    "constraint factor alpha": 0.02297258224660803,
+    "SIF solution error": 0.029392042674035945,
+    "growth curve C-n": 0.023399719945758624,
+    "crack shape a/c": 0.08616794808534645,
+    "critical-shape exponent q": 0.0065559169781977955,
+    "toughness Kc": 0.004995060262485529,
+    "intrinsic crack length a0": 0.0030555757264318917,
+    "threshold-shape exponent p": 0.00046627969263390856,
+    "Smax/sigma0": 0.0010062660943810364,
+    "threshold dKth0": 0.000505661221173459,
+    "stress ratio R": 0.005129825412657163,
+    "thickness t": -0.0008529381318758134,
+    "Cth (R >= 0)": 0.0006628215837670703,
+    "width W": -3.6937456906471766e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.00565949811976485,
+    "mixed-mode criterion (mean over the three)": -0.0001336555521007273
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.409569371106177,
+      "sigma": 0.4076010690710143,
+      "u90": 1.34097141777958,
+      "pf": 0.9844,
+      "median": 4.3959405423363105
+     },
+     "reduction": -0.000812305814531733
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.417177674516972,
+      "sigma": 0.405794135192986,
+      "u90": 1.3436976516537569,
+      "pf": 0.9825,
+      "median": 4.404584219759151
+     },
+     "reduction": -0.0028469863257112316
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.422606535184146,
+      "sigma": 0.4038388381950574,
+      "u90": 1.3355172480098267,
+      "pf": 0.9817,
+      "median": 4.409984346289441
+     },
+     "reduction": 0.0032583254839407827
+    }
+   },
+   "sizing_reduction": -0.004282718761659643
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.027429684307467,
+    "sigma": 0.3687774459282723,
+    "u90": 1.2120434299008869,
+    "pf": 1.0,
+    "median": 4.0316694387427825
+   },
+   "reduction": {
+    "crack depth": 0.11036693113936968,
+    "stress amplitude": 0.12069938611885933,
+    "crack opening factor kappa": 0.06491938488363358,
+    "constraint factor alpha": 0.03502074288881052,
+    "SIF solution error": 0.033340873594233766,
+    "growth curve C-n": 0.02440138747855425,
+    "crack shape a/c": 0.13619290985771426,
+    "critical-shape exponent q": 0.020930079814470592,
+    "toughness Kc": 0.008573012055468232,
+    "intrinsic crack length a0": -0.00034469862277686225,
+    "threshold-shape exponent p": 0.0018823012522225513,
+    "Smax/sigma0": 0.00022568909048448216,
+    "threshold dKth0": 0.00112248842008833,
+    "stress ratio R": 0.00525850577353415,
+    "thickness t": 0.001398535313179572,
+    "Cth (R >= 0)": -0.00010212114391694449,
+    "width W": -2.3045130806753633e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.0018745637079027322,
+    "mixed-mode criterion (mean over the three)": 0.000788621460744802
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.017626936407649,
+      "sigma": 0.3691562050012653,
+      "u90": 1.2127143682026151,
+      "pf": 1.0,
+      "median": 4.0221452619140905
+     },
+     "reduction": -0.0005535596210304305
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.028676786266535,
+      "sigma": 0.36998155765914403,
+      "u90": 1.2130083544419472,
+      "pf": 1.0,
+      "median": 4.034237438725496
+     },
+     "reduction": -0.0007961138332635009
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.03660649694851,
+      "sigma": 0.36812617639037454,
+      "u90": 1.2075400366775746,
+      "pf": 1.0,
+      "median": 4.041278326767802
+     },
+     "reduction": 0.0037155378365283376
+    }
+   },
+   "sizing_reduction": 0.0002780012976474344
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "prior": "uniaxial",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 3.476258281263151,
+    "sigma": 0.41695261184664345,
+    "u90": 1.3485846355346083,
+    "pf": 1.0,
+    "median": 3.4997098726801985
+   },
+   "reduction": {
+    "crack depth": 0.06826624027816874,
+    "stress amplitude": 0.13182986121186646,
+    "crack opening factor kappa": 0.05855466674872334,
+    "constraint factor alpha": 0.02913421547592432,
+    "SIF solution error": 0.042468619786170225,
+    "growth curve C-n": 0.024657822869041057,
+    "crack shape a/c": 0.20281145166367642,
+    "critical-shape exponent q": 0.03907533567405019,
+    "toughness Kc": 0.01766204064136445,
+    "intrinsic crack length a0": -6.522451319668221e-05,
+    "threshold-shape exponent p": -0.0014070878039080803,
+    "Smax/sigma0": 0.0008305776456820624,
+    "threshold dKth0": -0.000683231908189974,
+    "stress ratio R": 0.0028598271032886924,
+    "thickness t": -0.00013020799929241988,
+    "Cth (R >= 0)": -0.00012140069150246013,
+    "width W": 0.0001538049119976792,
+    "Cth (R < 0)": 8.357250214086065e-08,
+    "crack tilt (mixed mode)": -0.009420832567241577,
+    "mixed-mode criterion (mean over the three)": 0.0010586833185944149
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 3.4647528802603063,
+      "sigma": 0.4184418299851577,
+      "u90": 1.3503472817430775,
+      "pf": 1.0,
+      "median": 3.487274755007941
+     },
+     "reduction": -0.001307034176442734
+    },
+    "energy": {
+     "stats": {
+      "mu": 3.4763773294530953,
+      "sigma": 0.41872871677494755,
+      "u90": 1.3557704083091737,
+      "pf": 1.0,
+      "median": 3.499407778282041
+     },
+     "reduction": -0.00532838101905031
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 3.488405894192908,
+      "sigma": 0.4145876643105303,
+      "u90": 1.3353530443795139,
+      "pf": 1.0,
+      "median": 3.5119344998421966
+     },
+     "reduction": 0.009811465151276288
+    }
+   },
+   "sizing_reduction": -0.0067353436908894615
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.9452414200265045,
+    "sigma": 0.4229721548053436,
+    "u90": 1.2941725843908323,
+    "pf": 0.7949,
+    "median": 5.923418050582248
+   },
+   "reduction": {
+    "crack depth": 0.24870758395632786,
+    "material fit (C, m, p, dKth0)": 0.18688375858286865,
+    "load amplitude": 0.07951075444297329,
+    "crack opening factor kappa": 0.08391550437594941,
+    "SIF solution error": 0.015319018985958555,
+    "diameter D": 0.013938878926727183,
+    "toughness Kc": 0.001585360634797861,
+    "intrinsic crack length a0": 0.0034774847590192115,
+    "stress ratio R": -0.00391550289792475,
+    "crack tilt (mixed mode)": -8.585351707868227e-05,
+    "mixed-mode criterion (mean over the three)": 0.0009752123224681478
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.944835887991182,
+      "sigma": 0.420243980947727,
+      "u90": 1.2949129014057323,
+      "pf": 0.7973,
+      "median": 5.922596078657093
+     },
+     "reduction": -0.0005720388639267604
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.945457181884871,
+      "sigma": 0.4243947016802059,
+      "u90": 1.2945510646527527,
+      "pf": 0.7956,
+      "median": 5.922288669602854
+     },
+     "reduction": -0.00029244960562868627
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.945420462711362,
+      "sigma": 0.41203006063199,
+      "u90": 1.2892675079589164,
+      "pf": 0.7918,
+      "median": 5.9240001215306535
+     },
+     "reduction": 0.0037901254369598902
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.582892600920018,
+    "sigma": 0.396730628123371,
+    "u90": 1.2535814079618683,
+    "pf": 0.9321,
+    "median": 5.555310642057077
+   },
+   "reduction": {
+    "crack depth": 0.31385174629890056,
+    "material fit (C, m, p, dKth0)": 0.07692947896701163,
+    "load amplitude": 0.08431537998517302,
+    "crack opening factor kappa": 0.08847484169041597,
+    "SIF solution error": 0.03160872217812738,
+    "diameter D": 0.018172200409854122,
+    "toughness Kc": -0.000534939161417114,
+    "intrinsic crack length a0": 0.006339128129972171,
+    "stress ratio R": 0.002918253423523809,
+    "crack tilt (mixed mode)": -0.0006454747947057804,
+    "mixed-mode criterion (mean over the three)": 0.0004247185941236298
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.581434757633507,
+      "sigma": 0.3959581612913612,
+      "u90": 1.2536237742901744,
+      "pf": 0.9327,
+      "median": 5.553941483557901
+     },
+     "reduction": -3.3796232168814555e-05
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.582537911446723,
+      "sigma": 0.39778283405573217,
+      "u90": 1.2540467728405158,
+      "pf": 0.9324,
+      "median": 5.554222128744076
+     },
+     "reduction": -0.0003712282869638983
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.58454295935473,
+      "sigma": 0.40003621586413196,
+      "u90": 1.2514764187552876,
+      "pf": 0.9309,
+      "median": 5.556345195367902
+     },
+     "reduction": 0.0016791803015036022
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.128396653892755,
+    "sigma": 0.32846496591050656,
+    "u90": 1.0678976059388896,
+    "pf": 0.9997,
+    "median": 5.119220459802204
+   },
+   "reduction": {
+    "crack depth": 0.2268895256344664,
+    "material fit (C, m, p, dKth0)": 0.05431291338201405,
+    "load amplitude": 0.11319932740328853,
+    "crack opening factor kappa": 0.10006610702196472,
+    "SIF solution error": 0.030362525666774443,
+    "diameter D": 0.010917099262186092,
+    "toughness Kc": 0.0007112484995838164,
+    "intrinsic crack length a0": -0.0004977441962161766,
+    "stress ratio R": 0.0010472570221029542,
+    "crack tilt (mixed mode)": -0.0016230535749270913,
+    "mixed-mode criterion (mean over the three)": 0.00018184610739298743
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.1268745711196955,
+      "sigma": 0.32825634608100396,
+      "u90": 1.0676869157621125,
+      "pf": 0.9997,
+      "median": 5.117746007253826
+     },
+     "reduction": 0.00019729436193638428
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.127521751426119,
+      "sigma": 0.3284692587157637,
+      "u90": 1.0679638808687555,
+      "pf": 0.9997,
+      "median": 5.118240225112702
+     },
+     "reduction": -6.206112786211193e-05
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.13082360346415,
+      "sigma": 0.32862200954386966,
+      "u90": 1.067459442117598,
+      "pf": 0.9997,
+      "median": 5.121752892309156
+     },
+     "reduction": 0.0004103050881046899
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.417613007239698,
+    "sigma": 0.30716881565409376,
+    "u90": 1.0005648953930772,
+    "pf": 1.0,
+    "median": 4.4171748131193365
+   },
+   "reduction": {
+    "crack depth": 0.16461936871202143,
+    "material fit (C, m, p, dKth0)": 0.06658888636046312,
+    "load amplitude": 0.11828476047182823,
+    "crack opening factor kappa": 0.10733199008365191,
+    "SIF solution error": 0.028711921506909044,
+    "diameter D": 0.014482783273031208,
+    "toughness Kc": 0.001874688859305751,
+    "intrinsic crack length a0": 0.00012037391367958339,
+    "stress ratio R": 0.0021535410728070747,
+    "crack tilt (mixed mode)": 0.0004355733506539172,
+    "mixed-mode criterion (mean over the three)": -6.252439512407133e-05
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.416773861817651,
+      "sigma": 0.3070583272284596,
+      "u90": 1.000285572281756,
+      "pf": 1.0,
+      "median": 4.416204332143838
+     },
+     "reduction": 0.00027916541206596257
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.41609608105088,
+      "sigma": 0.30728462231802584,
+      "u90": 1.0006070338137119,
+      "pf": 1.0,
+      "median": 4.4150792997348915
+     },
+     "reduction": -4.211463027403717e-05
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.4200045622194795,
+      "sigma": 0.30731374758914776,
+      "u90": 1.0009897592283643,
+      "pf": 1.0,
+      "median": 4.419314467082946
+     },
+     "reduction": -0.0004246239671641394
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.01298274082748,
+    "sigma": 0.34719235438099433,
+    "u90": 1.1435163926405831,
+    "pf": 0.8659,
+    "median": 5.009511299918529
+   },
+   "reduction": {
+    "crack depth": 0.11839263427559887,
+    "stress amplitude": 0.07816195952796579,
+    "crack opening factor kappa": 0.07336392909264333,
+    "constraint factor alpha": 0.03777312058360849,
+    "SIF solution error": 0.01584773563400832,
+    "growth curve C-n": 0.04664543765063289,
+    "crack shape a/c": 0.06733777119157025,
+    "critical-shape exponent q": 0.0031903497618527288,
+    "toughness Kc": 0.004914357751650056,
+    "intrinsic crack length a0": 0.00715816815937198,
+    "threshold-shape exponent p": 0.018909167351388367,
+    "Smax/sigma0": 0.0030297100226173157,
+    "threshold dKth0": -0.0009087491749109056,
+    "stress ratio R": -0.002892025001654419,
+    "thickness t": -0.00017582161566886967,
+    "Cth (R >= 0)": -0.0004460530769807569,
+    "width W": -7.803083081903139e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.0002541330537182418,
+    "mixed-mode criterion (mean over the three)": 0.0005166185039885418
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.01304540087248,
+      "sigma": 0.3481167755090866,
+      "u90": 1.1431595153287528,
+      "pf": 0.8685,
+      "median": 5.008982300057474
+     },
+     "reduction": 0.0003120876221164304
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.01296822083685,
+      "sigma": 0.3475493750609518,
+      "u90": 1.1427221027041057,
+      "pf": 0.8663,
+      "median": 5.008974933732458
+     },
+     "reduction": 0.000694603017140194
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.0135850054883875,
+      "sigma": 0.3469724602802538,
+      "u90": 1.1428952747047338,
+      "pf": 0.8628,
+      "median": 5.009887904974445
+     },
+     "reduction": 0.000543164872709001
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.7086766465417975,
+    "sigma": 0.37739283090386205,
+    "u90": 1.233280226374717,
+    "pf": 0.9905,
+    "median": 4.709577955832162
+   },
+   "reduction": {
+    "crack depth": 0.20007458768571396,
+    "stress amplitude": 0.08420366202317298,
+    "crack opening factor kappa": 0.0585995761590421,
+    "constraint factor alpha": 0.025146663380615997,
+    "SIF solution error": 0.02111247422361595,
+    "growth curve C-n": 0.024247693816060734,
+    "crack shape a/c": 0.06756343162351763,
+    "critical-shape exponent q": -0.0015840959176933733,
+    "toughness Kc": 0.003149481545022037,
+    "intrinsic crack length a0": -0.0016783842246745895,
+    "threshold-shape exponent p": 0.0009205878829712244,
+    "Smax/sigma0": -0.0002522507604569846,
+    "threshold dKth0": -0.003014687255466164,
+    "stress ratio R": 0.00031154286704648815,
+    "thickness t": 6.530210341015863e-05,
+    "Cth (R >= 0)": 8.248570106761388e-05,
+    "width W": -9.645368882482686e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.0001745099104746295,
+    "mixed-mode criterion (mean over the three)": -0.0007795866894229064
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.707455223153616,
+      "sigma": 0.37740700130954086,
+      "u90": 1.2333544036816049,
+      "pf": 0.9907,
+      "median": 4.708659996769276
+     },
+     "reduction": -6.0146352225176614e-05
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.708260789691523,
+      "sigma": 0.37742782517055506,
+      "u90": 1.2342775196634932,
+      "pf": 0.9905,
+      "median": 4.709486353753616
+     },
+     "reduction": -0.0008086510003553204
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.710444719117768,
+      "sigma": 0.3775198592157295,
+      "u90": 1.2350931023254832,
+      "pf": 0.9903,
+      "median": 4.711560590000795
+     },
+     "reduction": -0.0014699627156882222
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.397172579523583,
+    "sigma": 0.4093778284938371,
+    "u90": 1.3456213651702678,
+    "pf": 0.9851,
+    "median": 4.383568340428702
+   },
+   "reduction": {
+    "crack depth": 0.2520786787735856,
+    "stress amplitude": 0.08256411050042844,
+    "crack opening factor kappa": 0.04968953458776759,
+    "constraint factor alpha": 0.01992430928985134,
+    "SIF solution error": 0.029178986486449898,
+    "growth curve C-n": 0.02080230360745683,
+    "crack shape a/c": 0.08416993722485233,
+    "critical-shape exponent q": 0.006475749707454126,
+    "toughness Kc": -0.0009814875278908453,
+    "intrinsic crack length a0": 0.001609836108761864,
+    "threshold-shape exponent p": -0.0031435116509102023,
+    "Smax/sigma0": -0.0006664924081423163,
+    "threshold dKth0": 0.002302672982087528,
+    "stress ratio R": 0.0018812749105454607,
+    "thickness t": -0.0008778813448409029,
+    "Cth (R >= 0)": -0.0006268110817517769,
+    "width W": 1.9182395876282676e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.001370908144076033,
+    "mixed-mode criterion (mean over the three)": -0.0008145673495167927
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.396188567074881,
+      "sigma": 0.41010629959965417,
+      "u90": 1.3492654223653822,
+      "pf": 0.9855,
+      "median": 4.383085263444505
+     },
+     "reduction": -0.0027080851192142763
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.396639134108814,
+      "sigma": 0.4093182523524047,
+      "u90": 1.3460144975780164,
+      "pf": 0.9851,
+      "median": 4.383822337915778
+     },
+     "reduction": -0.00029215678193317274
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.398841693369645,
+      "sigma": 0.40881474340481955,
+      "u90": 1.3448724732540445,
+      "pf": 0.9848,
+      "median": 4.385544443416905
+     },
+     "reduction": 0.0005565398525970711
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.000389430548893,
+    "sigma": 0.3700684085758638,
+    "u90": 1.2117064802545694,
+    "pf": 1.0,
+    "median": 4.008215880701869
+   },
+   "reduction": {
+    "crack depth": 0.11204158751577109,
+    "stress amplitude": 0.11436495008031122,
+    "crack opening factor kappa": 0.06221502100896359,
+    "constraint factor alpha": 0.028614483445638883,
+    "SIF solution error": 0.027131981701630448,
+    "growth curve C-n": 0.023457875832709196,
+    "crack shape a/c": 0.13758185823407698,
+    "critical-shape exponent q": 0.01744416288031403,
+    "toughness Kc": 0.0047202189593319455,
+    "intrinsic crack length a0": -3.751295892784334e-05,
+    "threshold-shape exponent p": 0.0005673102303550559,
+    "Smax/sigma0": -0.0028931025431597757,
+    "threshold dKth0": 0.0008104161598863069,
+    "stress ratio R": 0.0018761046110652435,
+    "thickness t": -0.0015059375379655737,
+    "Cth (R >= 0)": 0.00024330222915680544,
+    "width W": -0.00010630505702735604,
+    "Cth (R < 0)": -1.0763926416856862e-07,
+    "crack tilt (mixed mode)": -0.0021531635878215827,
+    "mixed-mode criterion (mean over the three)": -2.8776256067453154e-05
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 3.9985996028182678,
+      "sigma": 0.37024838343410493,
+      "u90": 1.213309892043383,
+      "pf": 1.0,
+      "median": 4.007262692806933
+     },
+     "reduction": -0.0013232674867569294
+    },
+    "energy": {
+     "stats": {
+      "mu": 3.9997325176127663,
+      "sigma": 0.3701436037203465,
+      "u90": 1.212131945473279,
+      "pf": 1.0,
+      "median": 4.00771609814262
+     },
+     "reduction": -0.0003511289455349065
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.002902013970632,
+      "sigma": 0.3698424562588477,
+      "u90": 1.2097822083749095,
+      "pf": 1.0,
+      "median": 4.010237026694153
+     },
+     "reduction": 0.0015880676640894764
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "prior": "uniaxial",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4351569898753587,
+    "sigma": 0.4217006030480649,
+    "u90": 1.3576678165511868,
+    "pf": 1.0,
+    "median": 3.4594102768358637
+   },
+   "reduction": {
+    "crack depth": 0.0712207941382893,
+    "stress amplitude": 0.1377441420728147,
+    "crack opening factor kappa": 0.05894239838746995,
+    "constraint factor alpha": 0.02805882439068652,
+    "SIF solution error": 0.044829354807538246,
+    "growth curve C-n": 0.020784825879814894,
+    "crack shape a/c": 0.20743978692491105,
+    "critical-shape exponent q": 0.03162362588069778,
+    "toughness Kc": 0.025132687525734942,
+    "intrinsic crack length a0": -3.3753200761044155e-05,
+    "threshold-shape exponent p": 8.083178424445059e-05,
+    "Smax/sigma0": -0.002474523221300373,
+    "threshold dKth0": -0.001981054860838327,
+    "stress ratio R": 0.0022258486690196477,
+    "thickness t": 0.0007463682193322718,
+    "Cth (R >= 0)": -2.527791169693039e-05,
+    "width W": 5.3206518427995064e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.002667522197548511,
+    "mixed-mode criterion (mean over the three)": -0.000492521911332866
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 3.4327995404586007,
+      "sigma": 0.42217670762504245,
+      "u90": 1.357480431542632,
+      "pf": 1.0,
+      "median": 3.457716624447799
+     },
+     "reduction": 0.00013801977646543673
+    },
+    "energy": {
+     "stats": {
+      "mu": 3.4340084076658166,
+      "sigma": 0.42185867803834937,
+      "u90": 1.357692230632376,
+      "pf": 1.0,
+      "median": 3.458527479849045
+     },
+     "reduction": -1.798236718264512e-05
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 3.4387821819132993,
+      "sigma": 0.420879983240985,
+      "u90": 1.3598368309224411,
+      "pf": 1.0,
+      "median": 3.463474288190376
+     },
+     "reduction": -0.0015976031432813897
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 6.003526343692106,
+    "sigma": 0.43976447581269196,
+    "u90": 1.2806129836942102,
+    "pf": 0.6515,
+    "median": 5.968131873746131
+   },
+   "reduction": {
+    "crack depth": 0.159482044557253,
+    "material fit (C, m, p, dKth0)": 0.22647335414666014,
+    "load amplitude": 0.015212764029274739,
+    "crack opening factor kappa": 0.04730727884561137,
+    "SIF solution error": 0.008605275110638466,
+    "diameter D": -0.01446440515306846,
+    "toughness Kc": 0.0003319349043684472,
+    "intrinsic crack length a0": -0.0006830998068136918,
+    "stress ratio R": -0.006990320578335485,
+    "crack tilt (mixed mode)": -0.00647157051605296,
+    "mixed-mode criterion (mean over the three)": -0.017850283781771042
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 6.004570123024023,
+      "sigma": 0.43379763314458464,
+      "u90": 1.2931922355828815,
+      "pf": 0.7035,
+      "median": 5.9718761085475345
+     },
+     "reduction": -0.009822836445390282
+    },
+    "energy": {
+     "stats": {
+      "mu": 6.005928837249627,
+      "sigma": 0.43900210316410465,
+      "u90": 1.3155640401035997,
+      "pf": 0.5811,
+      "median": 5.970930531772576
+     },
+     "reduction": -0.027292442646150272
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 6.00065865403369,
+      "sigma": 0.43938109174019363,
+      "u90": 1.3016605909168355,
+      "pf": 0.6662,
+      "median": 5.963663392531172
+     },
+     "reduction": -0.016435572253772568
+    }
+   },
+   "sizing_reduction": -0.0307291459347363
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.683235655608841,
+    "sigma": 0.39616826668696076,
+    "u90": 1.2458399330582894,
+    "pf": 0.8881,
+    "median": 5.654958770875662
+   },
+   "reduction": {
+    "crack depth": 0.23288861519525794,
+    "material fit (C, m, p, dKth0)": 0.09792592569488112,
+    "load amplitude": 0.0758884904119389,
+    "crack opening factor kappa": 0.08769254313668418,
+    "SIF solution error": 0.013815085601360577,
+    "diameter D": 0.001377708266265154,
+    "toughness Kc": -0.0008119558174188857,
+    "intrinsic crack length a0": 0.0049827906046452375,
+    "stress ratio R": 0.0038008823042499085,
+    "crack tilt (mixed mode)": 0.020135119005929458,
+    "mixed-mode criterion (mean over the three)": -0.003379512723612884
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.675870289038819,
+      "sigma": 0.3893991573233568,
+      "u90": 1.247669220309744,
+      "pf": 0.9105,
+      "median": 5.649919098730382
+     },
+     "reduction": -0.001468316436898931
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.706901770921233,
+      "sigma": 0.4024929202078627,
+      "u90": 1.2679967654227493,
+      "pf": 0.8542,
+      "median": 5.681474984831152
+     },
+     "reduction": -0.017784654173083947
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.668827923251809,
+      "sigma": 0.38858618230034636,
+      "u90": 1.2344848091584417,
+      "pf": 0.9014,
+      "median": 5.64275982290368
+     },
+     "reduction": 0.009114432439144227
+    }
+   },
+   "sizing_reduction": 0.0218936980005352
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.270603763022662,
+    "sigma": 0.3494989741317519,
+    "u90": 1.1397190529505208,
+    "pf": 0.9963,
+    "median": 5.251625982595916
+   },
+   "reduction": {
+    "crack depth": 0.18197485223906018,
+    "material fit (C, m, p, dKth0)": 0.04889557821079604,
+    "load amplitude": 0.10279640344167085,
+    "crack opening factor kappa": 0.09362762724128326,
+    "SIF solution error": 0.028166611622083115,
+    "diameter D": 0.009726483655074225,
+    "toughness Kc": -0.0006848317422067929,
+    "intrinsic crack length a0": -0.00019433073191832406,
+    "stress ratio R": 0.004248896862377061,
+    "crack tilt (mixed mode)": 0.07851265164704324,
+    "mixed-mode criterion (mean over the three)": 0.006412838094476236
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.26261515041771,
+      "sigma": 0.34041930420241556,
+      "u90": 1.1176946324690133,
+      "pf": 0.9988,
+      "median": 5.249155655022208
+     },
+     "reduction": 0.019324429493821627
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.308739287351434,
+      "sigma": 0.3690687757008149,
+      "u90": 1.198001030697914,
+      "pf": 0.9912,
+      "median": 5.286748698298677
+     },
+     "reduction": -0.051137144365984044
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.241177423362115,
+      "sigma": 0.3335263859450032,
+      "u90": 1.0815349944053505,
+      "pf": 0.9984,
+      "median": 5.227237997417571
+     },
+     "reduction": 0.05105122915559113
+    }
+   },
+   "sizing_reduction": 0.06902553115269505
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.604036775272483,
+    "sigma": 0.3439078642238991,
+    "u90": 1.1314969547473401,
+    "pf": 0.9998,
+    "median": 4.592841254431958
+   },
+   "reduction": {
+    "crack depth": 0.1279460138286619,
+    "material fit (C, m, p, dKth0)": 0.05321208505727526,
+    "load amplitude": 0.11105271263582173,
+    "crack opening factor kappa": 0.10694768435353075,
+    "SIF solution error": 0.031152204427137842,
+    "diameter D": 0.01613807888037544,
+    "toughness Kc": 0.0019221081874096768,
+    "intrinsic crack length a0": -0.0001634438575732755,
+    "stress ratio R": 0.0014889279484219253,
+    "crack tilt (mixed mode)": 0.13422725575087024,
+    "mixed-mode criterion (mean over the three)": 0.010438074867999525
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.633126093053923,
+      "sigma": 0.3447315605398712,
+      "u90": 1.1417588305390645,
+      "pf": 1.0,
+      "median": 4.622944276360963
+     },
+     "reduction": -0.009069291568721605
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.6302877482963805,
+      "sigma": 0.36402021281673863,
+      "u90": 1.1890784574182307,
+      "pf": 0.9994,
+      "median": 4.612571761777313
+     },
+     "reduction": -0.05088966649826143
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.550089206098492,
+      "sigma": 0.31441495608387976,
+      "u90": 1.0282216265050268,
+      "pf": 1.0,
+      "median": 4.549264042629867
+     },
+     "reduction": 0.09127318267098161
+    }
+   },
+   "sizing_reduction": 0.11747132251601877
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 5.049187281243723,
+    "sigma": 0.33650679610128165,
+    "u90": 1.1007665547415924,
+    "pf": 0.7444,
+    "median": 5.044586444638515
+   },
+   "reduction": {
+    "crack depth": 0.09104292729370655,
+    "stress amplitude": 0.05918987171184531,
+    "crack opening factor kappa": 0.07324680658845995,
+    "constraint factor alpha": 0.03781511777006097,
+    "SIF solution error": 0.01279877942969132,
+    "growth curve C-n": 0.03634139791123703,
+    "crack shape a/c": 0.0589020972536507,
+    "critical-shape exponent q": 0.0006108671902432805,
+    "toughness Kc": 0.002330898216484467,
+    "intrinsic crack length a0": 0.007071996202295927,
+    "threshold-shape exponent p": 0.013734499806228428,
+    "Smax/sigma0": -0.0036060874406729226,
+    "threshold dKth0": -0.002835174762121806,
+    "stress ratio R": 0.0009195810080081523,
+    "thickness t": 8.859764069668596e-05,
+    "Cth (R >= 0)": -0.004500869047742606,
+    "width W": -1.77529200895421e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.003638101855691467,
+    "mixed-mode criterion (mean over the three)": -0.0008241886873157448
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.055167667073024,
+      "sigma": 0.3433081660974911,
+      "u90": 1.1240821938694783,
+      "pf": 0.8037,
+      "median": 5.0508643962823765
+     },
+     "reduction": -0.02118127501917
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.0502748229710255,
+      "sigma": 0.3351298480271722,
+      "u90": 1.0894844860855732,
+      "pf": 0.6716,
+      "median": 5.0441909407973835
+     },
+     "reduction": 0.010249283653669505
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.042115817704972,
+      "sigma": 0.33563285311651153,
+      "u90": 1.0914547022951062,
+      "pf": 0.755,
+      "median": 5.035038366118725
+     },
+     "reduction": 0.008459425303553259
+    }
+   },
+   "sizing_reduction": 3.02540924737027e-05
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.7854592762863355,
+    "sigma": 0.37472470068655245,
+    "u90": 1.2235547892805432,
+    "pf": 0.9593,
+    "median": 4.786713448939677
+   },
+   "reduction": {
+    "crack depth": 0.16235728886247214,
+    "stress amplitude": 0.07678122115878183,
+    "crack opening factor kappa": 0.06482504276510281,
+    "constraint factor alpha": 0.032030665730003904,
+    "SIF solution error": 0.01344925585487089,
+    "growth curve C-n": 0.02947853919462118,
+    "crack shape a/c": 0.06269463532432862,
+    "critical-shape exponent q": 0.0041150287251716655,
+    "toughness Kc": 0.005905476611369198,
+    "intrinsic crack length a0": 4.1646810637785414e-05,
+    "threshold-shape exponent p": 0.006424512940365168,
+    "Smax/sigma0": 0.002098709242064345,
+    "threshold dKth0": -0.00505110733327907,
+    "stress ratio R": 0.0027765440926321716,
+    "thickness t": 0.00018502920359242392,
+    "Cth (R >= 0)": -0.00017150364355389414,
+    "width W": 5.5421763666130275e-06,
+    "Cth (R < 0)": -2.2402939523491483e-06,
+    "crack tilt (mixed mode)": 0.004210464361967037,
+    "mixed-mode criterion (mean over the three)": -0.0029582453703910585
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.776315237769614,
+      "sigma": 0.3774962743234618,
+      "u90": 1.2348119437608558,
+      "pf": 0.9783,
+      "median": 4.776351537524008
+     },
+     "reduction": -0.009200368123222225
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.803538826922272,
+      "sigma": 0.37493487747781734,
+      "u90": 1.2282626170053375,
+      "pf": 0.9259,
+      "median": 4.8042401410849
+     },
+     "reduction": -0.0038476640082154567
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.776860389396369,
+      "sigma": 0.3730888718015671,
+      "u90": 1.2184485329478631,
+      "pf": 0.9706,
+      "median": 4.776876879127579
+     },
+     "reduction": 0.004173296020264505
+    }
+   },
+   "sizing_reduction": 0.010606609134862555
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.492188376382493,
+    "sigma": 0.4021634451053882,
+    "u90": 1.3319121068029665,
+    "pf": 0.9736,
+    "median": 4.482521636120433
+   },
+   "reduction": {
+    "crack depth": 0.21647362979133467,
+    "stress amplitude": 0.08182946060773122,
+    "crack opening factor kappa": 0.05466440678464424,
+    "constraint factor alpha": 0.025786333687539242,
+    "SIF solution error": 0.026804775325155572,
+    "growth curve C-n": 0.023188332020874003,
+    "crack shape a/c": 0.08384013243775679,
+    "critical-shape exponent q": 0.004983854838222723,
+    "toughness Kc": 0.0055936559498593885,
+    "intrinsic crack length a0": 0.0036086108516786286,
+    "threshold-shape exponent p": 0.007297890814963459,
+    "Smax/sigma0": 0.00017794378271807076,
+    "threshold dKth0": 0.002689028787137171,
+    "stress ratio R": -0.0006713899593209227,
+    "thickness t": -0.00019731636074427072,
+    "Cth (R >= 0)": -6.668348795635382e-05,
+    "width W": 4.124661021176479e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": 0.029114138035572834,
+    "mixed-mode criterion (mean over the three)": -0.00010136517304260018
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.477458375686152,
+      "sigma": 0.4042228762058917,
+      "u90": 1.336259971942599,
+      "pf": 0.9808,
+      "median": 4.466246643342594
+     },
+     "reduction": -0.00326437842063676
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.523991074922105,
+      "sigma": 0.4068027220208752,
+      "u90": 1.3423734267097585,
+      "pf": 0.9633,
+      "median": 4.512957349476993
+     },
+     "reduction": -0.007854362050888408
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.477203931685831,
+      "sigma": 0.3972507849126726,
+      "u90": 1.3175079502600928,
+      "pf": 0.9765,
+      "median": 4.466504221671705
+     },
+     "reduction": 0.010814644952397368
+    }
+   },
+   "sizing_reduction": 0.026767437117572124
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 4.129370511827377,
+    "sigma": 0.3758604363563614,
+    "u90": 1.2235457665481486,
+    "pf": 0.9994,
+    "median": 4.13052263902728
+   },
+   "reduction": {
+    "crack depth": 0.08720246577907353,
+    "stress amplitude": 0.1030785415615254,
+    "crack opening factor kappa": 0.05550875184719195,
+    "constraint factor alpha": 0.02243408091541399,
+    "SIF solution error": 0.022203986560856093,
+    "growth curve C-n": 0.007973053862561863,
+    "crack shape a/c": 0.11072475450545793,
+    "critical-shape exponent q": 0.013712613032707766,
+    "toughness Kc": 0.006182873630527275,
+    "intrinsic crack length a0": -0.001214282155735491,
+    "threshold-shape exponent p": -0.0014427743233642598,
+    "Smax/sigma0": -0.0006502469946447764,
+    "threshold dKth0": -0.00040000712628174284,
+    "stress ratio R": -0.000554706112158021,
+    "thickness t": -0.00033779100568565035,
+    "Cth (R >= 0)": -7.845618551050038e-06,
+    "width W": 2.02695676979614e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": 0.039868428462182304,
+    "mixed-mode criterion (mean over the three)": -0.00426432237625111
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.107353319668089,
+      "sigma": 0.3705088468890239,
+      "u90": 1.2133442002832102,
+      "pf": 1.0,
+      "median": 4.112269178139691
+     },
+     "reduction": 0.008337707132704097
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.173532997826147,
+      "sigma": 0.3906827475280871,
+      "u90": 1.277332377914766,
+      "pf": 0.9986,
+      "median": 4.171897712738369
+     },
+     "reduction": -0.04395962360963379
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.108443344060482,
+      "sigma": 0.36457609342326175,
+      "u90": 1.1956135022184453,
+      "pf": 0.9997,
+      "median": 4.1112583020107785
+     },
+     "reduction": 0.022828949348176364
+    }
+   },
+   "sizing_reduction": 0.0404152736608927
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "prior": "inclined",
+   "sized": false,
+   "n": 10000,
+   "stats": {
+    "mu": 3.6237885395161866,
+    "sigma": 0.4240742687717222,
+    "u90": 1.3710254843505933,
+    "pf": 1.0,
+    "median": 3.637581178285953
+   },
+   "reduction": {
+    "crack depth": 0.05653390939657632,
+    "stress amplitude": 0.11862508272429206,
+    "crack opening factor kappa": 0.05258732333015259,
+    "constraint factor alpha": 0.03257157224175811,
+    "SIF solution error": 0.035403284891686426,
+    "growth curve C-n": 0.01901315089720168,
+    "crack shape a/c": 0.16378096910940887,
+    "critical-shape exponent q": 0.02320935661679291,
+    "toughness Kc": 0.0186462875772897,
+    "intrinsic crack length a0": 8.621525447560785e-05,
+    "threshold-shape exponent p": 0.003317232287499139,
+    "Smax/sigma0": 0.0027072845295718073,
+    "threshold dKth0": 0.0007133355391264473,
+    "stress ratio R": 0.0042535224587925136,
+    "thickness t": 0.0021126800956744463,
+    "Cth (R >= 0)": -2.9888778546371952e-05,
+    "width W": 0.00011795537818304336,
+    "Cth (R < 0)": 4.4393921871943576e-08,
+    "crack tilt (mixed mode)": 0.0701658963886771,
+    "mixed-mode criterion (mean over the three)": 0.0016511078184618944
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 3.6060933617764936,
+      "sigma": 0.41902847225949036,
+      "u90": 1.361325569439738,
+      "pf": 1.0,
+      "median": 3.626457321207887
+     },
+     "reduction": 0.0070749340705726915
+    },
+    "energy": {
+     "stats": {
+      "mu": 3.6755817933061428,
+      "sigma": 0.44485662515463376,
+      "u90": 1.433657933203412,
+      "pf": 0.9999,
+      "median": 3.6839528015867025
+     },
+     "reduction": -0.045682920972461405
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 3.590802615714285,
+      "sigma": 0.40498088701049206,
+      "u90": 1.3113018177190647,
+      "pf": 1.0,
+      "median": 3.60746504489943
+     },
+     "reduction": 0.043561310357274396
+    }
+   },
+   "sizing_reduction": 0.06966629921040024
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 6.005688228922299,
+    "sigma": 0.42620286313809014,
+    "u90": 1.3199651269560677,
+    "pf": 0.6769,
+    "median": 5.971671675248869
+   },
+   "reduction": {
+    "crack depth": 0.20534645839554722,
+    "material fit (C, m, p, dKth0)": 0.2569304034267167,
+    "load amplitude": 0.06181832157601441,
+    "crack opening factor kappa": 0.07555691218652649,
+    "SIF solution error": 0.027921958275562653,
+    "diameter D": 0.01471845223924495,
+    "toughness Kc": 0.0014525080498457577,
+    "intrinsic crack length a0": 0.012602683150874316,
+    "stress ratio R": 0.0010562043610526928,
+    "crack tilt (mixed mode)": 0.023534383901296252,
+    "mixed-mode criterion (mean over the three)": 0.011250616710176057
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.999844186603461,
+      "sigma": 0.42850702540626573,
+      "u90": 1.295324440042493,
+      "pf": 0.7315,
+      "median": 5.968504251477266
+     },
+     "reduction": 0.018667680236672535
+    },
+    "energy": {
+     "stats": {
+      "mu": 6.015145924379909,
+      "sigma": 0.4394487511348546,
+      "u90": 1.319984570856569,
+      "pf": 0.6335,
+      "median": 5.978861759772069
+     },
+     "reduction": -1.473061682011334e-05
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 6.001581521556541,
+      "sigma": 0.4195408204763655,
+      "u90": 1.3000351048265966,
+      "pf": 0.6639,
+      "median": 5.967102186449979
+     },
+     "reduction": 0.01509890051067575
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.673395005816774,
+    "sigma": 0.38465794340817344,
+    "u90": 1.2185638898069042,
+    "pf": 0.9057,
+    "median": 5.647784316389063
+   },
+   "reduction": {
+    "crack depth": 0.26651423181870315,
+    "material fit (C, m, p, dKth0)": 0.09070694554791892,
+    "load amplitude": 0.0828185912213012,
+    "crack opening factor kappa": 0.09365183307562697,
+    "SIF solution error": 0.022891737346662278,
+    "diameter D": 0.008158354361292974,
+    "toughness Kc": 0.0025967657663138466,
+    "intrinsic crack length a0": 0.008881077169877516,
+    "stress ratio R": 0.0010819032176658805,
+    "crack tilt (mixed mode)": -0.0017979426070671156,
+    "mixed-mode criterion (mean over the three)": 0.0010130959901089032
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.657410103581459,
+      "sigma": 0.38275303510296504,
+      "u90": 1.2121011092324183,
+      "pf": 0.9176,
+      "median": 5.630678667764523
+     },
+     "reduction": 0.0053036042086476165
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.690590586642,
+      "sigma": 0.3852325955448272,
+      "u90": 1.2152242234350945,
+      "pf": 0.8944,
+      "median": 5.662031809194559
+     },
+     "reduction": 0.0027406575886135265
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.673133555702262,
+      "sigma": 0.3874866492961012,
+      "u90": 1.2246627701818351,
+      "pf": 0.9039,
+      "median": 5.646717529466259
+     },
+     "reduction": -0.0050049738269344335
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.249346344785388,
+    "sigma": 0.32570017500094295,
+    "u90": 1.0610493399557646,
+    "pf": 0.999,
+    "median": 5.238247861524551
+   },
+   "reduction": {
+    "crack depth": 0.21010008225370758,
+    "material fit (C, m, p, dKth0)": 0.06460848414636111,
+    "load amplitude": 0.1278282381504402,
+    "crack opening factor kappa": 0.09998484121916063,
+    "SIF solution error": 0.03509043759053321,
+    "diameter D": 0.009901505383577813,
+    "toughness Kc": -0.0006876864931084636,
+    "intrinsic crack length a0": -0.0006767734384134361,
+    "stress ratio R": 4.949709517709788e-05,
+    "crack tilt (mixed mode)": 0.010190527035714214,
+    "mixed-mode criterion (mean over the three)": 0.00431443186201282
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.2362493474080525,
+      "sigma": 0.3218837208748158,
+      "u90": 1.0413341091539197,
+      "pf": 0.9993,
+      "median": 5.223902368018211
+     },
+     "reduction": 0.018580880322367266
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.268638161123364,
+      "sigma": 0.32911720628053126,
+      "u90": 1.07005100819093,
+      "pf": 0.9989,
+      "median": 5.2557109380758655
+     },
+     "reduction": -0.008483741421054791
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.24403882075676,
+      "sigma": 0.3257025515072541,
+      "u90": 1.0580294272840254,
+      "pf": 0.999,
+      "median": 5.2332800173539455
+     },
+     "reduction": 0.0028461566847259867
+    }
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.576874567297079,
+    "sigma": 0.3038998449860943,
+    "u90": 0.9985785110503222,
+    "pf": 1.0,
+    "median": 4.574039698912619
+   },
+   "reduction": {
+    "crack depth": 0.1486277907560546,
+    "material fit (C, m, p, dKth0)": 0.06872119224439888,
+    "load amplitude": 0.13881183679049292,
+    "crack opening factor kappa": 0.12092892414669631,
+    "SIF solution error": 0.04256857809247472,
+    "diameter D": 0.025324856498551318,
+    "toughness Kc": 0.003981196279502663,
+    "intrinsic crack length a0": -0.0002594098577644033,
+    "stress ratio R": 0.0009605966794269394,
+    "crack tilt (mixed mode)": 0.018986276211013675,
+    "mixed-mode criterion (mean over the three)": 0.004932803336574125
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.59580652626942,
+      "sigma": 0.29910918354496635,
+      "u90": 0.983206377075164,
+      "pf": 1.0,
+      "median": 4.593915947998937
+     },
+     "reduction": 0.01539401639936111
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.581605987012297,
+      "sigma": 0.30710314865558286,
+      "u90": 1.0112448364467683,
+      "pf": 1.0,
+      "median": 4.580006164718206
+     },
+     "reduction": -0.012684356068431102
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.553718119740225,
+      "sigma": 0.30308608287528904,
+      "u90": 0.9865069453956137,
+      "pf": 1.0,
+      "median": 4.551703491732498
+     },
+     "reduction": 0.012088749678792365
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 5.048176194011765,
+    "sigma": 0.3364294142108757,
+    "u90": 1.1007332520484532,
+    "pf": 0.7686,
+    "median": 5.043568877567773
+   },
+   "reduction": {
+    "crack depth": 0.08897139680108324,
+    "stress amplitude": 0.06810763955471377,
+    "crack opening factor kappa": 0.07446093384437169,
+    "constraint factor alpha": 0.0395035343536283,
+    "SIF solution error": 0.017947796663353444,
+    "growth curve C-n": 0.034610483108213685,
+    "crack shape a/c": 0.05243655484740617,
+    "critical-shape exponent q": 0.0019629415954822704,
+    "toughness Kc": 0.004101158638955771,
+    "intrinsic crack length a0": 0.010018894152485913,
+    "threshold-shape exponent p": 0.012915611816538775,
+    "Smax/sigma0": 0.0004254723610256361,
+    "threshold dKth0": 0.00047829849039315864,
+    "stress ratio R": 0.00034473274028412604,
+    "thickness t": 0.0002717605994463357,
+    "Cth (R >= 0)": 0.0018735080108792657,
+    "width W": 8.450090672740274e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.003668466934303005,
+    "mixed-mode criterion (mean over the three)": -0.0006001695417594913
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 5.0502843571610345,
+      "sigma": 0.34323719785611284,
+      "u90": 1.1303566807665408,
+      "pf": 0.8231,
+      "median": 5.04511019757654
+     },
+     "reduction": -0.026912450099021434
+    },
+    "energy": {
+     "stats": {
+      "mu": 5.050092344554928,
+      "sigma": 0.33247751975011164,
+      "u90": 1.0843714579445463,
+      "pf": 0.7253,
+      "median": 5.044827249067468
+     },
+     "reduction": 0.014864449741531671
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 5.044417150718039,
+      "sigma": 0.3341576717159484,
+      "u90": 1.0894534971487166,
+      "pf": 0.7534,
+      "median": 5.041527961093887
+     },
+     "reduction": 0.010247491732211289
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.778454053348809,
+    "sigma": 0.3711349116587281,
+    "u90": 1.2105770218755554,
+    "pf": 0.9745,
+    "median": 4.779881447268884
+   },
+   "reduction": {
+    "crack depth": 0.17921291226784353,
+    "stress amplitude": 0.07542848897231769,
+    "crack opening factor kappa": 0.05811998377017391,
+    "constraint factor alpha": 0.02423360043880185,
+    "SIF solution error": 0.015199569289747084,
+    "growth curve C-n": 0.02508596837546151,
+    "crack shape a/c": 0.06862282926391539,
+    "critical-shape exponent q": -0.0015497493773299897,
+    "toughness Kc": 0.0043108559920400635,
+    "intrinsic crack length a0": -0.0010642080410991905,
+    "threshold-shape exponent p": 1.8722115430636066e-05,
+    "Smax/sigma0": -0.00025792573716731937,
+    "threshold dKth0": -0.004699317187269347,
+    "stress ratio R": 0.0011923071783506156,
+    "thickness t": 0.0003493854568596966,
+    "Cth (R >= 0)": 3.997077437145613e-05,
+    "width W": 5.00799686409259e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": -0.0064647134617530355,
+    "mixed-mode criterion (mean over the three)": -0.004757717258765837
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.763524962578889,
+      "sigma": 0.3742725089557729,
+      "u90": 1.2265722158158372,
+      "pf": 0.9847,
+      "median": 4.763367862772636
+     },
+     "reduction": -0.013212867625308489
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.7934784180836445,
+      "sigma": 0.36939697718488224,
+      "u90": 1.206347825584805,
+      "pf": 0.966,
+      "median": 4.794728970207865
+     },
+     "reduction": 0.0034935375563283078
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.779903224064969,
+      "sigma": 0.3705606173897856,
+      "u90": 1.2160897737961518,
+      "pf": 0.9734,
+      "median": 4.778284912012325
+     },
+     "reduction": -0.004553821707317329
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.477711485919435,
+    "sigma": 0.3940512498514888,
+    "u90": 1.2962602332379851,
+    "pf": 0.9772,
+    "median": 4.466436708050651
+   },
+   "reduction": {
+    "crack depth": 0.22660108260325418,
+    "stress amplitude": 0.08644817616659628,
+    "crack opening factor kappa": 0.054316069251982624,
+    "constraint factor alpha": 0.024241474267339136,
+    "SIF solution error": 0.022215333116621494,
+    "growth curve C-n": 0.02594786193061538,
+    "crack shape a/c": 0.09116758755604026,
+    "critical-shape exponent q": 0.008797958536439165,
+    "toughness Kc": 0.0027548808158416316,
+    "intrinsic crack length a0": -0.0012185913876103793,
+    "threshold-shape exponent p": -0.0035659223897690495,
+    "Smax/sigma0": -0.0012713731664413253,
+    "threshold dKth0": -0.005291132150289535,
+    "stress ratio R": 0.0017153064605164303,
+    "thickness t": -0.00015743274358825943,
+    "Cth (R >= 0)": -0.0005801946572467909,
+    "width W": -9.265894679533204e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": 0.0024112437329989467,
+    "mixed-mode criterion (mean over the three)": -0.000889304401867741
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.459844085331934,
+      "sigma": 0.3988450431406682,
+      "u90": 1.3138067159386937,
+      "pf": 0.9816,
+      "median": 4.448037086424425
+     },
+     "reduction": -0.013536234662447688
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.496371232182624,
+      "sigma": 0.39168489038181487,
+      "u90": 1.2904234848716767,
+      "pf": 0.9746,
+      "median": 4.485316187617489
+     },
+     "reduction": 0.004502759721116023
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.47792106467515,
+      "sigma": 0.3917354802404186,
+      "u90": 1.288008808697739,
+      "pf": 0.9757,
+      "median": 4.465647217184743
+     },
+     "reduction": 0.006365561735728442
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 4.110145921461272,
+    "sigma": 0.35845744306542915,
+    "u90": 1.1740958295564785,
+    "pf": 0.9999,
+    "median": 4.115716813583878
+   },
+   "reduction": {
+    "crack depth": 0.09922827246768928,
+    "stress amplitude": 0.11357868015231887,
+    "crack opening factor kappa": 0.06209904865057947,
+    "constraint factor alpha": 0.035227680209325984,
+    "SIF solution error": 0.024249935056624428,
+    "growth curve C-n": 0.02507323557836827,
+    "crack shape a/c": 0.1352870659049904,
+    "critical-shape exponent q": 0.009973192655760132,
+    "toughness Kc": 0.0009384077947843794,
+    "intrinsic crack length a0": -0.0005288693925318277,
+    "threshold-shape exponent p": -0.0015769225101989193,
+    "Smax/sigma0": -0.0003490511216006631,
+    "threshold dKth0": 0.0030101726529614403,
+    "stress ratio R": 0.006662007794565383,
+    "thickness t": -0.0002526761091019569,
+    "Cth (R >= 0)": 0.0005164865316787948,
+    "width W": 3.343002516298377e-05,
+    "Cth (R < 0)": -1.0281653795018997e-07,
+    "crack tilt (mixed mode)": -0.0005698769308226659,
+    "mixed-mode criterion (mean over the three)": 0.0008092398005032919
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 4.0858856008341915,
+      "sigma": 0.36019278098308094,
+      "u90": 1.175124153787808,
+      "pf": 1.0,
+      "median": 4.091191314338239
+     },
+     "reduction": -0.0008758435260927122
+    },
+    "energy": {
+     "stats": {
+      "mu": 4.134041552133587,
+      "sigma": 0.35788906106566226,
+      "u90": 1.1714167456344233,
+      "pf": 0.9999,
+      "median": 4.138712758449464
+     },
+     "reduction": 0.0022818273045627224
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 4.111312813223873,
+      "sigma": 0.35706606063408025,
+      "u90": 1.172896214022558,
+      "pf": 0.9999,
+      "median": 4.116251757056774
+     },
+     "reduction": 0.0010217356230398655
+    }
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "prior": "inclined",
+   "sized": true,
+   "n": 10000,
+   "stats": {
+    "mu": 3.6000303818019774,
+    "sigma": 0.39354206509957285,
+    "u90": 1.275511212732741,
+    "pf": 1.0,
+    "median": 3.617917148626303
+   },
+   "reduction": {
+    "crack depth": 0.05085080309514722,
+    "stress amplitude": 0.12913810048035668,
+    "crack opening factor kappa": 0.05539824229534862,
+    "constraint factor alpha": 0.0231826073210758,
+    "SIF solution error": 0.03650727762247796,
+    "growth curve C-n": 0.01765567400827006,
+    "crack shape a/c": 0.19170516748810296,
+    "critical-shape exponent q": 0.02031931864627745,
+    "toughness Kc": 0.008071102433568456,
+    "intrinsic crack length a0": -1.2652955722725068e-05,
+    "threshold-shape exponent p": -0.00012020840984705572,
+    "Smax/sigma0": 6.001105000819074e-06,
+    "threshold dKth0": 0.0019251001844549087,
+    "stress ratio R": 0.0021282222670555573,
+    "thickness t": 0.002439810586824076,
+    "Cth (R >= 0)": -0.00012724841812072896,
+    "width W": 0.00025400416007037574,
+    "Cth (R < 0)": 0.0,
+    "crack tilt (mixed mode)": 0.0005370085785916245,
+    "mixed-mode criterion (mean over the three)": 0.0011753963785051298
+   },
+   "per_model": {
+    "projection": {
+     "stats": {
+      "mu": 3.577008596483294,
+      "sigma": 0.39692500058953134,
+      "u90": 1.2775567679591782,
+      "pf": 1.0,
+      "median": 3.5969010217351167
+     },
+     "reduction": -0.0016037140293376773
+    },
+    "energy": {
+     "stats": {
+      "mu": 3.62738626483537,
+      "sigma": 0.3919735605361753,
+      "u90": 1.271938136075104,
+      "pf": 1.0,
+      "median": 3.6441851069628055
+     },
+     "reduction": 0.0028012898843764455
+    },
+    "tanaka": {
+     "stats": {
+      "mu": 3.5964830393931244,
+      "sigma": 0.39118835465630736,
+      "u90": 1.2725410403833748,
+      "pf": 1.0,
+      "median": 3.6141528432243857
+     },
+     "reduction": 0.0023286132804766213
+    }
+   }
+  }
+ ],
+ "priors": {
+  "uniaxial": {
+   "mean": 0.0,
+   "sd_unknown": 15.0,
+   "sd_sized": 5.0,
+   "label": "Uniaxial loading: tilt centred on 0 deg"
+  },
+  "inclined": {
+   "mean": 30.0,
+   "sd_unknown": 15.0,
+   "sd_sized": 5.0,
+   "label": "Inclined cracks (multiaxial or contact loading): tilt centred on 30 deg"
+  }
+ }
+}
