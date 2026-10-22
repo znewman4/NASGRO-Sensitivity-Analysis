@@ -1,0 +1,11 @@
+a0_mm,given,u90_reduction_from_shape
+0.2,size exact,0.03338
+0.2,size UT-typical (0.5 mm),0.02265
+0.5,size exact,0.0501
+0.5,size UT-typical (0.5 mm),0.04657
+1,size exact,0.03289
+1,size UT-typical (0.5 mm),0.02197
+2,size exact,0.02475
+2,size UT-typical (0.5 mm),0.02996
+4,size exact,0.069
+4,size UT-typical (0.5 mm),0.05586

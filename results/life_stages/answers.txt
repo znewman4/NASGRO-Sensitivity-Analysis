@@ -1,0 +1,223 @@
+[round_bar] a0 = 0.05 mm done (5 s)
+[round_bar] a0 = 0.1 mm done (7 s)
+[round_bar] a0 = 0.2 mm done (9 s)
+[round_bar] a0 = 0.5 mm done (14 s)
+[round_bar] a0 = 1 mm done (20 s)
+[round_bar] a0 = 2 mm done (25 s)
+[round_bar] a0 = 4 mm done (28 s)
+[round_bar] a0 = 6 mm done (30 s)
+
+====================================================================================================
+Round bar, 25CrMo4, R = -1 (Giannella 2022)
+====================================================================================================
+  note: Material uncertainty = accepted (C, m, p, dKth0) pool, calibrated at the service R = -1, so q and the closure constants are absorbed by the fit and held fixed under industry uncertainty.
+
+Q1  Where is the remaining life spent? (typical industry uncertainty; shares of cycles to failure)
+   a0 mm knowledge   P(no prop.)  near-thr   Paris near-crit    5% life  median life
+    0.05 undetected         1.00       (too few cracks grow)        inf          inf
+     0.1 undetected         0.96      0.60    0.40      0.00        inf          inf
+     0.2 undetected         0.75      0.57    0.43      0.00   5.27e+05          inf
+     0.5 undetected         0.24      0.43    0.56      0.00   2.53e+05     7.76e+05
+       1 sized              0.07      0.30    0.70      0.00   1.61e+05     4.07e+05
+       2 sized              0.00      0.13    0.86      0.01   8.16e+04        2e+05
+       4 sized              0.00      0.01    0.97      0.02   2.38e+04     6.84e+04
+       6 sized              0.00      0.00    0.93      0.06   6.24e+03     2.09e+04
+
+Q2  NASGRO's own sensitivity (every input +/-10 %, R +/-0.1, tilt +/-10 deg)
+  (SIF solution error is not a NASGRO input and acts exactly like stress, so it appears only in Q3)
+  Sobol total indices, failure by the median remaining life (top 5):
+    0.05 mm  not estimable
+     0.1 mm  not estimable
+     0.2 mm  not estimable
+     0.5 mm  diameter D 0.81, load amplitude F 0.34, crack opening factor 0.34, threshold dKth0 0.15, growth curve C-n 0.11
+       1 mm  diameter D 0.81, load amplitude F 0.32, crack opening factor 0.28, crack depth a 0.10, growth curve C-n 0.10
+       2 mm  diameter D 0.86, load amplitude F 0.28, crack opening factor 0.26, crack depth a 0.15, growth curve C-n 0.13
+       4 mm  diameter D 0.86, crack depth a 0.25, load amplitude F 0.24, crack opening factor 0.23, growth curve C-n 0.15
+       6 mm  diameter D 0.88, crack depth a 0.32, growth curve C-n 0.20, load amplitude F 0.19, crack opening factor 0.16
+  Local effect at the nominal state, change in log10 life for +10 % (* = a run did not fail):
+                            0.05     0.1     0.2     0.5       1       2       4       6
+  crack depth a           0.000*  0.000*  0.000* -0.054  -0.038  -0.052  -0.095  -0.174 
+  crack tilt theta        0.000*  0.000*  0.000*  0.008   0.006   0.008   0.014   0.026 
+  crack opening factor    0.000*  0.000*  0.000* -0.178  -0.102  -0.091  -0.085  -0.083 
+  load amplitude F        0.000*  0.000*  0.000* -2.149* -0.112  -0.102  -0.102  -0.108 
+  stress ratio R          0.000*  0.000*  0.000*  0.022   0.011   0.009   0.008   0.007 
+  diameter D              0.000*  0.000*  0.000*  2.229*  0.251   0.250   0.293   0.385 
+  C-n level               0.000*  0.000*  0.000* -0.044  -0.044  -0.044  -0.044  -0.044 
+  C-n slope               0.000*  0.000*  0.000*  0.030   0.004  -0.021  -0.053  -0.079 
+  threshold dKth0         0.000*  0.000*  0.000*  0.111   0.026   0.014   0.008   0.005 
+  threshold shape p       0.000*  0.000*  0.000*  0.033   0.018   0.011   0.007   0.005 
+  intrinsic length a0     0.000*  0.000*  0.000* -0.002  -0.000  -0.000  -0.000  -0.000 
+  critical shape q        0.000*  0.000*  0.000* -0.005  -0.006  -0.009  -0.013  -0.019 
+  toughness Kc            0.000*  0.000*  0.000*  0.005   0.007   0.010   0.016   0.025 
+  constraint alpha        0.000*  0.000*  0.000*  0.003  -0.001  -0.002  -0.003  -0.003 
+  Smax/sigma0             0.000*  0.000*  0.000* -0.014  -0.010  -0.009  -0.009  -0.009 
+  Cth (R<0)               0.000*  0.000*  0.000* -0.006  -0.002  -0.001  -0.001  -0.000 
+
+Q3  Importance under industry-typical uncertainty (catalogue), failure by the median remaining life
+  top 5 Sobol total indices; Kendall tau of the full ranking vs the low and high catalogue ends
+    0.05 mm (undetected)  not estimable   [tau low nan, high nan]
+     0.1 mm (undetected)  crack depth a 0.85, crack opening factor 0.46, load amplitude F 0.35, SIF solution error 0.30, growth fit (C,m,p,dKth0) 0.29   [tau low nan, high 0.76]
+     0.2 mm (undetected)  crack depth a 0.83, load amplitude F 0.36, crack opening factor 0.26, growth fit (C,m,p,dKth0) 0.21, SIF solution error 0.17   [tau low 0.72, high 0.73]
+     0.5 mm (undetected)  crack depth a 0.70, load amplitude F 0.40, crack opening factor 0.33, SIF solution error 0.18, growth fit (C,m,p,dKth0) 0.17   [tau low 0.63, high 0.85]
+       1 mm (sized     )  crack depth a 0.70, load amplitude F 0.38, crack opening factor 0.37, growth fit (C,m,p,dKth0) 0.30, SIF solution error 0.23   [tau low 0.78, high 0.87]
+       2 mm (sized     )  crack depth a 0.54, growth fit (C,m,p,dKth0) 0.45, load amplitude F 0.39, crack opening factor 0.37, SIF solution error 0.21   [tau low 0.81, high 0.82]
+       4 mm (sized     )  growth fit (C,m,p,dKth0) 0.63, crack depth a 0.41, load amplitude F 0.35, crack opening factor 0.28, SIF solution error 0.18   [tau low 0.70, high 0.82]
+       6 mm (sized     )  growth fit (C,m,p,dKth0) 0.73, crack depth a 0.45, load amplitude F 0.30, crack opening factor 0.25, SIF solution error 0.20   [tau low 0.80, high 0.78]
+  Non-propagation (where 1-99 % of cracks arrest): top 3 Sobol total indices
+     0.1 mm  crack depth a 0.85, crack opening factor 0.46, load amplitude F 0.35
+     0.2 mm  crack depth a 0.83, load amplitude F 0.36, crack opening factor 0.26
+     0.5 mm  crack depth a 0.79, load amplitude F 0.34, crack opening factor 0.26
+       1 mm  crack depth a 0.92, crack opening factor 0.27, load amplitude F 0.24
+  Instantaneous growth rate at the matched state (log10 da/dN), top 3 Sobol total indices:
+    0.05 mm  SIF solution error 3.16, growth fit (C,m,p,dKth0) 2.67, load amplitude F 1.81   (100% of samples below threshold)
+     0.1 mm  load amplitude F 1.03, crack opening factor 0.61, growth fit (C,m,p,dKth0) 0.50   (100% of samples below threshold)
+     0.2 mm  load amplitude F 0.67, crack opening factor 0.53, growth fit (C,m,p,dKth0) 0.38   (88% of samples below threshold)
+     0.5 mm  load amplitude F 0.57, crack opening factor 0.56, growth fit (C,m,p,dKth0) 0.32   (8% of samples below threshold)
+       1 mm  load amplitude F 0.38, crack opening factor 0.35, growth fit (C,m,p,dKth0) 0.15   (0% of samples below threshold)
+       2 mm  load amplitude F 0.33, crack opening factor 0.27, growth fit (C,m,p,dKth0) 0.26   (0% of samples below threshold)
+       4 mm  growth fit (C,m,p,dKth0) 0.38, load amplitude F 0.29, crack opening factor 0.23   (0% of samples below threshold)
+       6 mm  growth fit (C,m,p,dKth0) 0.58, load amplitude F 0.21, crack opening factor 0.15   (0% of samples below threshold)
+
+Fixed decision horizons (typical industry uncertainty): P(fail within N cycles) and top 3 drivers
+  (population-relative horizons above ask what drives the spread of life; these ask what drives
+   the probability of failing before a declared cycle count, e.g. the next inspection)
+  N = 3e+04 cycles
+      0.05 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.1 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.2 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.5 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+         1 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+         2 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+         4 mm  P = 0.095   growth fit (C,m,p,dKth0) 0.67, crack depth a 0.56, load amplitude F 0.43
+         6 mm  P = 0.711   growth fit (C,m,p,dKth0) 0.69, crack depth a 0.46, load amplitude F 0.36
+  N = 1e+05 cycles
+      0.05 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.1 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.2 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.5 mm  P = 0.001   (probability too close to 0 or 1 for stable indices)
+         1 mm  P = 0.007   (probability too close to 0 or 1 for stable indices)
+         2 mm  P = 0.099   crack depth a 0.62, growth fit (C,m,p,dKth0) 0.48, load amplitude F 0.43
+         4 mm  P = 0.771   growth fit (C,m,p,dKth0) 0.59, crack depth a 0.54, load amplitude F 0.38
+         6 mm  P = 0.999   (probability too close to 0 or 1 for stable indices)
+  N = 3e+05 cycles
+      0.05 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.1 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.2 mm  P = 0.004   (probability too close to 0 or 1 for stable indices)
+       0.5 mm  P = 0.087   crack depth a 0.80, load amplitude F 0.54, crack opening factor 0.48
+         1 mm  P = 0.299   crack depth a 0.67, growth fit (C,m,p,dKth0) 0.40, load amplitude F 0.38
+         2 mm  P = 0.789   crack depth a 0.65, load amplitude F 0.45, growth fit (C,m,p,dKth0) 0.43
+         4 mm  P = 0.999   (probability too close to 0 or 1 for stable indices)
+         6 mm  P = 1.000   (probability too close to 0 or 1 for stable indices)
+[plate] a0 = 0.05 mm done (22 s)
+[plate] a0 = 0.1 mm done (45 s)
+[plate] a0 = 0.2 mm done (71 s)
+[plate] a0 = 0.5 mm done (92 s)
+[plate] a0 = 1 mm done (109 s)
+[plate] a0 = 2 mm done (121 s)
+[plate] a0 = 4 mm done (128 s)
+[plate] a0 = 6 mm done (132 s)
+
+====================================================================================================
+Surface crack in a plate, aluminium placeholder values, R = 0.1
+====================================================================================================
+  note: Material constants are placeholders with literature-typical scatter; closure and short-crack constants are database defaults and carry epistemic uncertainty.
+
+Q1  Where is the remaining life spent? (typical industry uncertainty; shares of cycles to failure)
+   a0 mm knowledge   P(no prop.)  near-thr   Paris near-crit    5% life  median life
+    0.05 undetected         0.62      0.33    0.66      0.01   9.58e+04          inf
+     0.1 undetected         0.33      0.24    0.75      0.01   5.65e+04     2.49e+05
+     0.2 undetected         0.10      0.12    0.86      0.02   2.99e+04     1.14e+05
+     0.5 undetected         0.00      0.02    0.93      0.04   1.24e+04     4.87e+04
+       1 sized              0.01      0.01    0.91      0.08   7.01e+03     2.69e+04
+       2 sized              0.00      0.00    0.79      0.21   2.79e+03        1e+04
+       4 sized              0.00      0.00    0.46      0.54        553     2.59e+03
+       6 sized              0.00      0.00    0.24      0.76       76.3          638
+
+Q2  NASGRO's own sensitivity (every input +/-10 %, R +/-0.1, tilt +/-10 deg)
+  (SIF solution error is not a NASGRO input and acts exactly like stress, so it appears only in Q3)
+  Sobol total indices, failure by the median remaining life (top 5):
+    0.05 mm  crack opening factor 0.64, stress amplitude 0.61, threshold dKth0 0.57, aspect ratio a/c 0.20, crack depth a 0.19
+     0.1 mm  stress amplitude 0.58, crack opening factor 0.55, growth curve C-n 0.28, threshold dKth0 0.21, crack depth a 0.16
+     0.2 mm  stress amplitude 0.59, crack opening factor 0.59, growth curve C-n 0.30, stress ratio R 0.20, constraint alpha 0.16
+     0.5 mm  stress amplitude 0.62, crack opening factor 0.55, growth curve C-n 0.20, constraint alpha 0.19, stress ratio R 0.18
+       1 mm  stress amplitude 0.70, crack opening factor 0.58, crack depth a 0.19, stress ratio R 0.18, growth curve C-n 0.17
+       2 mm  stress amplitude 0.59, crack opening factor 0.48, growth curve C-n 0.21, crack depth a 0.21, stress ratio R 0.17
+       4 mm  stress amplitude 0.57, crack opening factor 0.45, crack depth a 0.35, growth curve C-n 0.27, aspect ratio a/c 0.22
+       6 mm  stress amplitude 0.53, crack depth a 0.51, thickness t 0.35, crack opening factor 0.31, growth curve C-n 0.27
+  Local effect at the nominal state, change in log10 life for +10 % (* = a run did not fail):
+                            0.05     0.1     0.2     0.5       1       2       4       6
+  crack depth a           0.000* -0.062  -0.040  -0.041  -0.048  -0.065  -0.112  -0.212 
+  aspect ratio a/c        0.000*  0.032   0.022   0.022   0.026   0.034   0.057   0.092 
+  crack tilt theta        0.000*  0.004   0.003   0.003   0.003   0.005   0.008   0.018 
+  crack opening factor    0.000* -1.912* -0.160  -0.144  -0.139  -0.136  -0.135  -0.134 
+  stress amplitude        0.000* -1.913* -0.165  -0.157  -0.160  -0.168  -0.190  -0.222 
+  stress ratio R          0.000*  0.062   0.052   0.050   0.050   0.049   0.049   0.049 
+  thickness t             0.000*  0.001   0.003   0.006   0.012   0.024   0.059   0.145 
+  width W                 0.000*  0.000   0.000   0.000   0.000   0.001   0.003   0.006 
+  C-n level               0.000* -0.044  -0.044  -0.044  -0.044  -0.044  -0.044  -0.044 
+  C-n slope               0.000*  0.125   0.078   0.027  -0.009  -0.046  -0.086  -0.112 
+  threshold dKth0         0.000*  1.849*  0.024   0.011   0.007   0.005   0.003   0.003 
+  threshold shape p       0.000*  0.029   0.015   0.009   0.006   0.004   0.003   0.002 
+  intrinsic length a0     0.000* -0.009  -0.001  -0.000  -0.000  -0.000  -0.000  -0.000 
+  critical shape q        0.000* -0.006  -0.008  -0.013  -0.017  -0.023  -0.035  -0.047 
+  toughness Kc            0.000*  0.007   0.010   0.016   0.022   0.033   0.057   0.092 
+  constraint alpha        0.000* -0.048  -0.048  -0.048  -0.048  -0.048  -0.048  -0.048 
+  Smax/sigma0             0.000* -0.005  -0.006  -0.006  -0.006  -0.006  -0.006  -0.006 
+  Cth (R>=0)              0.000* -0.001  -0.000  -0.000  -0.000  -0.000  -0.000  -0.000 
+
+Q3  Importance under industry-typical uncertainty (catalogue), failure by the median remaining life
+  top 5 Sobol total indices; Kendall tau of the full ranking vs the low and high catalogue ends
+    0.05 mm (undetected)  crack depth a 0.55, crack opening factor 0.35, stress amplitude 0.33, threshold dKth0 0.33, intrinsic length a0 0.32   [tau low 0.90, high 0.93]
+     0.1 mm (undetected)  crack depth a 0.58, stress amplitude 0.37, crack opening factor 0.35, SIF solution error 0.21, aspect ratio a/c 0.21   [tau low 0.88, high 0.82]
+     0.2 mm (undetected)  crack depth a 0.54, crack opening factor 0.42, stress amplitude 0.40, constraint alpha 0.22, SIF solution error 0.21   [tau low 0.86, high 0.82]
+     0.5 mm (undetected)  crack depth a 0.60, stress amplitude 0.40, crack opening factor 0.31, constraint alpha 0.23, SIF solution error 0.19   [tau low 0.89, high 0.83]
+       1 mm (sized     )  crack depth a 0.66, stress amplitude 0.38, crack opening factor 0.32, constraint alpha 0.24, SIF solution error 0.18   [tau low 0.79, high 0.82]
+       2 mm (sized     )  crack depth a 0.51, stress amplitude 0.46, crack opening factor 0.37, constraint alpha 0.23, aspect ratio a/c 0.22   [tau low 0.87, high 0.87]
+       4 mm (sized     )  stress amplitude 0.48, crack opening factor 0.36, crack depth a 0.34, aspect ratio a/c 0.29, critical shape q 0.26   [tau low 0.79, high 0.88]
+       6 mm (sized     )  stress amplitude 0.48, aspect ratio a/c 0.41, crack depth a 0.37, critical shape q 0.30, crack opening factor 0.28   [tau low 0.82, high 0.90]
+  Non-propagation (where 1-99 % of cracks arrest): top 3 Sobol total indices
+    0.05 mm  crack depth a 0.55, crack opening factor 0.35, stress amplitude 0.33
+     0.1 mm  crack depth a 0.60, crack opening factor 0.38, stress amplitude 0.29
+     0.2 mm  crack depth a 0.67, crack opening factor 0.49, threshold dKth0 0.46
+  Instantaneous growth rate at the matched state (log10 da/dN), top 3 Sobol total indices:
+    0.05 mm  crack opening factor 0.46, threshold dKth0 0.40, intrinsic length a0 0.37   (73% of samples below threshold)
+     0.1 mm  crack opening factor 0.53, stress amplitude 0.39, threshold dKth0 0.36   (29% of samples below threshold)
+     0.2 mm  stress amplitude 0.51, threshold dKth0 0.37, crack opening factor 0.36   (3% of samples below threshold)
+     0.5 mm  crack opening factor 0.33, stress amplitude 0.31, constraint alpha 0.12   (0% of samples below threshold)
+       1 mm  stress amplitude 0.41, crack opening factor 0.31, constraint alpha 0.14   (0% of samples below threshold)
+       2 mm  stress amplitude 0.37, crack opening factor 0.27, constraint alpha 0.12   (0% of samples below threshold)
+       4 mm  stress amplitude 0.39, crack opening factor 0.24, constraint alpha 0.12   (0% of samples below threshold)
+       6 mm  stress amplitude 0.38, crack opening factor 0.17, critical shape q 0.14   (0% of samples below threshold)
+
+Fixed decision horizons (typical industry uncertainty): P(fail within N cycles) and top 3 drivers
+  (population-relative horizons above ask what drives the spread of life; these ask what drives
+   the probability of failing before a declared cycle count, e.g. the next inspection)
+  N = 5e+03 cycles
+      0.05 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.1 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.2 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.5 mm  P = 0.004   (probability too close to 0 or 1 for stable indices)
+         1 mm  P = 0.021   (probability too close to 0 or 1 for stable indices)
+         2 mm  P = 0.179   stress amplitude 0.54, crack depth a 0.45, crack opening factor 0.42
+         4 mm  P = 0.794   stress amplitude 0.54, crack depth a 0.42, crack opening factor 0.39
+         6 mm  P = 0.987   (probability too close to 0 or 1 for stable indices)
+  N = 2e+04 cycles
+      0.05 mm  P = 0.000   (probability too close to 0 or 1 for stable indices)
+       0.1 mm  P = 0.003   (probability too close to 0 or 1 for stable indices)
+       0.2 mm  P = 0.018   (probability too close to 0 or 1 for stable indices)
+       0.5 mm  P = 0.144   crack depth a 0.72, stress amplitude 0.45, crack opening factor 0.38
+         1 mm  P = 0.376   crack depth a 0.61, stress amplitude 0.43, crack opening factor 0.32
+         2 mm  P = 0.807   crack depth a 0.48, stress amplitude 0.47, crack opening factor 0.33
+         4 mm  P = 0.999   (probability too close to 0 or 1 for stable indices)
+         6 mm  P = 1.000   (probability too close to 0 or 1 for stable indices)
+  N = 1e+05 cycles
+      0.05 mm  P = 0.057   crack depth a 0.73, crack opening factor 0.59, stress amplitude 0.52
+       0.1 mm  P = 0.178   crack depth a 0.60, crack opening factor 0.49, stress amplitude 0.45
+       0.2 mm  P = 0.435   crack depth a 0.52, crack opening factor 0.42, stress amplitude 0.42
+       0.5 mm  P = 0.806   crack depth a 0.61, crack opening factor 0.41, stress amplitude 0.40
+         1 mm  P = 0.920   crack depth a 0.80, stress amplitude 0.31, crack opening factor 0.30
+         2 mm  P = 0.999   (probability too close to 0 or 1 for stable indices)
+         4 mm  P = 1.000   (probability too close to 0 or 1 for stable indices)
+         6 mm  P = 1.000   (probability too close to 0 or 1 for stable indices)
+
+Tables and figures written to results\life_stages

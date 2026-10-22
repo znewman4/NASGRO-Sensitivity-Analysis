@@ -1,0 +1,20 @@
+input,a0=0.05mm,a0=0.1mm,a0=0.2mm,a0=0.5mm,a0=1mm,a0=2mm,a0=4mm,a0=6mm
+crack depth a,nan,nan,nan,nan,nan,nan,nan,nan
+aspect ratio a/c,nan,nan,nan,nan,nan,nan,nan,nan
+crack tilt theta,nan,nan,nan,nan,nan,nan,nan,nan
+crack opening factor,nan,nan,nan,nan,nan,nan,nan,nan
+stress amplitude,nan,nan,nan,nan,nan,nan,nan,nan
+stress ratio R,nan,nan,nan,nan,nan,nan,nan,nan
+SIF solution error,nan,nan,nan,nan,nan,nan,nan,nan
+thickness t,nan,nan,nan,nan,nan,nan,nan,nan
+width W,nan,nan,nan,nan,nan,nan,nan,nan
+growth curve C-n,nan,nan,nan,nan,nan,nan,nan,nan
+threshold dKth0,nan,nan,nan,nan,nan,nan,nan,nan
+threshold shape p,nan,nan,nan,nan,nan,nan,nan,nan
+intrinsic length a0,nan,nan,nan,nan,nan,nan,nan,nan
+critical shape q,nan,nan,nan,nan,nan,nan,nan,nan
+toughness Kc,nan,nan,nan,nan,nan,nan,nan,nan
+constraint alpha,nan,nan,nan,nan,nan,nan,nan,nan
+Smax/sigma0,nan,nan,nan,nan,nan,nan,nan,nan
+Cth (R>=0),nan,nan,nan,nan,nan,nan,nan,nan
+Cth (R<0),nan,nan,nan,nan,nan,nan,nan,nan

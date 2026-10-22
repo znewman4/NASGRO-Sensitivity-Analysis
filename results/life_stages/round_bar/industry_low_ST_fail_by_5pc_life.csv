@@ -1,0 +1,11 @@
+input,a0=0.05mm,a0=0.1mm,a0=0.2mm,a0=0.5mm,a0=1mm,a0=2mm,a0=4mm,a0=6mm
+crack depth a,nan,nan,1.013,1.013,0.5673,0.5065,0.3039,0.3242
+crack tilt theta,nan,nan,0.02026,0.06078,0.02026,0,0,0.02026
+crack opening factor,nan,nan,0.4457,0.5673,0.466,0.466,0.466,0.2431
+load amplitude F,nan,nan,0.06078,0.1418,0.2229,0.1418,0.2836,0.1216
+stress ratio R,nan,nan,0.04052,0.06078,0.04052,0.02026,0.04052,0.04052
+SIF solution error,nan,nan,0.3444,0.4255,0.2836,0.3849,0.4255,0.2836
+diameter D,nan,nan,0.1013,0.2026,0.2026,0.1013,0.06078,0.2026
+"growth fit (C,m,p,dKth0)",nan,nan,0.5267,0.7293,0.9117,0.9319,0.6888,0.9117
+intrinsic length a0,nan,nan,0.08104,0.02026,0.02026,0,0,0.02026
+toughness Kc,nan,nan,0,0.04052,0.1013,0.02026,0.08104,0.06078

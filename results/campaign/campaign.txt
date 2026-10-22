@@ -1,0 +1,341 @@
+
+====================================================================================================
+Round bar, 25CrMo4, R = -1 (Giannella 2022)
+====================================================================================================
+
+VARIANCE-REDUCTION CURVES, every input/group (U90 reduction in decades; others unchanged)
+  plateau = remaining spread fraction at which 80 % of the achievable U90 reduction is reached
+  0.5 mm: U90 0.88 decades
+    group                    halve spread   remove  plateau   median     5 %
+    growth fit (C,m,p,dKth0)       +0.085   +0.099     0.56   -0.008  +0.020
+    crack depth a                  +0.110   +0.092     0.78   +0.089  +0.148
+    SIF solution error             +0.015   +0.036     0.11   +0.005  +0.030
+    crack opening factor           +0.050   +0.035     0.63   +0.013  +0.030
+    intrinsic length a0            +0.010   +0.007     0.57   -0.002  -0.000
+    diameter D                     +0.011   +0.007     0.78   -0.006  -0.002
+    load amplitude F               +0.033   +0.006     0.95   +0.014  +0.040
+    toughness Kc                   -0.001   +0.001     0.09   -0.000  -0.002
+    crack tilt theta               -0.007   -0.003      nan   -0.007  -0.008
+    stress ratio R                 -0.012   -0.018      nan   +0.001  +0.001
+  1 mm: U90 0.84 decades
+    group                    halve spread   remove  plateau   median     5 %
+    crack depth a                  +0.105   +0.225     0.32   +0.013  +0.105
+    crack opening factor           +0.039   +0.073     0.28   -0.000  +0.024
+    growth fit (C,m,p,dKth0)       +0.046   +0.068     0.28   -0.010  +0.031
+    load amplitude F               +0.045   +0.059     0.46   +0.002  +0.031
+    diameter D                     +0.005   +0.012     0.28   -0.005  +0.002
+    SIF solution error             -0.001   +0.008     0.11   +0.005  +0.003
+    crack tilt theta               +0.002   +0.003     0.51   -0.001  -0.001
+    stress ratio R                 +0.003   +0.003     0.68   +0.002  -0.002
+    toughness Kc                   +0.001   +0.002     0.38   -0.000  +0.000
+    intrinsic length a0            +0.006   +0.002     0.89   -0.002  -0.000
+  4 mm: U90 0.77 decades
+    group                    halve spread   remove  plateau   median     5 %
+    growth fit (C,m,p,dKth0)       +0.113   +0.169     0.33   -0.023  +0.102
+    crack depth a                  +0.067   +0.092     0.41   -0.000  +0.048
+    load amplitude F               +0.060   +0.080     0.42   -0.006  +0.042
+    crack opening factor           +0.037   +0.060     0.31   -0.007  +0.034
+    diameter D                     +0.018   +0.021     0.52   -0.004  +0.008
+    SIF solution error             +0.021   +0.020     0.75   -0.002  +0.012
+    toughness Kc                   +0.002   +0.002     0.55   +0.002  +0.006
+    intrinsic length a0            -0.000   -0.000      nan   -0.000  +0.000
+    stress ratio R                 -0.002   -0.002      nan   +0.000  -0.002
+    crack tilt theta               -0.003   -0.003      nan   -0.005  -0.007
+
+PAIRED REDUCTIONS (each spread cut to 25%; U90 reductions, decades)
+  synergy = pair reduction - sum of single reductions; > 0: worth more together, < 0: overlapping
+  0.5 mm: single reductions growth fit (C,m,p,dKth0) +0.130, crack depth a +0.170, SIF solution error +0.035, crack opening factor +0.060, intrinsic length a0 +0.024
+    crack depth a + SIF solution error: pair +0.203 vs singles +0.205  -> synergy -0.002
+    crack depth a + crack opening factor: pair +0.228 vs singles +0.230  -> synergy -0.002
+    SIF solution error + crack opening factor: pair +0.080 vs singles +0.096  -> synergy -0.015
+  1 mm: single reductions crack depth a +0.186, crack opening factor +0.026, growth fit (C,m,p,dKth0) +0.046, load amplitude F +0.064, diameter D +0.012
+    crack depth a + crack opening factor: pair +0.278 vs singles +0.212  -> synergy +0.066
+    crack depth a + load amplitude F: pair +0.296 vs singles +0.250  -> synergy +0.046
+    crack opening factor + growth fit (C,m,p,dKth0): pair +0.108 vs singles +0.072  -> synergy +0.037
+  4 mm: single reductions growth fit (C,m,p,dKth0) +0.148, crack depth a +0.103, load amplitude F +0.078, crack opening factor +0.052, diameter D +0.022
+    growth fit (C,m,p,dKth0) + crack depth a: pair +0.284 vs singles +0.250  -> synergy +0.033
+    growth fit (C,m,p,dKth0) + load amplitude F: pair +0.245 vs singles +0.226  -> synergy +0.019
+    crack depth a + load amplitude F: pair +0.192 vs singles +0.181  -> synergy +0.011
+
+PHYSICS VERSUS KNOWLEDGE (Sobol total indices, failure by median life)
+  screen = every input +/-10 % (physics only); constant = catalogue uncertainty with the same crack
+  knowledge at every stage; staged = crack knowledge by detection stage (the Q3 analysis)
+       a0  tau scr-con tau con-stg  top 3 (constant)  |  top 3 (staged)
+  0.05 mm          nan         nan  not estimable  |  not estimable
+   0.1 mm          nan         nan  not estimable  |  crack depth a 0.89, load amplitude F 0.49, crack opening factor 0.32
+   0.2 mm          nan        0.82  load amplitude F 0.55, crack depth a 0.53, crack opening factor 0.45  |  crack depth a 0.77, crack opening factor 0.35, load amplitude F 0.30
+   0.5 mm         0.69        0.69  load amplitude F 0.51, crack opening factor 0.41, crack depth a 0.39  |  crack depth a 0.74, load amplitude F 0.37, crack opening factor 0.34
+     1 mm         0.76        0.87  load amplitude F 0.49, crack opening factor 0.48, crack depth a 0.43  |  crack depth a 0.68, load amplitude F 0.38, crack opening factor 0.32
+     2 mm         0.57        0.91  crack depth a 0.52, load amplitude F 0.46, growth fit (C,m,p,dKth0) 0.45  |  crack depth a 0.56, growth fit (C,m,p,dKth0) 0.48, load amplitude F 0.39
+     4 mm         0.62        0.94  crack depth a 0.75, growth fit (C,m,p,dKth0) 0.47, load amplitude F 0.29  |  growth fit (C,m,p,dKth0) 0.57, crack depth a 0.46, load amplitude F 0.35
+     6 mm         0.79        0.91  crack depth a 0.85, growth fit (C,m,p,dKth0) 0.35, load amplitude F 0.21  |  growth fit (C,m,p,dKth0) 0.65, crack depth a 0.34, load amplitude F 0.30
+  stage-to-stage tau (constant knowledge: physics only; staged: physics + knowledge):
+   0.1mm nan/nan, 0.2mm nan/0.87, 0.5mm 0.82/0.87, 1mm 0.87/0.78, 2mm 0.78/0.91, 4mm 0.91/0.94, 6mm 0.96/0.94
+
+loading / scenario matrix (Sobol total indices, failure by median life)
+  0.5 mm: shortlist under 'S=250 (base)': crack depth a, load amplitude F, crack opening factor
+                                   tau  kept  top 3
+    S=250 (base)                  1.00   3/3  crack depth a 0.71, load amplitude F 0.46, crack opening factor 0.36
+    S=200                         0.91   3/3  crack depth a 0.76, load amplitude F 0.31, crack opening factor 0.27
+    S=300                         0.90   3/3  crack depth a 0.62, load amplitude F 0.40, crack opening factor 0.31
+    S=400                         0.87   3/3  crack depth a 0.60, load amplitude F 0.41, crack opening factor 0.37
+    D=30mm S=250                  0.96   3/3  crack depth a 0.74, load amplitude F 0.39, crack opening factor 0.32
+  1 mm: shortlist under 'S=250 (base)': crack depth a, load amplitude F, growth fit (C,m,p,dKth0)
+                                   tau  kept  top 3
+    S=250 (base)                  1.00   3/3  crack depth a 0.70, load amplitude F 0.40, growth fit (C,m,p,dKth0) 0.36
+    S=200                         0.84   2/3  crack depth a 0.71, load amplitude F 0.39, crack opening factor 0.30
+    S=300                         1.00   3/3  crack depth a 0.64, load amplitude F 0.38, growth fit (C,m,p,dKth0) 0.35
+    S=400                         0.89   3/3  crack depth a 0.61, growth fit (C,m,p,dKth0) 0.43, load amplitude F 0.36
+    D=30mm S=250                  0.94   2/3  crack depth a 0.60, load amplitude F 0.43, crack opening factor 0.38
+  4 mm: shortlist under 'S=250 (base)': growth fit (C,m,p,dKth0), crack depth a, load amplitude F
+                                   tau  kept  top 3
+    S=250 (base)                  1.00   3/3  growth fit (C,m,p,dKth0) 0.66, crack depth a 0.40, load amplitude F 0.40
+    S=200                         0.96   3/3  crack depth a 0.54, growth fit (C,m,p,dKth0) 0.43, load amplitude F 0.40
+    S=300                         0.94   3/3  growth fit (C,m,p,dKth0) 0.69, crack depth a 0.41, load amplitude F 0.34
+    S=400                         1.00   3/3  growth fit (C,m,p,dKth0) 0.74, crack depth a 0.38, load amplitude F 0.30
+    D=30mm S=250                  0.91   2/3  growth fit (C,m,p,dKth0) 0.66, load amplitude F 0.39, crack opening factor 0.33
+
+alternative distributions and dependencies (Sobol total indices, failure by median life)
+  0.5 mm: shortlist under 'typical': crack depth a, load amplitude F, crack opening factor
+                                   tau  kept  top 3
+    typical                       1.00   3/3  crack depth a 0.79, load amplitude F 0.45, crack opening factor 0.35
+    catalogue low                 0.69   2/3  crack depth a 0.74, growth fit (C,m,p,dKth0) 0.34, crack opening factor 0.31
+    catalogue high                0.87   3/3  load amplitude F 0.83, crack depth a 0.38, crack opening factor 0.25
+    judgement x0.5                0.73   2/3  load amplitude F 0.59, crack depth a 0.52, SIF solution error 0.32
+    judgement x2                  0.72   3/3  crack depth a 0.73, crack opening factor 0.38, load amplitude F 0.24
+    uniform shapes                0.81   3/3  crack depth a 0.82, crack opening factor 0.28, load amplitude F 0.27
+    lognormal shapes              1.00   3/3  crack depth a 0.69, load amplitude F 0.39, crack opening factor 0.34
+    growth fit made independent   0.78   2/3  growth fit (C,m,p,dKth0) 0.73, crack depth a 0.46, load amplitude F 0.21
+  1 mm: shortlist under 'typical': crack depth a, load amplitude F, crack opening factor
+                                   tau  kept  top 3
+    typical                       1.00   3/3  crack depth a 0.67, load amplitude F 0.38, crack opening factor 0.34
+    catalogue low                 0.64   2/3  growth fit (C,m,p,dKth0) 0.70, crack opening factor 0.39, crack depth a 0.38
+    catalogue high                0.91   3/3  load amplitude F 0.69, crack depth a 0.48, crack opening factor 0.20
+    judgement x0.5                0.87   2/3  crack depth a 0.66, load amplitude F 0.46, growth fit (C,m,p,dKth0) 0.31
+    judgement x2                  0.82   3/3  crack depth a 0.65, crack opening factor 0.59, load amplitude F 0.33
+    uniform shapes                0.94   3/3  crack depth a 0.80, load amplitude F 0.35, crack opening factor 0.31
+    lognormal shapes              0.85   3/3  crack depth a 0.60, load amplitude F 0.41, crack opening factor 0.36
+    growth fit made independent   0.69   2/3  growth fit (C,m,p,dKth0) 0.98, crack depth a 0.27, load amplitude F 0.11
+  4 mm: shortlist under 'typical': growth fit (C,m,p,dKth0), crack depth a, load amplitude F
+                                   tau  kept  top 3
+    typical                       1.00   3/3  growth fit (C,m,p,dKth0) 0.62, crack depth a 0.46, load amplitude F 0.42
+    catalogue low                 0.82   1/3  growth fit (C,m,p,dKth0) 0.90, crack opening factor 0.23, SIF solution error 0.20
+    catalogue high                0.82   3/3  load amplitude F 0.66, crack depth a 0.58, growth fit (C,m,p,dKth0) 0.22
+    judgement x0.5                0.87   3/3  growth fit (C,m,p,dKth0) 0.64, crack depth a 0.51, load amplitude F 0.39
+    judgement x2                  0.87   2/3  growth fit (C,m,p,dKth0) 0.54, crack opening factor 0.50, crack depth a 0.37
+    uniform shapes                0.96   3/3  growth fit (C,m,p,dKth0) 0.66, crack depth a 0.38, load amplitude F 0.36
+    lognormal shapes              0.98   3/3  growth fit (C,m,p,dKth0) 0.58, crack depth a 0.45, load amplitude F 0.40
+    growth fit made independent   0.90   3/3  growth fit (C,m,p,dKth0) 1.04, crack depth a 0.12, load amplitude F 0.10
+
+MODEL COMPARISON (consistently calibrated; typical industry uncertainty)
+  0.5 mm
+    NASGRO   P(no prop.) 0.26   5 % 10^5.36   median 10^5.76   U90 0.908
+    Paris    P(no prop.) 0.00   5 % 10^5.40   median 10^5.76   U90 0.854
+    model disagreement: median 0.000, 5 % 0.042, U90 0.053 decades;  U90 reduction from exact crack characterisation +0.249, all non-material inputs known +0.638
+  1 mm
+    NASGRO   P(no prop.) 0.07   5 % 10^5.19   median 10^5.57   U90 0.844
+    Paris    P(no prop.) 0.00   5 % 10^5.23   median 10^5.59   U90 0.857
+    model disagreement: median 0.020, 5 % 0.038, U90 0.013 decades;  U90 reduction from exact crack characterisation +0.307, all non-material inputs known +0.531
+  4 mm
+    NASGRO   P(no prop.) 0.00   5 % 10^4.42   median 10^4.82   U90 0.760
+    Paris    P(no prop.) 0.00   5 % 10^4.43   median 10^4.83   U90 0.726
+    model disagreement: median 0.005, 5 % 0.016, U90 0.034 decades;  U90 reduction from exact crack characterisation +0.153, all non-material inputs known +0.315
+
+[round_bar] done in 93 s
+
+====================================================================================================
+Surface crack in a plate, aluminium placeholder values, R = 0.1
+====================================================================================================
+
+VARIANCE-REDUCTION CURVES, every input/group (U90 reduction in decades; others unchanged)
+  plateau = remaining spread fraction at which 80 % of the achievable U90 reduction is reached
+  0.2 mm: U90 1.09 decades
+    group                    halve spread   remove  plateau   median     5 %
+    crack depth a                  +0.131   +0.204     0.33   +0.031  +0.145
+    stress amplitude               +0.056   +0.110     0.18   +0.007  +0.064
+    crack opening factor           +0.066   +0.094     0.38   +0.009  +0.064
+    constraint alpha               +0.050   +0.080     0.32   -0.020  +0.024
+    growth curve C-n               +0.041   +0.063     0.38   +0.007  +0.028
+    aspect ratio a/c               +0.040   +0.045     0.55   +0.003  +0.027
+    threshold shape p              +0.029   +0.031     0.57   +0.003  +0.004
+    SIF solution error             +0.021   +0.030     0.16   +0.004  +0.018
+    stress ratio R                 +0.019   +0.016     0.65   -0.003  +0.000
+    intrinsic length a0            +0.013   +0.012     0.72   +0.002  -0.002
+    critical shape q               +0.004   +0.009     0.79   +0.003  +0.001
+    Cth (R>=0)                     +0.001   +0.005     0.04   -0.000  -0.001
+    toughness Kc                   +0.001   +0.003     0.29   -0.001  -0.001
+    crack tilt theta               +0.002   +0.001     0.93   -0.004  -0.009
+    Smax/sigma0                    +0.002   +0.000     0.99   +0.002  -0.001
+    width W                        +0.000   +0.000     0.20   +0.000  +0.000
+    Cth (R<0)                      -0.000   -0.000      nan   +0.000  +0.000
+    thickness t                    -0.000   -0.001      nan   -0.000  -0.000
+    threshold dKth0                -0.004   -0.001      nan   +0.005  +0.001
+  1 mm: U90 1.23 decades
+    group                    halve spread   remove  plateau   median     5 %
+    crack depth a                  +0.264   +0.352     0.42   -0.013  +0.119
+    stress amplitude               +0.097   +0.129     0.45   -0.004  +0.079
+    crack opening factor           +0.056   +0.078     0.44   +0.004  +0.024
+    SIF solution error             +0.022   +0.043     0.19   -0.000  +0.011
+    constraint alpha               +0.025   +0.037     0.24   -0.023  -0.000
+    growth curve C-n               +0.020   +0.023     0.53   -0.003  -0.013
+    aspect ratio a/c               +0.007   +0.019     0.33   +0.000  +0.016
+    threshold shape p              +0.004   +0.004     0.63   -0.000  -0.002
+    Smax/sigma0                    +0.003   +0.002     0.88   +0.003  +0.003
+    crack tilt theta               +0.001   +0.000     0.75   -0.000  -0.001
+    threshold dKth0                -0.003   +0.000     0.12   +0.002  +0.001
+    Cth (R>=0)                     +0.000   +0.000     0.20   -0.000  -0.000
+    Cth (R<0)                      -0.000   -0.000      nan   +0.000  +0.000
+    width W                        -0.000   -0.000      nan   +0.000  -0.000
+    thickness t                    -0.000   -0.000      nan   -0.000  +0.000
+    intrinsic length a0            +0.000   -0.001      nan   +0.001  -0.000
+    toughness Kc                   +0.001   -0.002      nan   +0.001  -0.004
+    critical shape q               -0.004   -0.007      nan   -0.007  -0.012
+    stress ratio R                 -0.006   -0.010      nan   -0.006  -0.009
+  4 mm: U90 1.19 decades
+    group                    halve spread   remove  plateau   median     5 %
+    stress amplitude               +0.150   +0.178     0.53   +0.005  +0.119
+    aspect ratio a/c               +0.082   +0.065     0.79   +0.014  +0.074
+    crack depth a                  +0.059   +0.059     0.67   +0.005  +0.045
+    SIF solution error             +0.023   +0.049     0.25   +0.011  +0.028
+    toughness Kc                   +0.029   +0.038     0.48   +0.010  +0.032
+    critical shape q               +0.038   +0.038     0.78   -0.008  +0.027
+    constraint alpha               +0.030   +0.036     0.53   -0.005  +0.010
+    growth curve C-n               +0.029   +0.034     0.55   -0.000  +0.021
+    crack opening factor           +0.048   +0.030     0.82   +0.002  -0.007
+    stress ratio R                 -0.003   +0.005     0.11   -0.004  -0.002
+    threshold shape p              -0.000   +0.002     0.08   +0.003  -0.000
+    threshold dKth0                +0.001   +0.001     0.06   -0.001  +0.000
+    intrinsic length a0            +0.000   +0.000     0.35   -0.000  +0.000
+    Cth (R<0)                      -0.000   -0.000      nan   +0.000  +0.000
+    Cth (R>=0)                     -0.000   -0.000      nan   +0.000  +0.000
+    width W                        -0.000   -0.000      nan   -0.000  -0.000
+    Smax/sigma0                    -0.005   -0.001      nan   +0.003  -0.002
+    crack tilt theta               -0.003   -0.003      nan   -0.003  -0.006
+    thickness t                    -0.004   -0.007      nan   +0.002  -0.004
+
+PAIRED REDUCTIONS (each spread cut to 25%; U90 reductions, decades)
+  synergy = pair reduction - sum of single reductions; > 0: worth more together, < 0: overlapping
+  0.2 mm: single reductions crack depth a +0.156, stress amplitude +0.049, crack opening factor +0.068, constraint alpha +0.042, growth curve C-n +0.015
+    crack depth a + stress amplitude: pair +0.275 vs singles +0.205  -> synergy +0.070
+    stress amplitude + crack opening factor: pair +0.171 vs singles +0.117  -> synergy +0.054
+    crack opening factor + growth curve C-n: pair +0.114 vs singles +0.083  -> synergy +0.031
+  1 mm: single reductions crack depth a +0.315, stress amplitude +0.115, crack opening factor +0.098, SIF solution error +0.025, constraint alpha +0.047
+    crack depth a + stress amplitude: pair +0.475 vs singles +0.430  -> synergy +0.046
+    crack depth a + crack opening factor: pair +0.442 vs singles +0.413  -> synergy +0.028
+    stress amplitude + crack opening factor: pair +0.240 vs singles +0.213  -> synergy +0.027
+  4 mm: single reductions stress amplitude +0.174, aspect ratio a/c +0.085, crack depth a +0.101, SIF solution error +0.015, toughness Kc +0.033
+    stress amplitude + crack depth a: pair +0.310 vs singles +0.275  -> synergy +0.035
+    stress amplitude + SIF solution error: pair +0.217 vs singles +0.189  -> synergy +0.028
+    aspect ratio a/c + crack depth a: pair +0.213 vs singles +0.186  -> synergy +0.027
+
+PHYSICS VERSUS KNOWLEDGE (Sobol total indices, failure by median life)
+  screen = every input +/-10 % (physics only); constant = catalogue uncertainty with the same crack
+  knowledge at every stage; staged = crack knowledge by detection stage (the Q3 analysis)
+       a0  tau scr-con tau con-stg  top 3 (constant)  |  top 3 (staged)
+  0.05 mm         0.89        0.87  stress amplitude 0.46, crack opening factor 0.43, intrinsic length a0 0.33  |  crack depth a 0.50, crack opening factor 0.38, stress amplitude 0.31
+   0.1 mm         0.76        0.81  stress amplitude 0.48, crack opening factor 0.48, crack depth a 0.32  |  crack depth a 0.67, stress amplitude 0.39, crack opening factor 0.39
+   0.2 mm         0.79        0.87  crack opening factor 0.53, stress amplitude 0.52, crack depth a 0.30  |  crack depth a 0.63, stress amplitude 0.40, crack opening factor 0.40
+   0.5 mm         0.77        0.85  crack opening factor 0.55, stress amplitude 0.52, crack depth a 0.34  |  crack depth a 0.60, stress amplitude 0.35, crack opening factor 0.32
+     1 mm         0.84        0.87  stress amplitude 0.46, crack opening factor 0.45, crack depth a 0.43  |  crack depth a 0.65, stress amplitude 0.37, crack opening factor 0.34
+     2 mm         0.71        0.84  stress amplitude 0.50, crack opening factor 0.41, crack depth a 0.40  |  stress amplitude 0.51, crack depth a 0.48, crack opening factor 0.34
+     4 mm         0.78        0.85  crack depth a 0.62, stress amplitude 0.44, crack opening factor 0.29  |  stress amplitude 0.58, crack opening factor 0.41, crack depth a 0.32
+     6 mm         0.72        0.88  crack depth a 0.63, stress amplitude 0.34, aspect ratio a/c 0.26  |  stress amplitude 0.43, aspect ratio a/c 0.41, crack depth a 0.34
+  stage-to-stage tau (constant knowledge: physics only; staged: physics + knowledge):
+   0.1mm 0.54/0.60, 0.2mm 0.79/0.81, 0.5mm 0.87/0.89, 1mm 0.90/0.85, 2mm 0.90/0.87, 4mm 0.82/0.85, 6mm 0.80/0.84
+
+loading / scenario matrix (Sobol total indices, failure by median life)
+  0.2 mm: shortlist under 'S=200 R=0.1 (base)': crack depth a, stress amplitude, crack opening factor
+                                   tau  kept  top 3
+    S=200 R=0.1 (base)            1.00   3/3  crack depth a 0.59, stress amplitude 0.40, crack opening factor 0.37
+    S=120 R=-1                    0.73   3/3  crack depth a 0.68, stress amplitude 0.38, crack opening factor 0.36
+    S=120 R=0.1                   0.43   2/3  crack depth a 0.68, stress amplitude 0.34, threshold dKth0 0.31
+    S=120 R=0.5                   0.52   3/3  crack depth a 0.74, crack opening factor 0.50, stress amplitude 0.27
+    S=200 R=-1                    0.82   3/3  crack depth a 0.55, stress amplitude 0.43, crack opening factor 0.38
+    S=200 R=0.5                   0.73   3/3  crack depth a 0.52, crack opening factor 0.42, stress amplitude 0.40
+    S=280 R=-1                    0.79   3/3  crack depth a 0.60, stress amplitude 0.43, crack opening factor 0.38
+    S=280 R=0.1                   0.89   3/3  crack depth a 0.61, stress amplitude 0.43, crack opening factor 0.39
+    S=280 R=0.5                   0.78   3/3  crack depth a 0.57, stress amplitude 0.39, crack opening factor 0.36
+    t=20mm                        0.90   3/3  crack depth a 0.59, crack opening factor 0.40, stress amplitude 0.36
+    a/c=0.3                       0.88   3/3  crack depth a 0.50, stress amplitude 0.41, crack opening factor 0.40
+  1 mm: shortlist under 'S=200 R=0.1 (base)': crack depth a, stress amplitude, crack opening factor
+                                   tau  kept  top 3
+    S=200 R=0.1 (base)            1.00   3/3  crack depth a 0.63, stress amplitude 0.40, crack opening factor 0.34
+    S=120 R=-1                    0.79   3/3  crack depth a 0.68, stress amplitude 0.42, crack opening factor 0.39
+    S=120 R=0.1                   0.88   3/3  crack depth a 0.61, stress amplitude 0.46, crack opening factor 0.32
+    S=120 R=0.5                   0.74   3/3  crack depth a 0.58, crack opening factor 0.43, stress amplitude 0.39
+    S=200 R=-1                    0.87   3/3  crack depth a 0.59, crack opening factor 0.39, stress amplitude 0.38
+    S=200 R=0.5                   0.81   3/3  crack depth a 0.62, stress amplitude 0.39, crack opening factor 0.36
+    S=280 R=-1                    0.83   3/3  crack depth a 0.66, stress amplitude 0.35, crack opening factor 0.29
+    S=280 R=0.1                   0.93   3/3  crack depth a 0.70, stress amplitude 0.38, crack opening factor 0.27
+    S=280 R=0.5                   0.83   3/3  crack depth a 0.70, stress amplitude 0.42, crack opening factor 0.34
+    t=20mm                        0.93   3/3  crack depth a 0.61, stress amplitude 0.37, crack opening factor 0.37
+    a/c=0.3                       0.91   3/3  crack depth a 0.73, stress amplitude 0.40, crack opening factor 0.34
+  4 mm: shortlist under 'S=200 R=0.1 (base)': stress amplitude, crack depth a, aspect ratio a/c
+                                   tau  kept  top 3
+    S=200 R=0.1 (base)            1.00   3/3  stress amplitude 0.51, crack depth a 0.35, aspect ratio a/c 0.33
+    S=120 R=-1                    0.89   2/3  stress amplitude 0.47, crack depth a 0.43, crack opening factor 0.39
+    S=120 R=0.1                   0.86   2/3  stress amplitude 0.46, crack opening factor 0.39, crack depth a 0.38
+    S=120 R=0.5                   0.78   2/3  stress amplitude 0.44, crack opening factor 0.37, aspect ratio a/c 0.32
+    S=200 R=-1                    0.91   2/3  stress amplitude 0.43, crack depth a 0.38, crack opening factor 0.38
+    S=200 R=0.5                   0.85   2/3  stress amplitude 0.45, crack opening factor 0.34, crack depth a 0.34
+    S=280 R=-1                    0.86   3/3  stress amplitude 0.48, crack depth a 0.39, aspect ratio a/c 0.31
+    S=280 R=0.1                   0.84   2/3  stress amplitude 0.53, crack depth a 0.37, critical shape q 0.36
+    S=280 R=0.5                   0.81   3/3  stress amplitude 0.45, crack depth a 0.39, aspect ratio a/c 0.30
+    t=20mm                        0.87   2/3  stress amplitude 0.54, crack opening factor 0.40, crack depth a 0.27
+    a/c=0.3                       0.83   3/3  crack depth a 0.50, stress amplitude 0.44, aspect ratio a/c 0.43
+
+alternative distributions and dependencies (Sobol total indices, failure by median life)
+  0.2 mm: shortlist under 'typical': crack depth a, crack opening factor, stress amplitude
+                                   tau  kept  top 3
+    typical                       1.00   3/3  crack depth a 0.49, crack opening factor 0.48, stress amplitude 0.42
+    catalogue low                 0.85   2/3  crack depth a 0.62, crack opening factor 0.40, aspect ratio a/c 0.21
+    catalogue high                0.81   3/3  stress amplitude 0.75, crack depth a 0.35, crack opening factor 0.26
+    judgement x0.5                0.86   2/3  stress amplitude 0.61, crack depth a 0.38, constraint alpha 0.37
+    judgement x2                  0.89   3/3  crack depth a 0.70, crack opening factor 0.55, stress amplitude 0.25
+    uniform shapes                0.95   3/3  crack depth a 0.66, stress amplitude 0.42, crack opening factor 0.37
+    lognormal shapes              0.94   3/3  crack depth a 0.55, stress amplitude 0.39, crack opening factor 0.39
+    C-n level/slope rho=-0.6      0.90   3/3  crack depth a 0.52, stress amplitude 0.45, crack opening factor 0.43
+    C-n level/slope rho=+0.6      0.95   3/3  crack depth a 0.61, stress amplitude 0.43, crack opening factor 0.42
+  1 mm: shortlist under 'typical': crack depth a, stress amplitude, crack opening factor
+                                   tau  kept  top 3
+    typical                       1.00   3/3  crack depth a 0.62, stress amplitude 0.42, crack opening factor 0.31
+    catalogue low                 0.85   2/3  crack depth a 0.52, crack opening factor 0.48, constraint alpha 0.37
+    catalogue high                0.80   3/3  stress amplitude 0.79, crack depth a 0.43, crack opening factor 0.21
+    judgement x0.5                0.93   2/3  crack depth a 0.71, stress amplitude 0.47, constraint alpha 0.29
+    judgement x2                  0.82   3/3  crack opening factor 0.53, crack depth a 0.52, stress amplitude 0.31
+    uniform shapes                0.94   3/3  crack depth a 0.70, stress amplitude 0.42, crack opening factor 0.30
+    lognormal shapes              0.92   3/3  crack depth a 0.51, stress amplitude 0.39, crack opening factor 0.34
+    C-n level/slope rho=-0.6      0.95   3/3  crack depth a 0.65, stress amplitude 0.43, crack opening factor 0.35
+    C-n level/slope rho=+0.6      0.92   3/3  crack depth a 0.61, stress amplitude 0.41, crack opening factor 0.34
+  4 mm: shortlist under 'typical': stress amplitude, crack opening factor, crack depth a
+                                   tau  kept  top 3
+    typical                       1.00   3/3  stress amplitude 0.50, crack opening factor 0.34, crack depth a 0.32
+    catalogue low                 0.77   1/3  crack opening factor 0.45, SIF solution error 0.42, constraint alpha 0.36
+    catalogue high                0.88   3/3  stress amplitude 0.77, crack depth a 0.43, crack opening factor 0.19
+    judgement x0.5                0.86   2/3  stress amplitude 0.57, crack depth a 0.36, SIF solution error 0.25
+    judgement x2                  0.84   1/3  aspect ratio a/c 0.47, crack opening factor 0.44, critical shape q 0.34
+    uniform shapes                0.95   2/3  stress amplitude 0.53, aspect ratio a/c 0.36, crack depth a 0.35
+    lognormal shapes              0.97   3/3  stress amplitude 0.51, crack opening factor 0.38, crack depth a 0.33
+    C-n level/slope rho=-0.6      0.95   3/3  stress amplitude 0.55, crack opening factor 0.39, crack depth a 0.38
+    C-n level/slope rho=+0.6      0.90   3/3  stress amplitude 0.51, crack depth a 0.38, crack opening factor 0.35
+
+MODEL COMPARISON (consistently calibrated; typical industry uncertainty)
+  0.2 mm
+    NASGRO   P(no prop.) 0.12   5 % 10^4.49   median 10^4.99   U90 0.998
+    Walker   P(no prop.) 0.00   5 % 10^4.50   median 10^5.09   U90 1.195
+    Paris    P(no prop.) 0.00   5 % 10^4.55   median 10^5.12   U90 1.129
+    model disagreement: median 0.128, 5 % 0.060, U90 0.197 decades;  U90 reduction from exact crack characterisation +0.347, all non-material inputs known +0.755
+  1 mm
+    NASGRO   P(no prop.) 0.01   5 % 10^3.85   median 10^4.38   U90 1.156
+    Walker   P(no prop.) 0.00   5 % 10^3.74   median 10^4.30   U90 1.334
+    Paris    P(no prop.) 0.00   5 % 10^3.74   median 10^4.32   U90 1.269
+    model disagreement: median 0.085, 5 % 0.104, U90 0.177 decades;  U90 reduction from exact crack characterisation +0.544, all non-material inputs known +0.925
+  4 mm
+    NASGRO   P(no prop.) 0.00   5 % 10^2.77   median 10^3.40   U90 1.147
+    Walker   P(no prop.) 0.00   5 % 10^2.72   median 10^3.25   U90 1.005
+    Paris    P(no prop.) 0.00   5 % 10^2.80   median 10^3.33   U90 1.008
+    model disagreement: median 0.150, 5 % 0.082, U90 0.142 decades;  U90 reduction from exact crack characterisation +0.331, all non-material inputs known +0.744
+
+[plate] done in 405 s
+
+Tables and figures written to results/campaign

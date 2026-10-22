@@ -1,0 +1,114 @@
+
+========================================================================================================
+Surface crack in a plate, aluminium placeholder values, R = 0.1
+========================================================================================================
+Declared measure: U90 = log10(N95/N05), the 90 % band of RUL among cracks that fail (decades).
+Reference: industry-typical uncertainty of every input. Floor: all crack qualities known exactly.
+
+UNCERTAINTY FLOOR (material, loading, geometry and SIF uncertainty that crack characterisation cannot remove)
+       a0   U90 now  +/- MC   floor  removable  P(no growth)
+   0.2 mm     1.167   0.015   0.764        35%          0.09
+   0.5 mm     1.179   0.022   0.716        39%          0.01
+     1 mm     1.219   0.021   0.728        40%          0.01
+     2 mm     1.118   0.021   0.785        30%          0.00
+     4 mm     1.215   0.022   0.922        24%          0.00
+
+EVERY INPUT/GROUP: U90 reduction when known exactly (decades, share of U90), at half its spread, and the
+shifts of the median and 5 % percentile when known exactly (decades); top 8 per state
+  0.2 mm
+    crack depth a               +0.171 ( 15%)   half  +0.117   median  +0.035   5%  +0.119
+    stress amplitude            +0.086 (  8%)   half  +0.052   median  +0.008   5%  +0.055
+    crack opening factor        +0.042 (  4%)   half  +0.061   median  +0.014   5%  +0.027
+    aspect ratio a/c            +0.041 (  4%)   half  +0.031   median  +0.011   5%  +0.016
+    constraint alpha            +0.037 (  3%)   half  +0.037   median  -0.014   5%  -0.000
+    threshold shape p           +0.026 (  2%)   half  +0.023   median  +0.002   5%  +0.001
+    growth curve C-n            +0.015 (  1%)   half  +0.023   median  +0.000   5%  -0.000
+    SIF solution error          +0.008 (  1%)   half  +0.001   median  +0.000   5%  -0.002
+  0.5 mm
+    crack depth a               +0.294 ( 25%)   half  +0.205   median  +0.014   5%  +0.167
+    stress amplitude            +0.105 (  9%)   half  +0.092   median  +0.011   5%  +0.049
+    crack opening factor        +0.094 (  8%)   half  +0.071   median  +0.008   5%  +0.030
+    constraint alpha            +0.048 (  4%)   half  +0.036   median  -0.015   5%  +0.001
+    growth curve C-n            +0.044 (  4%)   half  +0.028   median  +0.003   5%  +0.016
+    aspect ratio a/c            +0.028 (  2%)   half  +0.039   median  +0.007   5%  +0.030
+    SIF solution error          +0.018 (  2%)   half  +0.012   median  +0.001   5%  +0.007
+    threshold shape p           +0.014 (  1%)   half  +0.008   median  +0.004   5%  -0.001
+  1 mm
+    crack depth a               +0.365 ( 29%)   half  +0.257   median  +0.006   5%  +0.139
+    stress amplitude            +0.093 (  8%)   half  +0.089   median  -0.006   5%  +0.077
+    crack opening factor        +0.075 (  6%)   half  +0.056   median  +0.002   5%  +0.035
+    constraint alpha            +0.041 (  3%)   half  +0.026   median  -0.017   5%  +0.003
+    aspect ratio a/c            +0.032 (  3%)   half  +0.023   median  +0.011   5%  +0.028
+    SIF solution error          +0.025 (  2%)   half  +0.007   median  +0.001   5%  +0.023
+    growth curve C-n            +0.024 (  2%)   half  +0.013   median  +0.002   5%  +0.017
+    critical shape q            +0.022 (  2%)   half  +0.018   median  -0.003   5%  +0.021
+  2 mm
+    stress amplitude            +0.170 ( 15%)   half  +0.119   median  -0.004   5%  +0.101
+    crack depth a               +0.168 ( 15%)   half  +0.127   median  -0.010   5%  +0.071
+    crack opening factor        +0.095 (  9%)   half  +0.081   median  +0.003   5%  +0.052
+    constraint alpha            +0.050 (  5%)   half  +0.031   median  -0.015   5%  +0.014
+    SIF solution error          +0.046 (  4%)   half  +0.037   median  -0.004   5%  +0.028
+    critical shape q            +0.037 (  3%)   half  +0.019   median  -0.002   5%  +0.024
+    toughness Kc                +0.025 (  2%)   half  +0.009   median  +0.004   5%  +0.023
+    aspect ratio a/c            +0.021 (  2%)   half  +0.020   median  +0.017   5%  +0.027
+  4 mm
+    stress amplitude            +0.211 ( 17%)   half  +0.151   median  -0.016   5%  +0.141
+    aspect ratio a/c            +0.091 (  7%)   half  +0.075   median  +0.003   5%  +0.084
+    crack depth a               +0.083 (  7%)   half  +0.044   median  -0.008   5%  +0.055
+    crack opening factor        +0.064 (  5%)   half  +0.062   median  -0.004   5%  +0.028
+    constraint alpha            +0.045 (  4%)   half  +0.014   median  -0.017   5%  +0.018
+    growth curve C-n            +0.037 (  3%)   half  +0.025   median  -0.003   5%  +0.036
+    SIF solution error          +0.037 (  3%)   half  +0.028   median  -0.003   5%  +0.024
+    toughness Kc                +0.033 (  3%)   half  +0.036   median  -0.003   5%  +0.039
+
+MEASUREMENT-TARGET MAP (base scenario): achievable U90 reduction vs current knowledge [required precision for
+80% of it | diminishing-return point]; '-' = not substantial (< 10% of U90)
+  size (depth)                      0.2 mm: +19% [0.04 mm | 0.025 mm];  0.5 mm: +23% [0.12 mm | 0.062 mm];  1 mm: +29% [0.21 mm | 0.12 mm];  2 mm: +16% [0.18 mm | 0.12 mm];  4 mm: +8% [-]
+  shape (a/c)                       0.2 mm: +5% [-];  0.5 mm: +3% [-];  1 mm: +2% [-];  2 mm: +3% [-];  4 mm: +5% [-]
+  orientation (projection, 0 deg)   0.2 mm: +0% [-];  0.5 mm: -1% [-];  1 mm: -0% [-];  2 mm: -0% [-];  4 mm: -0% [-]
+  orientation (projection, 30 deg)  0.2 mm: -0% [-];  0.5 mm: +0% [-];  1 mm: +1% [-];  2 mm: +1% [-];  4 mm: -2% [-]
+  orientation (energy, 30 deg)      0.2 mm: +2% [-];  0.5 mm: +1% [-];  1 mm: +0% [-];  2 mm: -0% [-];  4 mm: +2% [-]
+  orientation (tanaka, 30 deg)      0.2 mm: +2% [-];  0.5 mm: -0% [-];  1 mm: +0% [-];  2 mm: +0% [-];  4 mm: +0% [-]
+  opening / closure                 0.2 mm: +12% [0.025 | 0];  0.5 mm: +8% [-];  1 mm: +7% [-];  2 mm: +8% [-];  4 mm: +8% [-]
+  versus an uninformed reference (coarsest grid sd), for context:
+  size (depth)                      0.2 mm: +18% [0.039 mm];  0.5 mm: +34% [0.15 mm];  1 mm: +55% [0.29 mm];  2 mm: +110% [0.58 mm];  4 mm: +123% [0.86 mm]
+  shape (a/c)                       0.2 mm: +7% [0.13];  0.5 mm: +8% [0.18];  1 mm: +11% [0.18];  2 mm: +21% [0.16];  4 mm: +54% [0.2]
+  orientation (projection, 0 deg)   0.2 mm: -0% [-];  0.5 mm: -2% [-];  1 mm: -2% [-];  2 mm: +0% [6.7 deg];  4 mm: +2% [17 deg]
+  orientation (projection, 30 deg)  0.2 mm: +1% [20 deg];  0.5 mm: +1% [20 deg];  1 mm: +4% [6.8 deg];  2 mm: +3% [10 deg];  4 mm: +6% [18 deg]
+  orientation (energy, 30 deg)      0.2 mm: +4% [1.5 deg];  0.5 mm: +4% [17 deg];  1 mm: +12% [11 deg];  2 mm: +33% [11 deg];  4 mm: +58% [12 deg]
+  orientation (tanaka, 30 deg)      0.2 mm: +1% [0.42 deg];  0.5 mm: +1% [23 deg];  1 mm: +6% [11 deg];  2 mm: +12% [12 deg];  4 mm: +22% [12 deg]
+  opening / closure                 0.2 mm: +59% [0.1];  0.5 mm: +69% [0.13];  1 mm: +68% [0.14];  2 mm: +92% [0.14];  4 mm: +83% [0.14]
+
+ROBUSTNESS at the key states: substantial in how many scenarios, and at the low / high catalogue ends
+  size (depth)                      0.2 mm: 6/7 scen (+9%..+22%), low +26%, high +8%;  1 mm: 7/7 scen (+21%..+35%), low +18%, high +28%;  4 mm: 1/7 scen (+6%..+32%), low +4%, high +4%
+  shape (a/c)                       0.2 mm: 0/7 scen (+0%..+8%), low +4%, high +1%;  1 mm: 0/7 scen (+0%..+2%), low +1%, high +9%;  4 mm: 2/7 scen (+5%..+33%), low +7%, high +0%
+  orientation (projection, 0 deg)   0.2 mm: 0/7 scen (-1%..+0%), low +0%, high -1%;  1 mm: 0/7 scen (-0%..+0%), low +0%, high -2%;  4 mm: 0/7 scen (-1%..+0%), low -0%, high +0%
+  orientation (energy, 30 deg)      0.2 mm: 0/7 scen (-5%..+3%), low -0%, high +1%;  1 mm: 0/7 scen (+0%..+2%), low +2%, high +2%;  4 mm: 0/7 scen (-0%..+3%), low +2%, high -0%
+  opening / closure                 0.2 mm: 1/7 scen (+4%..+12%), low +10%, high +2%;  1 mm: 0/7 scen (+3%..+9%), low +14%, high +6%;  4 mm: 1/7 scen (+1%..+10%), low +14%, high +1%
+
+SHAPE BEYOND SIZE: further U90 reduction from knowing a/c exactly once depth is measured
+  0.2 mm: size exact: +0.033 (+3%);  size UT-typical (0.5 mm): +0.023 (+2%)
+  0.5 mm: size exact: +0.050 (+4%);  size UT-typical (0.5 mm): +0.047 (+4%)
+  1 mm: size exact: +0.033 (+3%);  size UT-typical (0.5 mm): +0.022 (+2%)
+  2 mm: size exact: +0.025 (+2%);  size UT-typical (0.5 mm): +0.030 (+3%)
+  4 mm: size exact: +0.069 (+6%);  size UT-typical (0.5 mm): +0.056 (+5%)
+
+MEDIAN AND 5 % SHIFTS when the candidate is known exactly (decades; positive = longer life)
+  size (depth)                      0.2 mm: median +0.032, 5% +0.153;  0.5 mm: median +0.008, 5% +0.153;  1 mm: median -0.005, 5% +0.144;  2 mm: median -0.015, 5% +0.075;  4 mm: median +0.006, 5% +0.047
+  shape (a/c)                       0.2 mm: median +0.010, 5% +0.017;  0.5 mm: median +0.008, 5% +0.022;  1 mm: median +0.010, 5% +0.023;  2 mm: median +0.008, 5% +0.032;  4 mm: median +0.017, 5% +0.053
+  orientation (projection, 0 deg)   0.2 mm: median -0.005, 5% -0.006;  0.5 mm: median -0.007, 5% -0.014;  1 mm: median -0.000, 5% -0.001;  2 mm: median -0.002, 5% -0.001;  4 mm: median -0.002, 5% -0.004
+  orientation (projection, 30 deg)  0.2 mm: median -0.013, 5% -0.011;  0.5 mm: median -0.013, 5% -0.012;  1 mm: median -0.002, 5% +0.005;  2 mm: median -0.004, 5% +0.006;  4 mm: median -0.001, 5% -0.011
+  orientation (energy, 30 deg)      0.2 mm: median -0.001, 5% +0.000;  0.5 mm: median -0.025, 5% -0.024;  1 mm: median +0.001, 5% -0.000;  2 mm: median -0.004, 5% -0.003;  4 mm: median -0.010, 5% +0.003
+  orientation (tanaka, 30 deg)      0.2 mm: median +0.007, 5% +0.019;  0.5 mm: median -0.002, 5% +0.009;  1 mm: median +0.005, 5% +0.005;  2 mm: median +0.003, 5% +0.006;  4 mm: median +0.006, 5% +0.010
+  opening / closure                 0.2 mm: median +0.019, 5% +0.079;  0.5 mm: median -0.006, 5% +0.029;  1 mm: median -0.008, 5% +0.052;  2 mm: median -0.002, 5% +0.043;  4 mm: median +0.005, 5% +0.054
+
+SUPPORTING: Sobol total indices, failure by median life (typical uncertainty), top 5
+  0.2 mm: crack depth a 0.61, stress amplitude 0.45, crack opening factor 0.38, SIF solution error 0.22, constraint alpha 0.22
+  0.5 mm: crack depth a 0.55, stress amplitude 0.44, crack opening factor 0.37, constraint alpha 0.26, SIF solution error 0.21
+  1 mm: crack depth a 0.64, stress amplitude 0.37, crack opening factor 0.32, SIF solution error 0.16, constraint alpha 0.15
+  2 mm: crack depth a 0.49, stress amplitude 0.42, crack opening factor 0.38, SIF solution error 0.25, constraint alpha 0.22
+  4 mm: stress amplitude 0.48, crack opening factor 0.33, aspect ratio a/c 0.32, crack depth a 0.29, critical shape q 0.24
+
+[plate] done in 1716 s
+
+Tables and figures written to results/targets

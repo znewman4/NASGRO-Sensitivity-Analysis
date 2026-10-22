@@ -1,0 +1,16 @@
+input,a0=0.05mm,a0=0.1mm,a0=0.2mm,a0=0.5mm,a0=1mm,a0=2mm,a0=4mm,a0=6mm
+crack depth a,nan,nan,nan,0.07617,0.1016,0.1523,0.2461,0.3184
+crack tilt theta,nan,nan,nan,0.007812,0.009766,0.01758,0.01172,0.0332
+crack opening factor,nan,nan,nan,0.3379,0.2832,0.2637,0.2266,0.1621
+load amplitude F,nan,nan,nan,0.3418,0.3203,0.2832,0.2402,0.1895
+stress ratio R,nan,nan,nan,0.03906,0.02539,0.0332,0.01953,0.02148
+diameter D,nan,nan,nan,0.8145,0.8066,0.8574,0.8594,0.875
+growth curve C-n,nan,nan,nan,0.1133,0.09766,0.1328,0.1523,0.1973
+threshold dKth0,nan,nan,nan,0.1484,0.08594,0.03516,0.02539,0.01172
+threshold shape p,nan,nan,nan,0.06055,0.04492,0.03125,0.02344,0.01367
+intrinsic length a0,nan,nan,nan,0.007812,0.001953,0.001953,0,0
+critical shape q,nan,nan,nan,0.009766,0.005859,0.03711,0.04492,0.03516
+toughness Kc,nan,nan,nan,0.005859,0.02539,0.02148,0.04102,0.04883
+constraint alpha,nan,nan,nan,0.01172,0.009766,0.01562,0.007812,0.007812
+Smax/sigma0,nan,nan,nan,0.02148,0.03516,0.0293,0.01562,0.02148
+Cth (R<0),nan,nan,nan,0.01367,0.007812,0.003906,0,0.001953

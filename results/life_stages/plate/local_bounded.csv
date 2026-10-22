@@ -1,0 +1,19 @@
+input,a0=0.05mm,a0=0.1mm,a0=0.2mm,a0=0.5mm,a0=1mm,a0=2mm,a0=4mm,a0=6mm
+crack depth a,1,0,0,0,0,0,0,0
+aspect ratio a/c,1,0,0,0,0,0,0,0
+crack tilt theta,1,0,0,0,0,0,0,0
+crack opening factor,1,1,0,0,0,0,0,0
+stress amplitude,1,1,0,0,0,0,0,0
+stress ratio R,1,0,0,0,0,0,0,0
+thickness t,1,0,0,0,0,0,0,0
+width W,1,0,0,0,0,0,0,0
+C-n level,1,0,0,0,0,0,0,0
+C-n slope,1,0,0,0,0,0,0,0
+threshold dKth0,1,1,0,0,0,0,0,0
+threshold shape p,1,0,0,0,0,0,0,0
+intrinsic length a0,1,0,0,0,0,0,0,0
+critical shape q,1,0,0,0,0,0,0,0
+toughness Kc,1,0,0,0,0,0,0,0
+constraint alpha,1,0,0,0,0,0,0,0
+Smax/sigma0,1,0,0,0,0,0,0,0
+Cth (R>=0),1,0,0,0,0,0,0,0

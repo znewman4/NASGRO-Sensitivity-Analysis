@@ -1,0 +1,20 @@
+input,a0=0.05mm,a0=0.1mm,a0=0.2mm,a0=0.5mm,a0=1mm,a0=2mm,a0=4mm,a0=6mm
+crack depth a,0.7252,0.6047,0.5186,0.6144,0.7999,nan,nan,nan
+aspect ratio a/c,0.2176,0.2038,0.1729,0.2027,0.08665,nan,nan,nan
+crack tilt theta,0.01813,0.03007,0.03179,0.006237,0,nan,nan,nan
+crack opening factor,0.5892,0.4878,0.4193,0.4085,0.2999,nan,nan,nan
+stress amplitude,0.5167,0.4544,0.4173,0.3992,0.3133,nan,nan,nan
+stress ratio R,0.09065,0.06682,0.06955,0.0499,0.04666,nan,nan,nan
+SIF solution error,0.2991,0.2406,0.1868,0.2651,0.14,nan,nan,nan
+thickness t,0,0.006682,0,0,0,nan,nan,nan
+width W,0,0,0,0,0,nan,nan,nan
+growth curve C-n,0.2085,0.2071,0.1689,0.1934,0.1466,nan,nan,nan
+threshold dKth0,0.1632,0.08019,0.04968,0.04054,0.03999,nan,nan,nan
+threshold shape p,0.2266,0.1737,0.1212,0.1029,0.08665,nan,nan,nan
+intrinsic length a0,0.08158,0.05012,0.01788,0.01247,0,nan,nan,nan
+critical shape q,0.07252,0.06348,0.07352,0.0842,0.09332,nan,nan,nan
+toughness Kc,0.05439,0.03675,0.01788,0.01871,0.02666,nan,nan,nan
+constraint alpha,0.3354,0.2339,0.2484,0.2932,0.1933,nan,nan,nan
+Smax/sigma0,0.04532,0.03675,0.04173,0.05302,0.02666,nan,nan,nan
+Cth (R>=0),0,0.01671,0,0,0,nan,nan,nan
+Cth (R<0),0,0,0,0,0,nan,nan,nan

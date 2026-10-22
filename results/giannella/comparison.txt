@@ -1,0 +1,47 @@
+Material pool: 20000 accepted sets (acceptance rate 3.09e-03), q = 1
+  corr  C-m -0.99  C-p 0.93  C-dK -0.27  m-p -0.88  m-dK 0.24  p-dK -0.46
+  paper -0.99       0.88        -0.47        -0.81       0.40        -0.70   (Fig. 8)
+
+Stress levels (Figs 9, 11): log10 Nf over propagating cracks
+                     mu   sigma     Pf   |       mu   sigma     Pf
+                     --- ours ---        |      --- paper ---     
+  150 MPa         6.374   0.289    67%   |    6.672   0.646    17%
+  200 MPa         5.864   0.124   100%   |    5.802   0.194    97%
+  250 MPa         5.591   0.115   100%   |    5.422   0.118   100%
+  300 MPa         5.394   0.116   100%   |    5.174   0.124   100%
+  400 MPa         5.101   0.130   100%   |    4.792   0.164   100%
+  500 MPa         4.875   0.152   100%   |    4.498   0.201   100%
+
+Initial crack depth a sigma sweep (Fig. 12)
+                     mu   sigma     Pf   |       mu   sigma     Pf
+                     --- ours ---        |      --- paper ---     
+  sigma = 0.25 mm  5.599   0.146   100%   |    5.433   0.184    99%
+  sigma = 0.15 mm  5.592   0.115   100%   |    5.422   0.118   100%
+  sigma = 0.05 mm  5.589   0.100   100%   |    5.415   0.081   100%
+  sigma = 0.005 mm  5.588   0.098   100%   |    5.416   0.086   100%
+
+Diameter D sigma sweep (Fig. 13)
+                     mu   sigma     Pf   |       mu   sigma     Pf
+                     --- ours ---        |      --- paper ---     
+  sigma = 0.6 mm  5.591   0.136   100%   |    5.423   0.155   100%
+  sigma = 0.27 mm  5.591   0.114   100%   |    5.422   0.117   100%
+  sigma = 0.1 mm  5.592   0.108   100%   |    5.422   0.107   100%
+  sigma = 0.01 mm  5.592   0.107   100%   |    5.422   0.109   100%
+
+Load amplitude F sigma sweep (Fig. 14)
+                     mu   sigma     Pf   |       mu   sigma     Pf
+                     --- ours ---        |      --- paper ---     
+  sigma = 2 kN    5.592   0.119   100%   |    5.423   0.125   100%
+  sigma = 0.95 kN  5.591   0.114   100%   |    5.422   0.118   100%
+  sigma = 0.5 kN  5.591   0.113   100%   |    5.422   0.116   100%
+  sigma = 0.05 kN  5.591   0.113   100%   |    5.422   0.116   100%
+
+Contributions (Fig. 15), normalised shares
+  source         paper   ours: variance removed   ours: Sobol total
+  crack size       37%                      26%                 27%
+  material         31%                      60%                 59%
+  geometry         22%                      12%                 11%
+  loading          10%                       2%                  2%
+  (Sobol first-order sum 1.00, total sum 1.02; 0.00% of Sobol runs did not fail)
+
+Figures written to results/giannella

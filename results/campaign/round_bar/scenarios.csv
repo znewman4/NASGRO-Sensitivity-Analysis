@@ -1,0 +1,16 @@
+a0_mm,column,tau_vs_base,shortlist_kept,top1,top2,top3
+0.5,S=250 (base),1,3,a_init,F,closure_factor
+0.5,S=200,0.9111,3,a_init,F,closure_factor
+0.5,S=300,0.8989,3,a_init,F,closure_factor
+0.5,S=400,0.8667,3,a_init,F,closure_factor
+0.5,D=30mm S=250,0.9556,3,a_init,F,closure_factor
+1,S=250 (base),1,3,a_init,F,growth fit
+1,S=200,0.8409,2,a_init,F,closure_factor
+1,S=300,1,3,a_init,F,growth fit
+1,S=400,0.8864,3,a_init,growth fit,F
+1,D=30mm S=250,0.9439,2,a_init,F,closure_factor
+4,S=250 (base),1,3,growth fit,a_init,F
+4,S=200,0.9556,3,a_init,growth fit,F
+4,S=300,0.9439,3,growth fit,a_init,F
+4,S=400,1,3,growth fit,a_init,F
+4,D=30mm S=250,0.9111,2,growth fit,F,closure_factor

@@ -1,0 +1,9 @@
+a0_mm,tau_screen_vs_constant,tau_constant_vs_staged,tau_constant_vs_previous_stage,tau_staged_vs_previous_stage,ST_crack_depth_constant,ST_crack_depth_staged
+0.05,nan,nan,nan,nan,nan,nan
+0.1,nan,nan,nan,nan,nan,0.8914
+0.2,nan,0.8222,nan,0.8667,0.5311,0.7749
+0.5,0.691,0.6889,0.8222,0.8667,0.3945,0.7422
+1,0.7638,0.8667,0.8667,0.7778,0.4258,0.6758
+2,0.5714,0.9111,0.7778,0.9111,0.5156,0.5625
+4,0.6183,0.9439,0.9111,0.9439,0.75,0.4648
+6,0.7857,0.9111,0.9556,0.9439,0.8516,0.3359
