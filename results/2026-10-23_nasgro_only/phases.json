@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "case": "bar",
+   "depth_mm": 0.05,
+   "never_grow": 0.996,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.653405921868006,
+   "near_critical": 2.2685665448242876e-05,
+   "paris": 0.3465713924665458
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.1,
+   "never_grow": 0.9558,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.5903221000542813,
+   "near_critical": 2.8508296702314636e-05,
+   "paris": 0.4096493916490163
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.2,
+   "never_grow": 0.7668,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.45366519526617016,
+   "near_critical": 4.246934639041087e-05,
+   "paris": 0.5462923353874394
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "never_grow": 0.2733,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.27428183993248895,
+   "near_critical": 7.867172011393355e-05,
+   "paris": 0.7256394883473971
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "never_grow": 0.0686,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.10246598905975812,
+   "near_critical": 0.00019729762663015183,
+   "paris": 0.8973367133136116
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "never_grow": 0.0004999999999999449,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.02198426831787913,
+   "near_critical": 0.000510711934877748,
+   "paris": 0.9775050197472431
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "never_grow": 0.0,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.0009228020205064417,
+   "near_critical": 0.002515181553918491,
+   "paris": 0.996562016425575
+  },
+  {
+   "case": "bar",
+   "depth_mm": 6.0,
+   "never_grow": 0.0,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.0,
+   "near_critical": 0.012049771232562711,
+   "paris": 0.9879502287674373
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.05,
+   "never_grow": 0.7757000000000001,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.3521796850856097,
+   "near_critical": 0.008754403231394757,
+   "paris": 0.6390659116829954
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.1,
+   "never_grow": 0.494,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.244150863224339,
+   "near_critical": 0.012188314554451652,
+   "paris": 0.7436608222212093
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "never_grow": 0.19640000000000002,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.14205191097387423,
+   "near_critical": 0.01793531872280497,
+   "paris": 0.8400127703033209
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "never_grow": 0.02300000000000002,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.03560097608533527,
+   "near_critical": 0.03773871181307552,
+   "paris": 0.9266603121015893
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "never_grow": 0.015100000000000002,
+   "critical_at_start": 0.0,
+   "near_threshold": 0.009303083665856806,
+   "near_critical": 0.09745879467785361,
+   "paris": 0.8932381216562896
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "never_grow": 0.0,
+   "critical_at_start": 0.0,
+   "near_threshold": 2.904236926191443e-05,
+   "near_critical": 0.22235183604333378,
+   "paris": 0.7776191215874043
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "never_grow": 0.0,
+   "critical_at_start": 0.0001,
+   "near_threshold": 0.0,
+   "near_critical": 0.5341727210862319,
+   "paris": 0.4658272789137681
+  },
+  {
+   "case": "plate",
+   "depth_mm": 6.0,
+   "never_grow": 0.0,
+   "critical_at_start": 0.004,
+   "near_threshold": 0.0,
+   "near_critical": 0.7451507868617876,
+   "paris": 0.2548492131382124
+  }
+ ]
+}

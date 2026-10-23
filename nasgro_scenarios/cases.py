@@ -55,14 +55,14 @@ def _z(name, n, seed, k=1):
     return rng.standard_normal((k, n)) if k > 1 else rng.standard_normal(n)
 
 
-def _depth(a_nom, n, seed, fixed):
+def _depth(a_nom, n, seed, fixed, mult=1.0):
     if fixed:
         return np.full(n, a_nom)
     z = _z("depth", n, seed)
     if a_nom < 1e-3:                       # undetected: lognormal, CoV 0.6
-        s = np.sqrt(np.log(1 + 0.6**2))
+        s = np.sqrt(np.log(1 + (0.6 * mult)**2))
         return a_nom * np.exp(s * z - 0.5 * s**2)
-    a = a_nom + 0.5e-3 * z                 # UT-sized: +-0.5 mm sd
+    a = a_nom + 0.5e-3 * mult * z          # UT-sized: +-0.5 mm sd
     # truncate at 20 um by reflection (keeps the stream aligned)
     return np.where(a > 2e-5, a, 2e-5 + np.abs(a - 2e-5))
 
@@ -81,53 +81,70 @@ def _lognormal(name, nom, cov, n, seed, fixed):
     return nom * np.exp(s * _z(name, n, seed))
 
 
-def sample(case, a_nom, n, seed=1, fixed=(), undetected=None):
-    """Draw n samples of every input; inputs named in `fixed` sit at nominal."""
-    nom = BAR if case == "bar" else PLATE
+def sample(case, a_nom, n, seed=1, fixed=(), undetected=None, spread=None, nominal=None):
+    """Draw n samples of every input; inputs named in `fixed` sit at nominal.
+
+    spread:  {input key: multiplier on its typical spread} (default 1 for all).
+             On the bar, naming "alpha" or "smax_sigma0" makes that input
+             uncertain with the plate's typical spread times the multiplier
+             (by default both are fixed on the bar).
+    nominal: {parameter: value} overrides of the case's nominal values.
+    """
+    nom = dict(BAR if case == "bar" else PLATE)
+    nom.update(nominal or {})
     fx = set(fixed)
+    sp = spread or {}
+    g = lambda k: sp.get(k, 1.0)  # noqa: E731
     s = {k: np.full(n, v, dtype=float) for k, v in nom.items() if k != "name"}
     undetected = a_nom < 1e-3 if undetected is None else undetected
-    s["a_i"] = _depth(a_nom, n, seed, "depth" in fx)
+    s["a_i"] = _depth(a_nom, n, seed, "depth" in fx, g("depth"))
     s["tilt"] = np.zeros(n) if "tilt" in fx else \
-        np.deg2rad((15.0 if undetected else 5.0) * _z("tilt", n, seed))
-    s["sif"] = _normal("sif", 1.0, 0.05, n, seed, "sif" in fx)
-    s["kappa"] = _normal("kappa", 1.0, 0.10, n, seed, "kappa" in fx, lo=0.3)
-    s["Kc"] = _normal("Kc", nom["Kc"], 0.10, n, seed, "Kc" in fx, lo=0.3 * nom["Kc"])
-    s["a0"] = _lognormal("a0", nom["a0"], 0.5, n, seed, "a0" in fx)
-    s["R"] = nom["R"] + (np.zeros(n) if "R" in fx else 0.05 * _z("R", n, seed))
+        np.deg2rad((15.0 if undetected else 5.0) * g("tilt") * _z("tilt", n, seed))
+    s["sif"] = _normal("sif", 1.0, 0.05 * g("sif"), n, seed, "sif" in fx)
+    s["kappa"] = _normal("kappa", 1.0, 0.10 * g("kappa"), n, seed, "kappa" in fx, lo=0.3)
+    s["Kc"] = _normal("Kc", nom["Kc"], 0.10 * g("Kc"), n, seed, "Kc" in fx, lo=0.3 * nom["Kc"])
+    s["a0"] = _lognormal("a0", nom["a0"], 0.5 * g("a0"), n, seed, "a0" in fx)
+    s["R"] = nom["R"] + (np.zeros(n) if "R" in fx else 0.05 * g("R") * _z("R", n, seed))
     if case == "bar":
-        s["F"] = _normal("F", nom["F"], 0.10, n, seed, "F" in fx, lo=0.1 * nom["F"])
-        s["D"] = _normal("D", nom["D"], 0.015, n, seed, "D" in fx)
+        s["F"] = _normal("F", nom["F"], 0.10 * g("F"), n, seed, "F" in fx, lo=0.1 * nom["F"])
+        s["D"] = _normal("D", nom["D"], 0.015 * g("D"), n, seed, "D" in fx)
         if "material" not in fx:
             # Accepted pool of fitted (C, m, p, dKth0): level at a pivot, slope,
             # threshold and threshold shape, with the trade-offs a joint fit leaves.
+            gm = g("material")
             z = _z("material", n, seed, k=4)
             pivot = 8.0                       # MPa sqrt(m), effective range
-            lvl = np.log(1 + 0.15**2) ** 0.5 * z[0]
-            s["n"] = nom["n"] * (1 + 0.05 * z[1])
+            lvl = np.log(1 + (0.15 * gm)**2) ** 0.5 * z[0]
+            s["n"] = nom["n"] * (1 + 0.05 * gm * z[1])
             s["C"] = nom["C"] * pivot ** (nom["n"] - s["n"]) * np.exp(lvl)
-            s["dKth0"] = nom["dKth0"] * (1 + 0.10 * z[2])
+            s["dKth0"] = nom["dKth0"] * (1 + 0.10 * gm * z[2])
             zp = -0.5 * z[2] + np.sqrt(0.75) * z[3]
-            s["p"] = np.clip(nom["p"] * np.exp(0.7 * zp), 0.05, 3.0)
+            s["p"] = np.clip(nom["p"] * np.exp(0.7 * gm * zp), 0.05, 3.0)
+        if "alpha" in sp and "alpha" not in fx:
+            s["alpha"] = np.clip(_normal("alpha", nom["alpha"], 0.19 * g("alpha"), n, seed, False), 1.0, 3.0)
+        if "smax_sigma0" in sp and "smax_sigma0" not in fx:
+            s["smax_sigma0"] = np.clip(_normal("smax_sigma0", nom["smax_sigma0"], 0.2 * g("smax_sigma0"),
+                                               n, seed, False), 0.05, 0.8)
     else:
-        s["S"] = _normal("S", nom["S"], 0.10, n, seed, "S" in fx, lo=0.1 * nom["S"])
-        s["t"] = _normal("t", nom["t"], 0.015, n, seed, "t" in fx)
-        s["W"] = _normal("W", nom["W"], 0.015, n, seed, "W" in fx)
-        s["ac"] = np.clip(_normal("ac", nom["ac"], 0.20, n, seed, "ac" in fx), 0.2, 1.0)
-        s["alpha"] = np.clip(_normal("alpha", nom["alpha"], 0.19, n, seed, "alpha" in fx), 1.0, 3.0)
-        s["smax_sigma0"] = np.clip(_normal("smax_sigma0", nom["smax_sigma0"], 0.2, n, seed,
+        s["S"] = _normal("S", nom["S"], 0.10 * g("S"), n, seed, "S" in fx, lo=0.1 * nom["S"])
+        s["t"] = _normal("t", nom["t"], 0.015 * g("t"), n, seed, "t" in fx)
+        s["W"] = _normal("W", nom["W"], 0.015 * g("W"), n, seed, "W" in fx)
+        s["ac"] = np.clip(_normal("ac", nom["ac"], 0.20 * g("ac"), n, seed, "ac" in fx), 0.2, 1.0)
+        s["alpha"] = np.clip(_normal("alpha", nom["alpha"], 0.19 * g("alpha"), n, seed, "alpha" in fx), 1.0, 3.0)
+        s["smax_sigma0"] = np.clip(_normal("smax_sigma0", nom["smax_sigma0"], 0.2 * g("smax_sigma0"), n, seed,
                                            "smax_sigma0" in fx), 0.05, 0.8)
-        s["q"] = _normal("q", nom["q"], 0.3, n, seed, "q" in fx, lo=0.0)
-        s["p"] = _normal("p", nom["p"], 0.3, n, seed, "p" in fx, lo=0.0)
-        s["dKth0"] = _normal("dKth0", nom["dKth0"], 0.10, n, seed, "dKth0" in fx)
-        s["cth_pos"] = _normal("cth_pos", nom["cth_pos"], 0.3, n, seed, "cth_pos" in fx)
-        s["cth_neg"] = _normal("cth_neg", nom["cth_neg"], 0.3, n, seed, "cth_neg" in fx)
+        s["q"] = _normal("q", nom["q"], 0.3 * g("q"), n, seed, "q" in fx, lo=0.0)
+        s["p"] = _normal("p", nom["p"], 0.3 * g("p"), n, seed, "p" in fx, lo=0.0)
+        s["dKth0"] = _normal("dKth0", nom["dKth0"], 0.10 * g("dKth0"), n, seed, "dKth0" in fx)
+        s["cth_pos"] = _normal("cth_pos", nom["cth_pos"], 0.3 * g("cth_pos"), n, seed, "cth_pos" in fx)
+        s["cth_neg"] = _normal("cth_neg", nom["cth_neg"], 0.3 * g("cth_neg"), n, seed, "cth_neg" in fx)
         if "Cn" not in fx:
+            gm = g("Cn")
             z = _z("Cn", n, seed, k=2)
             pivot = 10.0
-            s["n"] = nom["n"] * (1 + 0.05 * z[1])
+            s["n"] = nom["n"] * (1 + 0.05 * gm * z[1])
             s["C"] = nom["C"] * pivot ** (nom["n"] - s["n"]) * \
-                np.exp(np.log(1 + 0.15**2) ** 0.5 * z[0])
+                np.exp(np.log(1 + (0.15 * gm)**2) ** 0.5 * z[0])
     return s
 
 

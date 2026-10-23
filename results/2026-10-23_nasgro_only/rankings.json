@@ -1,0 +1,2704 @@
+{
+ "results": [
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 6.01470054236206,
+    "sigma": 0.43094453821655737,
+    "u90": 1.3441807941953767,
+    "pf": 0.7253,
+    "median": 5.988781702832714
+   },
+   "reduction": {
+    "crack depth": 0.19539875495127845,
+    "material fit (C, m, p, dKth0)": 0.2042453398610813,
+    "load amplitude": 0.05291585283413913,
+    "crack opening factor kappa": 0.06216912425738086,
+    "SIF solution error": 0.02568666481368498,
+    "diameter D": 0.009855616669864453,
+    "crack tilt": 0.037120825377017774,
+    "toughness Kc": 0.0018142066430957282,
+    "intrinsic crack length a0": -0.00900248253760294,
+    "stress ratio R": 0.007241697266570646
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.590095872039178,
+    "sigma": 0.3980273028715249,
+    "u90": 1.2461700372069462,
+    "pf": 0.9312,
+    "median": 5.564123597392485
+   },
+   "reduction": {
+    "crack depth": 0.3087623943755843,
+    "material fit (C, m, p, dKth0)": 0.06457467136022788,
+    "load amplitude": 0.07796769199021658,
+    "crack opening factor kappa": 0.08441950102825824,
+    "SIF solution error": 0.028429692512295324,
+    "diameter D": 0.009662691082483521,
+    "crack tilt": -0.006596632651590717,
+    "toughness Kc": -0.0013334227624586248,
+    "intrinsic crack length a0": 0.004013116345248702,
+    "stress ratio R": 0.0006288190182820452
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.135292191736303,
+    "sigma": 0.32864418801232775,
+    "u90": 1.070704401456287,
+    "pf": 0.9996,
+    "median": 5.126513474634759
+   },
+   "reduction": {
+    "crack depth": 0.2254183949743238,
+    "material fit (C, m, p, dKth0)": 0.058312534483430656,
+    "load amplitude": 0.11542651747929367,
+    "crack opening factor kappa": 0.09844532177476917,
+    "SIF solution error": 0.03202544135301688,
+    "diameter D": 0.009047658857008978,
+    "crack tilt": 0.0010026488066752215,
+    "toughness Kc": -0.0011969480560056756,
+    "intrinsic crack length a0": -0.00015002492364035724,
+    "stress ratio R": -0.0008392322351662429
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.423192201224096,
+    "sigma": 0.3074810935714916,
+    "u90": 0.9996314068398426,
+    "pf": 1.0,
+    "median": 4.422688590721485
+   },
+   "reduction": {
+    "crack depth": 0.16360630062535675,
+    "material fit (C, m, p, dKth0)": 0.06496204307725972,
+    "load amplitude": 0.11937218276573058,
+    "crack opening factor kappa": 0.10188992630300364,
+    "SIF solution error": 0.028921174348651935,
+    "diameter D": 0.012964746602416533,
+    "crack tilt": -0.0004978526542847028,
+    "toughness Kc": -0.0003556024522384238,
+    "intrinsic crack length a0": -2.588484390964041e-05,
+    "stress ratio R": 0.001057177225307404
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.078504453108844,
+    "sigma": 0.3532790473240184,
+    "u90": 1.1661502123068495,
+    "pf": 0.7994,
+    "median": 5.073456128680743
+   },
+   "reduction": {
+    "crack depth": 0.10022102650176135,
+    "stress amplitude": 0.07405483079800801,
+    "crack opening factor kappa": 0.07682898776586855,
+    "constraint factor alpha": 0.04738948833249035,
+    "SIF solution error": 0.02030284004966776,
+    "growth curve C-n": 0.044616404979709534,
+    "crack shape a/c": 0.06288108308777407,
+    "critical-shape exponent q": 0.009939645496378713,
+    "toughness Kc": 0.005795409233195659,
+    "intrinsic crack length a0": 0.0010877231527104403,
+    "threshold-shape exponent p": 0.01955651494156241,
+    "Smax/sigma0": 0.001106720282625706,
+    "threshold dKth0": -0.004181403557537378,
+    "stress ratio R": 0.003516518571842875,
+    "thickness t": 0.00020640909096447668,
+    "Cth (R >= 0)": 0.0002052266809227099,
+    "width W": -1.0563059279489195e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.01915980815990148
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.803852810796562,
+    "sigma": 0.39692571666873927,
+    "u90": 1.3000795720095164,
+    "pf": 0.976,
+    "median": 4.8026910482217495
+   },
+   "reduction": {
+    "crack depth": 0.1636327912955362,
+    "stress amplitude": 0.07166987279422987,
+    "crack opening factor kappa": 0.04964867274128637,
+    "constraint factor alpha": 0.021449217438094803,
+    "SIF solution error": 0.019596331856149507,
+    "growth curve C-n": 0.023230307309581644,
+    "crack shape a/c": 0.06036235607392226,
+    "critical-shape exponent q": 0.004693026828969771,
+    "toughness Kc": 0.006249693445145255,
+    "intrinsic crack length a0": -0.0031256265858381482,
+    "threshold-shape exponent p": 0.0005792899300370857,
+    "Smax/sigma0": 0.0029145675453278175,
+    "threshold dKth0": -0.004260291162944796,
+    "stress ratio R": -0.0026531137357643786,
+    "thickness t": 0.0007440394428552821,
+    "Cth (R >= 0)": 0.0015307603463805552,
+    "width W": -9.000550379223426e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.05121542361440734
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.406183431406051,
+    "sigma": 0.40987114183462064,
+    "u90": 1.3515160537829076,
+    "pf": 0.9852,
+    "median": 4.392975027567051
+   },
+   "reduction": {
+    "crack depth": 0.25505515702192605,
+    "stress amplitude": 0.08839716880542658,
+    "crack opening factor kappa": 0.049136432401576835,
+    "constraint factor alpha": 0.018323097121781484,
+    "SIF solution error": 0.030890421226101084,
+    "growth curve C-n": 0.020030903589508986,
+    "crack shape a/c": 0.08774691673774093,
+    "critical-shape exponent q": 0.007726089373865985,
+    "toughness Kc": 0.002721954814521088,
+    "intrinsic crack length a0": 0.0028428891386663713,
+    "threshold-shape exponent p": 0.0003026916405902691,
+    "Smax/sigma0": 0.001812241908683121,
+    "threshold dKth0": 0.0025920776214879426,
+    "stress ratio R": 0.004177331553137709,
+    "thickness t": 0.0004236133175158363,
+    "Cth (R >= 0)": -0.0008336112584343969,
+    "width W": -1.0802446148261424e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.0029966091138534656
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.008902459757926,
+    "sigma": 0.3699069998244455,
+    "u90": 1.2112643390607052,
+    "pf": 1.0,
+    "median": 4.016269208883969
+   },
+   "reduction": {
+    "crack depth": 0.10929949654002191,
+    "stress amplitude": 0.11302818871044784,
+    "crack opening factor kappa": 0.06188535188163902,
+    "constraint factor alpha": 0.03372341544480728,
+    "SIF solution error": 0.02994013375989324,
+    "growth curve C-n": 0.021392811828431113,
+    "crack shape a/c": 0.1385981180065724,
+    "critical-shape exponent q": 0.02064800311688464,
+    "toughness Kc": 0.003977753199830403,
+    "intrinsic crack length a0": -0.00010975107398003559,
+    "threshold-shape exponent p": 0.0015357957016597368,
+    "Smax/sigma0": 0.0002660153195899184,
+    "threshold dKth0": -0.0016179748919995518,
+    "stress ratio R": 0.0054326802202230295,
+    "thickness t": 0.0025486638370104675,
+    "Cth (R >= 0)": 0.00018476810604151073,
+    "width W": -6.372086123196397e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0025189740735220845
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 3.443173152214857,
+    "sigma": 0.420705398501094,
+    "u90": 1.3512664736335842,
+    "pf": 1.0,
+    "median": 3.469362540839107
+   },
+   "reduction": {
+    "crack depth": 0.06865460579812577,
+    "stress amplitude": 0.13629135253174673,
+    "crack opening factor kappa": 0.054621096676337855,
+    "constraint factor alpha": 0.02343761562705815,
+    "SIF solution error": 0.03986928113295907,
+    "growth curve C-n": 0.016372516060350062,
+    "crack shape a/c": 0.20923479000321676,
+    "critical-shape exponent q": 0.03424992451858888,
+    "toughness Kc": 0.020823206836049657,
+    "intrinsic crack length a0": -0.00024015166915813957,
+    "threshold-shape exponent p": -0.000804607688216219,
+    "Smax/sigma0": -0.001735848634430548,
+    "threshold dKth0": 0.000998899458516056,
+    "stress ratio R": 0.0021329194145230934,
+    "thickness t": 0.0038473250002217796,
+    "Cth (R >= 0)": 7.931662125737482e-05,
+    "width W": -3.216445784937072e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.007417450333240483
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 6.008395395338159,
+    "sigma": 0.39132318109397957,
+    "u90": 1.2319867284160146,
+    "pf": 0.7267,
+    "median": 5.978008219477594
+   },
+   "reduction": {
+    "crack depth": 0.25488898831716744,
+    "material fit (C, m, p, dKth0)": 0.25099765506473526,
+    "load amplitude": 0.06565641555007995,
+    "diameter D": 0.018963104747964477,
+    "crack tilt": 0.04791423834987252,
+    "toughness Kc": 0.00039729284347678195,
+    "intrinsic crack length a0": -0.0006993848892586918,
+    "stress ratio R": 0.0029031655433323644
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.581778439220568,
+    "sigma": 0.36113195493319633,
+    "u90": 1.1122500623103182,
+    "pf": 0.9314,
+    "median": 5.552121471613205
+   },
+   "reduction": {
+    "crack depth": 0.3938703185381637,
+    "material fit (C, m, p, dKth0)": 0.0789443696950125,
+    "load amplitude": 0.091981770898658,
+    "diameter D": 0.023746556653897133,
+    "crack tilt": -0.0021131472396795914,
+    "toughness Kc": -0.0005751190400988815,
+    "intrinsic crack length a0": -0.0008147104932931803,
+    "stress ratio R": 0.0021680990807130263
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.126268195530259,
+    "sigma": 0.2842399097594086,
+    "u90": 0.9295469505529228,
+    "pf": 0.9995,
+    "median": 5.113736209790102
+   },
+   "reduction": {
+    "crack depth": 0.31422653705693593,
+    "material fit (C, m, p, dKth0)": 0.0771048050041937,
+    "load amplitude": 0.17020973063941314,
+    "diameter D": 0.022390766937996687,
+    "crack tilt": 0.0035401464479779543,
+    "toughness Kc": 0.001543002258257986,
+    "intrinsic crack length a0": -0.00028706584591287054,
+    "stress ratio R": -0.0006453675458639729
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.4144979480354465,
+    "sigma": 0.2602181028450646,
+    "u90": 0.8592287313652944,
+    "pf": 1.0,
+    "median": 4.410807919596753
+   },
+   "reduction": {
+    "crack depth": 0.23240993370223517,
+    "material fit (C, m, p, dKth0)": 0.09035051826077523,
+    "load amplitude": 0.1984370842679648,
+    "diameter D": 0.03188549396407192,
+    "crack tilt": 0.0029610130404191803,
+    "toughness Kc": 0.0017987725538198829,
+    "intrinsic crack length a0": -0.0007172088208053928,
+    "stress ratio R": -0.0002458402325782316
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 5.074997992065652,
+    "sigma": 0.32047108377016553,
+    "u90": 1.049669039816167,
+    "pf": 0.8036,
+    "median": 5.076307893834674
+   },
+   "reduction": {
+    "crack depth": 0.10757200321399352,
+    "stress amplitude": 0.06952652256051817,
+    "constraint factor alpha": 0.05313459202081705,
+    "growth curve C-n": 0.048128033051254904,
+    "crack shape a/c": 0.06762474335728574,
+    "critical-shape exponent q": -0.004676193518994287,
+    "toughness Kc": 0.0017551331616028065,
+    "intrinsic crack length a0": 0.007729831058178371,
+    "threshold-shape exponent p": 0.02214331468666153,
+    "Smax/sigma0": -0.002418029164153568,
+    "threshold dKth0": -0.00042042277240517123,
+    "stress ratio R": 0.0008769401089814277,
+    "thickness t": 8.51432133810448e-05,
+    "Cth (R >= 0)": 0.0004796534481221748,
+    "width W": 2.3556614880959614e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.020143516913528003
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.796385608505052,
+    "sigma": 0.36553991417205206,
+    "u90": 1.1987297202206557,
+    "pf": 0.977,
+    "median": 4.792457767266647
+   },
+   "reduction": {
+    "crack depth": 0.19248429829113156,
+    "stress amplitude": 0.0945297934350896,
+    "constraint factor alpha": 0.03551542918862971,
+    "growth curve C-n": 0.02995382662868662,
+    "crack shape a/c": 0.0860663192677652,
+    "critical-shape exponent q": 0.007101445729584821,
+    "toughness Kc": 0.0006154670514465499,
+    "intrinsic crack length a0": -0.0021618090355206565,
+    "threshold-shape exponent p": -0.0004817473463387678,
+    "Smax/sigma0": 0.0003256194293032033,
+    "threshold dKth0": -0.0028454906693724524,
+    "stress ratio R": 0.005907533657286246,
+    "thickness t": -2.869920627235345e-05,
+    "Cth (R >= 0)": -0.00047247382045179087,
+    "width W": -1.4580253585583236e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.054585399996799566
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.397691392537635,
+    "sigma": 0.37592730350404946,
+    "u90": 1.2427973508366463,
+    "pf": 0.9849,
+    "median": 4.384628789288221
+   },
+   "reduction": {
+    "crack depth": 0.3061106714938733,
+    "stress amplitude": 0.10842458438790548,
+    "constraint factor alpha": 0.03398758961058179,
+    "growth curve C-n": 0.028466727468525632,
+    "crack shape a/c": 0.10578839584465372,
+    "critical-shape exponent q": 0.011954386702391684,
+    "toughness Kc": 0.005767184362023725,
+    "intrinsic crack length a0": 0.0007969954467463847,
+    "threshold-shape exponent p": 0.001895823305791411,
+    "Smax/sigma0": -0.0030437257995361566,
+    "threshold dKth0": 0.004125856405569062,
+    "stress ratio R": -0.00020088116163119452,
+    "thickness t": -0.0003036257055770708,
+    "Cth (R >= 0)": 0.00022785398128444267,
+    "width W": -1.9264112342654016e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.0015288406150456568
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 4.001055323443756,
+    "sigma": 0.3326622499592709,
+    "u90": 1.0975364823496565,
+    "pf": 1.0,
+    "median": 4.012598966357097
+   },
+   "reduction": {
+    "crack depth": 0.15302213330748216,
+    "stress amplitude": 0.1477122632141239,
+    "constraint factor alpha": 0.03968192688810679,
+    "growth curve C-n": 0.02767230439583057,
+    "crack shape a/c": 0.17286656245378595,
+    "critical-shape exponent q": 0.028990077523299962,
+    "toughness Kc": 0.01605120805789506,
+    "intrinsic crack length a0": -0.0002971579028379079,
+    "threshold-shape exponent p": 0.006886627108435239,
+    "Smax/sigma0": 0.0007108009207914545,
+    "threshold dKth0": 0.001275936331997296,
+    "stress ratio R": 0.001933355223526001,
+    "thickness t": -0.00043297277373799403,
+    "Cth (R >= 0)": 5.0934075852215877e-05,
+    "width W": -4.9531842627015266e-05,
+    "Cth (R < 0)": -9.427636227243852e-09,
+    "crack tilt": 0.0033959106103872427
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 1,
+   "n": 10000,
+   "stats": {
+    "mu": 3.436590244279102,
+    "sigma": 0.38259320313639383,
+    "u90": 1.2218607182657912,
+    "pf": 1.0,
+    "median": 3.469265031632696
+   },
+   "reduction": {
+    "crack depth": 0.07621685627176522,
+    "stress amplitude": 0.15212454410129606,
+    "constraint factor alpha": 0.029402392349688,
+    "growth curve C-n": 0.015521534603256004,
+    "crack shape a/c": 0.23853240765733308,
+    "critical-shape exponent q": 0.03501680503282756,
+    "toughness Kc": 0.02133241535015673,
+    "intrinsic crack length a0": -3.47205612170054e-05,
+    "threshold-shape exponent p": 0.0010132795484186774,
+    "Smax/sigma0": 0.0027539173292329133,
+    "threshold dKth0": -0.0013008157694087696,
+    "stress ratio R": -0.0013785536300585655,
+    "thickness t": 0.0010100078078152386,
+    "Cth (R >= 0)": 9.078633110204404e-05,
+    "width W": -0.00015888085743487323,
+    "Cth (R < 0)": -6.574141453441484e-09,
+    "crack tilt": -0.0032572837763753526
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 6.021260962293191,
+    "sigma": 0.43988890592773666,
+    "u90": 1.3522093731919806,
+    "pf": 0.7274,
+    "median": 5.984787497518812
+   },
+   "reduction": {
+    "crack depth": 0.1913487197580901,
+    "material fit (C, m, p, dKth0)": 0.235323829737062,
+    "load amplitude": 0.05370980662102598,
+    "crack opening factor kappa": 0.05476990690907846,
+    "SIF solution error": 0.00943025055844915,
+    "diameter D": 0.015913046912730655,
+    "crack tilt": 0.04136817160457473,
+    "toughness Kc": -0.0006594161745987481,
+    "intrinsic crack length a0": 0.009267726148598943,
+    "stress ratio R": -0.003212960061163672
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.588800482703736,
+    "sigma": 0.38637669814538866,
+    "u90": 1.252449294812985,
+    "pf": 0.9363,
+    "median": 5.561322847122841
+   },
+   "reduction": {
+    "crack depth": 0.3030184823848483,
+    "material fit (C, m, p, dKth0)": 0.08235380342967202,
+    "load amplitude": 0.07952245598551166,
+    "crack opening factor kappa": 0.06954190743951094,
+    "SIF solution error": 0.022937705733512948,
+    "diameter D": 0.013811133109730811,
+    "crack tilt": 0.0004220842712351347,
+    "toughness Kc": 0.0023661281810059,
+    "intrinsic crack length a0": 0.0003476794796976046,
+    "stress ratio R": -0.00018817359981393444
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.132069110803924,
+    "sigma": 0.3269767446673937,
+    "u90": 1.0553712346366302,
+    "pf": 0.9998,
+    "median": 5.120154920065573
+   },
+   "reduction": {
+    "crack depth": 0.20547873784339232,
+    "material fit (C, m, p, dKth0)": 0.04950085051917186,
+    "load amplitude": 0.1126427764182979,
+    "crack opening factor kappa": 0.09832827841364522,
+    "SIF solution error": 0.03448088946928063,
+    "diameter D": 0.011508034115468746,
+    "crack tilt": -0.0005694858528806357,
+    "toughness Kc": 6.968192878120671e-05,
+    "intrinsic crack length a0": -0.00016682845229087917,
+    "stress ratio R": -0.004750584368417909
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.4196518480519895,
+    "sigma": 0.30576376072083367,
+    "u90": 1.0027568094175376,
+    "pf": 1.0,
+    "median": 4.418086773529471
+   },
+   "reduction": {
+    "crack depth": 0.15014147314796888,
+    "material fit (C, m, p, dKth0)": 0.06806591615449398,
+    "load amplitude": 0.13300538717172206,
+    "crack opening factor kappa": 0.11630476996513472,
+    "SIF solution error": 0.03987475796842954,
+    "diameter D": 0.018861387185159506,
+    "crack tilt": 0.0022089725018811235,
+    "toughness Kc": 0.002124742020052861,
+    "intrinsic crack length a0": -8.444010201946739e-05,
+    "stress ratio R": 0.00029371342667727784
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.0849547645527595,
+    "sigma": 0.34947034258824394,
+    "u90": 1.1424180711810221,
+    "pf": 0.8015,
+    "median": 5.079453924216792
+   },
+   "reduction": {
+    "crack depth": 0.07420466192461084,
+    "stress amplitude": 0.047735771247923275,
+    "crack opening factor kappa": 0.07467173351408396,
+    "constraint factor alpha": 0.029468326274431966,
+    "SIF solution error": 0.006561427637207351,
+    "growth curve C-n": 0.021298323039129596,
+    "crack shape a/c": 0.049917170767137975,
+    "critical-shape exponent q": 0.006983132465908093,
+    "toughness Kc": 0.004686929156175523,
+    "intrinsic crack length a0": 0.005694168683675449,
+    "threshold-shape exponent p": 0.021817877861215695,
+    "Smax/sigma0": -0.0032491991878025317,
+    "threshold dKth0": -0.003988229273974575,
+    "stress ratio R": -0.0003547059201924885,
+    "thickness t": 0.0001797652743775746,
+    "Cth (R >= 0)": -0.0019205509273321208,
+    "width W": -9.688997338219707e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.01966388502816374
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.805587466707281,
+    "sigma": 0.39205788043009165,
+    "u90": 1.2870165421599902,
+    "pf": 0.9761,
+    "median": 4.799242525004104
+   },
+   "reduction": {
+    "crack depth": 0.14907865597991277,
+    "stress amplitude": 0.07383499206616317,
+    "crack opening factor kappa": 0.05960508646985574,
+    "constraint factor alpha": 0.02773614571282068,
+    "SIF solution error": 0.015902309991088215,
+    "growth curve C-n": 0.019872403387322768,
+    "crack shape a/c": 0.05791472763697647,
+    "critical-shape exponent q": 0.006899178727332145,
+    "toughness Kc": 0.004334245449585827,
+    "intrinsic crack length a0": -0.0014661039942005516,
+    "threshold-shape exponent p": 0.008322277123988031,
+    "Smax/sigma0": 0.002500186666117732,
+    "threshold dKth0": 0.0037616469950908504,
+    "stress ratio R": 0.005610568831275753,
+    "thickness t": -0.0004329736921582228,
+    "Cth (R >= 0)": -0.0006076430866934768,
+    "width W": -4.031438837648338e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.059390433961675426
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.402419861320212,
+    "sigma": 0.3970738644775969,
+    "u90": 1.3073961689045137,
+    "pf": 0.9857,
+    "median": 4.393031963042661
+   },
+   "reduction": {
+    "crack depth": 0.23784286353683737,
+    "stress amplitude": 0.08803183515592228,
+    "crack opening factor kappa": 0.057236000997745506,
+    "constraint factor alpha": 0.03152235170650142,
+    "SIF solution error": 0.02026641015050068,
+    "growth curve C-n": 0.006990923980398134,
+    "crack shape a/c": 0.07195033470306178,
+    "critical-shape exponent q": 0.01070608461512057,
+    "toughness Kc": 0.0045595392223666265,
+    "intrinsic crack length a0": 0.00022244777805291438,
+    "threshold-shape exponent p": 0.0061924056037304664,
+    "Smax/sigma0": -0.0020121425295411832,
+    "threshold dKth0": 0.0014889493939274079,
+    "stress ratio R": 0.004438091719682569,
+    "thickness t": 0.0011261615157085458,
+    "Cth (R >= 0)": 0.0011332794947896963,
+    "width W": -7.474261763062984e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0060399539123192625
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.00747477171221,
+    "sigma": 0.3626416844803022,
+    "u90": 1.186167244095619,
+    "pf": 1.0,
+    "median": 4.017216219959991
+   },
+   "reduction": {
+    "crack depth": 0.1018149702477793,
+    "stress amplitude": 0.11559214800390916,
+    "crack opening factor kappa": 0.07820648978709388,
+    "constraint factor alpha": 0.03163942948442067,
+    "SIF solution error": 0.02716047373835595,
+    "growth curve C-n": 0.013160275119789566,
+    "crack shape a/c": 0.12862844740511092,
+    "critical-shape exponent q": 0.021416276754631647,
+    "toughness Kc": 0.00558087285232145,
+    "intrinsic crack length a0": 0.0002154997380391377,
+    "threshold-shape exponent p": 0.000642426992659817,
+    "Smax/sigma0": 0.003306689061215229,
+    "threshold dKth0": -0.0019226062959583068,
+    "stress ratio R": 0.009901367714391207,
+    "thickness t": 0.0005858627949992812,
+    "Cth (R >= 0)": 4.095132608905594e-05,
+    "width W": 5.916641641090514e-05,
+    "Cth (R < 0)": -3.563409611828661e-08,
+    "crack tilt": -0.0008179904114788972
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 3.44314608057899,
+    "sigma": 0.41335542319669505,
+    "u90": 1.3230529453185,
+    "pf": 1.0,
+    "median": 3.473631975808659
+   },
+   "reduction": {
+    "crack depth": 0.05056529516030295,
+    "stress amplitude": 0.12037743357527297,
+    "crack opening factor kappa": 0.0631691532070513,
+    "constraint factor alpha": 0.022210129024385017,
+    "SIF solution error": 0.03722775830948244,
+    "growth curve C-n": 0.01046657678473617,
+    "crack shape a/c": 0.1911538045976825,
+    "critical-shape exponent q": 0.041041962768281426,
+    "toughness Kc": 0.020113671924093968,
+    "intrinsic crack length a0": -2.4930159474800817e-05,
+    "threshold-shape exponent p": 0.001771811343917129,
+    "Smax/sigma0": 0.003551851759543312,
+    "threshold dKth0": -0.0010971407797348842,
+    "stress ratio R": 0.003587394309971237,
+    "thickness t": -0.0002876417105293072,
+    "Cth (R >= 0)": 0.00016195941816954385,
+    "width W": -0.0001226884869407474,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0003935978500120285
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 6.020575402850227,
+    "sigma": 0.41756323368255516,
+    "u90": 1.276101769490393,
+    "pf": 0.7316,
+    "median": 5.987774832720096
+   },
+   "reduction": {
+    "crack depth": 0.24800822709774228,
+    "material fit (C, m, p, dKth0)": 0.2667711732496313,
+    "load amplitude": 0.07782853976697801,
+    "diameter D": 0.019043661638597054,
+    "crack tilt": 0.05227127926988817,
+    "toughness Kc": 0.0011059378891049576,
+    "intrinsic crack length a0": 0.004817672753079538,
+    "stress ratio R": 0.006565612999970938
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.5835868180800885,
+    "sigma": 0.35249660234479974,
+    "u90": 1.1324331535220722,
+    "pf": 0.9371,
+    "median": 5.55184656108588
+   },
+   "reduction": {
+    "crack depth": 0.3885763910504949,
+    "material fit (C, m, p, dKth0)": 0.08047080812540486,
+    "load amplitude": 0.10075276409613365,
+    "diameter D": 0.007766457170869323,
+    "crack tilt": 9.477655867584645e-05,
+    "toughness Kc": -0.0008617207865966314,
+    "intrinsic crack length a0": -0.0013101526938572583,
+    "stress ratio R": 0.0009785160295442408
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.125550119245766,
+    "sigma": 0.2839552693352679,
+    "u90": 0.9220062205723591,
+    "pf": 0.9998,
+    "median": 5.113729423626659
+   },
+   "reduction": {
+    "crack depth": 0.303542748900261,
+    "material fit (C, m, p, dKth0)": 0.07348547148596651,
+    "load amplitude": 0.1701650228899153,
+    "diameter D": 0.021283328891629982,
+    "crack tilt": 0.0038523185656518244,
+    "toughness Kc": 0.0026895170025693638,
+    "intrinsic crack length a0": -0.00024541705419789395,
+    "stress ratio R": 0.0025523743935590426
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.413383608009265,
+    "sigma": 0.25989688988033594,
+    "u90": 0.8601753773931113,
+    "pf": 1.0,
+    "median": 4.4115739383290435
+   },
+   "reduction": {
+    "crack depth": 0.2339573803745163,
+    "material fit (C, m, p, dKth0)": 0.09956094924949599,
+    "load amplitude": 0.20610752680466826,
+    "diameter D": 0.039435642721365016,
+    "crack tilt": 0.001187876902177698,
+    "toughness Kc": 6.591363075192369e-05,
+    "intrinsic crack length a0": -9.753398995249185e-05,
+    "stress ratio R": 0.001454967151480524
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.085204413494991,
+    "sigma": 0.3198808618605694,
+    "u90": 1.0408338238526387,
+    "pf": 0.8063,
+    "median": 5.086019408027009
+   },
+   "reduction": {
+    "crack depth": 0.11212502706429339,
+    "stress amplitude": 0.06978476995552008,
+    "constraint factor alpha": 0.03325594477416627,
+    "growth curve C-n": 0.031429071489516125,
+    "crack shape a/c": 0.061076688876743224,
+    "critical-shape exponent q": 0.001946230708240404,
+    "toughness Kc": -0.0016372373027391252,
+    "intrinsic crack length a0": 0.010093636494945213,
+    "threshold-shape exponent p": 0.013279917415005227,
+    "Smax/sigma0": -0.007759021888471551,
+    "threshold dKth0": 0.007938238634224715,
+    "stress ratio R": 0.0011491313504243816,
+    "thickness t": 0.00033244358298567533,
+    "Cth (R >= 0)": -0.00016126948748618197,
+    "width W": 2.544612829336046e-07,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.022544356976318958
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.800892784524914,
+    "sigma": 0.36206943526701313,
+    "u90": 1.1791576484794417,
+    "pf": 0.9775,
+    "median": 4.797866909996209
+   },
+   "reduction": {
+    "crack depth": 0.1798935955027211,
+    "stress amplitude": 0.0864703940432433,
+    "constraint factor alpha": 0.02564023555603301,
+    "growth curve C-n": 0.02533053270147434,
+    "crack shape a/c": 0.06932461185462224,
+    "critical-shape exponent q": 0.003292554424652927,
+    "toughness Kc": 0.005285707400419337,
+    "intrinsic crack length a0": -0.0005420292695812456,
+    "threshold-shape exponent p": 0.004648771603873558,
+    "Smax/sigma0": -0.0016788437178953952,
+    "threshold dKth0": -0.004780528609350521,
+    "stress ratio R": -0.0020433828518344743,
+    "thickness t": -2.6266024970578172e-06,
+    "Cth (R >= 0)": 3.151870220752251e-05,
+    "width W": 2.1266806501607505e-05,
+    "Cth (R < 0)": 1.098341455563201e-07,
+    "crack tilt": 0.06596705544883952
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.3977540815328915,
+    "sigma": 0.3667930748841693,
+    "u90": 1.1996949711994018,
+    "pf": 0.9864,
+    "median": 4.381576214129473
+   },
+   "reduction": {
+    "crack depth": 0.29183875577345186,
+    "stress amplitude": 0.09092937976881976,
+    "constraint factor alpha": 0.01874368068961796,
+    "growth curve C-n": 0.013329899556050462,
+    "crack shape a/c": 0.08376330554671096,
+    "critical-shape exponent q": 0.007622970229595016,
+    "toughness Kc": 0.00844436953659089,
+    "intrinsic crack length a0": 0.0002034038569821428,
+    "threshold-shape exponent p": 0.001346577203298338,
+    "Smax/sigma0": -0.004500329397128189,
+    "threshold dKth0": 0.0017977178742123456,
+    "stress ratio R": -0.0006193641662834981,
+    "thickness t": -0.0004916587389902638,
+    "Cth (R >= 0)": 5.697337016363768e-05,
+    "width W": 2.3161241670233146e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.0003846537292594432
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 4.002160771707982,
+    "sigma": 0.3262241483761226,
+    "u90": 1.0625117445413554,
+    "pf": 1.0,
+    "median": 4.012188392804626
+   },
+   "reduction": {
+    "crack depth": 0.12557752660876664,
+    "stress amplitude": 0.13595942163450725,
+    "constraint factor alpha": 0.03463234505026669,
+    "growth curve C-n": 0.01850681311594249,
+    "crack shape a/c": 0.16493303384057567,
+    "critical-shape exponent q": 0.026372724258411417,
+    "toughness Kc": 0.01604554138479919,
+    "intrinsic crack length a0": 0.00017322843069855764,
+    "threshold-shape exponent p": 0.0012004109370726823,
+    "Smax/sigma0": 0.0004798160236751947,
+    "threshold dKth0": -0.0005340189929581296,
+    "stress ratio R": 0.00036207608172178496,
+    "thickness t": -0.0016495550665514003,
+    "Cth (R >= 0)": 2.8059511957390093e-05,
+    "width W": -6.248480577841775e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0009718943812073721
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 2,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4388712703756408,
+    "sigma": 0.37696447990899906,
+    "u90": 1.199822664673397,
+    "pf": 1.0,
+    "median": 3.4716469166206076
+   },
+   "reduction": {
+    "crack depth": 0.06380584124568933,
+    "stress amplitude": 0.1362694252859028,
+    "constraint factor alpha": 0.028492245069187017,
+    "growth curve C-n": 0.017148459677309713,
+    "crack shape a/c": 0.23733969851253633,
+    "critical-shape exponent q": 0.040100710457526945,
+    "toughness Kc": 0.02527367939785874,
+    "intrinsic crack length a0": -0.00010064462538772467,
+    "threshold-shape exponent p": 0.006687252532892818,
+    "Smax/sigma0": 0.002960154883434818,
+    "threshold dKth0": -0.0004156699432289468,
+    "stress ratio R": 0.003962486790443309,
+    "thickness t": 0.0005508852551338039,
+    "Cth (R >= 0)": 0.00020252148542798665,
+    "width W": 0.0002191003579387063,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.001297682027437519
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 6.021977715987882,
+    "sigma": 0.45086871997204786,
+    "u90": 1.3716346278203684,
+    "pf": 0.7271,
+    "median": 5.984307782275961
+   },
+   "reduction": {
+    "crack depth": 0.21441143226252923,
+    "material fit (C, m, p, dKth0)": 0.24387276582878392,
+    "load amplitude": 0.05732024317560769,
+    "crack opening factor kappa": 0.05420613851557643,
+    "SIF solution error": 0.012446872081162574,
+    "diameter D": 0.005195692802246299,
+    "crack tilt": 0.050670322869540096,
+    "toughness Kc": 0.000525397697038188,
+    "intrinsic crack length a0": -0.004592098811945222,
+    "stress ratio R": -0.0009152187348964169
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.596155472461992,
+    "sigma": 0.3945427424747562,
+    "u90": 1.2462860915372014,
+    "pf": 0.9327,
+    "median": 5.568652228444336
+   },
+   "reduction": {
+    "crack depth": 0.3061256302923243,
+    "material fit (C, m, p, dKth0)": 0.07939342102364577,
+    "load amplitude": 0.07376552797926383,
+    "crack opening factor kappa": 0.06710238694468051,
+    "SIF solution error": 0.0072619739506309955,
+    "diameter D": 0.014090207340214711,
+    "crack tilt": -0.0010770659862870957,
+    "toughness Kc": 0.0014968705937049576,
+    "intrinsic crack length a0": 0.004741744840999651,
+    "stress ratio R": 3.971560761761861e-05
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.1370539294525,
+    "sigma": 0.3262975718709731,
+    "u90": 1.0599432949674785,
+    "pf": 0.9999,
+    "median": 5.125448367406028
+   },
+   "reduction": {
+    "crack depth": 0.21917187354747258,
+    "material fit (C, m, p, dKth0)": 0.060436239004675985,
+    "load amplitude": 0.1139495967474492,
+    "crack opening factor kappa": 0.10339587167099507,
+    "SIF solution error": 0.02064696727312998,
+    "diameter D": 0.012599584445535106,
+    "crack tilt": -0.0027293049863275076,
+    "toughness Kc": -0.0015516980519716395,
+    "intrinsic crack length a0": -0.00020737438992268764,
+    "stress ratio R": -0.004912799539563917
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.423873604073431,
+    "sigma": 0.3049851354612348,
+    "u90": 1.0026303286379377,
+    "pf": 1.0,
+    "median": 4.420905508236547
+   },
+   "reduction": {
+    "crack depth": 0.15831381889850837,
+    "material fit (C, m, p, dKth0)": 0.07558904530101851,
+    "load amplitude": 0.12918330012074375,
+    "crack opening factor kappa": 0.12361626918588853,
+    "SIF solution error": 0.03209791019417363,
+    "diameter D": 0.016756745586882116,
+    "crack tilt": -0.00021574717018890688,
+    "toughness Kc": -0.0004390666608868887,
+    "intrinsic crack length a0": -2.8527489716045906e-05,
+    "stress ratio R": -0.0014496003923878398
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.079923673215356,
+    "sigma": 0.35408264389488214,
+    "u90": 1.1657087560659862,
+    "pf": 0.8024,
+    "median": 5.082616890008669
+   },
+   "reduction": {
+    "crack depth": 0.09233076229915604,
+    "stress amplitude": 0.05616779967274044,
+    "crack opening factor kappa": 0.0841972980123713,
+    "constraint factor alpha": 0.04721960170033457,
+    "SIF solution error": 0.016954946650354574,
+    "growth curve C-n": 0.03326707994041489,
+    "crack shape a/c": 0.062152116142931146,
+    "critical-shape exponent q": 0.0038799625219484435,
+    "toughness Kc": 0.0028450726646712665,
+    "intrinsic crack length a0": 0.008662007732707977,
+    "threshold-shape exponent p": 0.018630863974072542,
+    "Smax/sigma0": -0.001503999488130514,
+    "threshold dKth0": 0.003055269753107104,
+    "stress ratio R": 0.0015717384031037618,
+    "thickness t": 0.0003702640231695309,
+    "Cth (R >= 0)": -0.0007608597528048211,
+    "width W": -5.3243524333890235e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.02202718816735849
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.80236220637096,
+    "sigma": 0.3972661532221677,
+    "u90": 1.313465491263477,
+    "pf": 0.9769,
+    "median": 4.799747309954342
+   },
+   "reduction": {
+    "crack depth": 0.17215710042156884,
+    "stress amplitude": 0.06598018355699842,
+    "crack opening factor kappa": 0.06946612619842873,
+    "constraint factor alpha": 0.03175652393744666,
+    "SIF solution error": 0.024201502875884073,
+    "growth curve C-n": 0.024482921760204057,
+    "crack shape a/c": 0.07114274036615131,
+    "critical-shape exponent q": 0.004691725270862701,
+    "toughness Kc": 0.0006891926865458808,
+    "intrinsic crack length a0": 0.0032151945550654704,
+    "threshold-shape exponent p": 0.010477553908187276,
+    "Smax/sigma0": 0.002460537369890714,
+    "threshold dKth0": -0.0024768454949957164,
+    "stress ratio R": 0.005356449163518295,
+    "thickness t": 0.0002681013120686693,
+    "Cth (R >= 0)": 0.0002031590246053261,
+    "width W": 6.3282613282922284e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.061377560628696703
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.403938651878921,
+    "sigma": 0.40446052928308635,
+    "u90": 1.3471231449082683,
+    "pf": 0.9841,
+    "median": 4.392506849797408
+   },
+   "reduction": {
+    "crack depth": 0.25129881519093045,
+    "stress amplitude": 0.07757106143946824,
+    "crack opening factor kappa": 0.0666290451061462,
+    "constraint factor alpha": 0.03238140885790641,
+    "SIF solution error": 0.030230043546917162,
+    "growth curve C-n": 0.0191954858722706,
+    "crack shape a/c": 0.09182648942336102,
+    "critical-shape exponent q": 0.011726681083136792,
+    "toughness Kc": 0.003116123378466895,
+    "intrinsic crack length a0": 0.0009350322449547255,
+    "threshold-shape exponent p": 0.005443807520545518,
+    "Smax/sigma0": 0.0027175938354161433,
+    "threshold dKth0": 0.001154463077331691,
+    "stress ratio R": 0.011322922890947607,
+    "thickness t": 0.00042297677576308423,
+    "Cth (R >= 0)": -0.0001777390078763208,
+    "width W": -2.3668172666191367e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.0030271422577108353
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.007508820328388,
+    "sigma": 0.3692108876183254,
+    "u90": 1.2167352737129224,
+    "pf": 1.0,
+    "median": 4.018476457382182
+   },
+   "reduction": {
+    "crack depth": 0.10639047843852989,
+    "stress amplitude": 0.12130455007745378,
+    "crack opening factor kappa": 0.08119740008868115,
+    "constraint factor alpha": 0.029906516786114,
+    "SIF solution error": 0.03464074992543209,
+    "growth curve C-n": 0.019858003223941934,
+    "crack shape a/c": 0.14173538734400748,
+    "critical-shape exponent q": 0.023715000296987587,
+    "toughness Kc": 0.01243554239685285,
+    "intrinsic crack length a0": 0.0004019128682301032,
+    "threshold-shape exponent p": -0.0021076654090366187,
+    "Smax/sigma0": -0.0024611846848963115,
+    "threshold dKth0": 0.0010922763478743436,
+    "stress ratio R": 0.00897702060374761,
+    "thickness t": -0.00047615948036794364,
+    "Cth (R >= 0)": 8.460518107178405e-05,
+    "width W": -5.665705323365522e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0009990471654219846
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 3.44106643854204,
+    "sigma": 0.42104841195916304,
+    "u90": 1.3466965202319132,
+    "pf": 1.0,
+    "median": 3.4728944207516506
+   },
+   "reduction": {
+    "crack depth": 0.051880004973374305,
+    "stress amplitude": 0.12352988675413434,
+    "crack opening factor kappa": 0.06988290278006415,
+    "constraint factor alpha": 0.024893736257157295,
+    "SIF solution error": 0.032396358702969974,
+    "growth curve C-n": 0.012367719391416676,
+    "crack shape a/c": 0.1975900182837952,
+    "critical-shape exponent q": 0.0297703421204335,
+    "toughness Kc": 0.02302331855888251,
+    "intrinsic crack length a0": -6.990106201820723e-05,
+    "threshold-shape exponent p": 0.0010690422280541512,
+    "Smax/sigma0": -0.0027478641759159927,
+    "threshold dKth0": 0.0018173537003970397,
+    "stress ratio R": 0.0029014629764535504,
+    "thickness t": 0.000553589860835757,
+    "Cth (R >= 0)": 5.596192065449035e-05,
+    "width W": 9.358465105191449e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.004701669410146714
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 6.023157602868521,
+    "sigma": 0.4346951462435942,
+    "u90": 1.2838447967550008,
+    "pf": 0.7324,
+    "median": 5.9812737100076205
+   },
+   "reduction": {
+    "crack depth": 0.2728585859135093,
+    "material fit (C, m, p, dKth0)": 0.28701310434209004,
+    "load amplitude": 0.08282219274532321,
+    "diameter D": -0.006226611488980849,
+    "crack tilt": 0.060565617865029786,
+    "toughness Kc": -0.00025935789145115073,
+    "intrinsic crack length a0": 0.0012632012672747495,
+    "stress ratio R": 0.0026688969811367036
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.589251618599152,
+    "sigma": 0.3592190235518358,
+    "u90": 1.136044058302879,
+    "pf": 0.9334,
+    "median": 5.559510212950164
+   },
+   "reduction": {
+    "crack depth": 0.4053445517766825,
+    "material fit (C, m, p, dKth0)": 0.09185306321830655,
+    "load amplitude": 0.0897864869943551,
+    "diameter D": 0.016423649043767363,
+    "crack tilt": 0.003877304220036848,
+    "toughness Kc": -0.00018810585685025139,
+    "intrinsic crack length a0": 0.0005402086497275915,
+    "stress ratio R": -0.0026519025245097527
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.1290817931105455,
+    "sigma": 0.28267238219459373,
+    "u90": 0.9223980076039933,
+    "pf": 0.9998,
+    "median": 5.11946731934161
+   },
+   "reduction": {
+    "crack depth": 0.3183168930481379,
+    "material fit (C, m, p, dKth0)": 0.0847480174097025,
+    "load amplitude": 0.16521466629581427,
+    "diameter D": 0.02587729614946488,
+    "crack tilt": 0.006428031434537851,
+    "toughness Kc": 0.0008351858111228516,
+    "intrinsic crack length a0": -0.0007366884974639998,
+    "stress ratio R": -0.0012317256062168713
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.416276796488753,
+    "sigma": 0.2587873205914888,
+    "u90": 0.8458951728961273,
+    "pf": 1.0,
+    "median": 4.416960689672539
+   },
+   "reduction": {
+    "crack depth": 0.23630738311199972,
+    "material fit (C, m, p, dKth0)": 0.09978207202170963,
+    "load amplitude": 0.18866933947058884,
+    "diameter D": 0.019884473812081915,
+    "crack tilt": 0.002583178299642719,
+    "toughness Kc": 0.001007115327009922,
+    "intrinsic crack length a0": 0.00010008100502290063,
+    "stress ratio R": 0.00012124322036655144
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 5.0780430242338666,
+    "sigma": 0.3213990384378554,
+    "u90": 1.0585084964582032,
+    "pf": 0.8068,
+    "median": 5.075860900656606
+   },
+   "reduction": {
+    "crack depth": 0.12003175796830667,
+    "stress amplitude": 0.09108926702769382,
+    "constraint factor alpha": 0.041460618545939854,
+    "growth curve C-n": 0.043895548230530546,
+    "crack shape a/c": 0.08139472523136171,
+    "critical-shape exponent q": 0.0034888252825313604,
+    "toughness Kc": 0.005947659332462996,
+    "intrinsic crack length a0": 0.014227197734674735,
+    "threshold-shape exponent p": 0.022614648628234812,
+    "Smax/sigma0": 0.003497589409563573,
+    "threshold dKth0": 0.012913161377624549,
+    "stress ratio R": 0.005682333724290611,
+    "thickness t": -2.8122946699182805e-05,
+    "Cth (R >= 0)": 0.0006335669625826545,
+    "width W": 9.511055048538886e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.03460025768189945
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.795772994904259,
+    "sigma": 0.3663341052865985,
+    "u90": 1.1978578060690968,
+    "pf": 0.9771,
+    "median": 4.793641085364667
+   },
+   "reduction": {
+    "crack depth": 0.1991983711796983,
+    "stress amplitude": 0.07578190943701935,
+    "constraint factor alpha": 0.03718972259462017,
+    "growth curve C-n": 0.015147435139387877,
+    "crack shape a/c": 0.07885897715186652,
+    "critical-shape exponent q": 0.0045445238663087695,
+    "toughness Kc": 0.007350273032921684,
+    "intrinsic crack length a0": 0.00031720937838519703,
+    "threshold-shape exponent p": 0.0031109539669352815,
+    "Smax/sigma0": 0.004267073721337278,
+    "threshold dKth0": -0.008203166060235967,
+    "stress ratio R": 0.00444101445031031,
+    "thickness t": -0.00013175102667251082,
+    "Cth (R >= 0)": -0.0004968192823870954,
+    "width W": -1.3175867504822136e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06967196794474317
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.397375036701018,
+    "sigma": 0.3727034090171178,
+    "u90": 1.2291541052251493,
+    "pf": 0.9841,
+    "median": 4.3865856030008015
+   },
+   "reduction": {
+    "crack depth": 0.2994170427091246,
+    "stress amplitude": 0.08131814860032116,
+    "constraint factor alpha": 0.029237469203938105,
+    "growth curve C-n": 0.010678191319452246,
+    "crack shape a/c": 0.09349983714866938,
+    "critical-shape exponent q": 0.012484165648842804,
+    "toughness Kc": 0.004093499523438182,
+    "intrinsic crack length a0": 0.0012642478102500299,
+    "threshold-shape exponent p": -0.0005279966030427019,
+    "Smax/sigma0": 0.0050302420104556544,
+    "threshold dKth0": -0.0021847225543181192,
+    "stress ratio R": -0.0009435273093736374,
+    "thickness t": 0.0018148739696657312,
+    "Cth (R >= 0)": -0.0012861601338101103,
+    "width W": 3.935425126000425e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0038284222293163417
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 4.000827515073511,
+    "sigma": 0.3309147013206874,
+    "u90": 1.083673525611526,
+    "pf": 1.0,
+    "median": 4.013028103531667
+   },
+   "reduction": {
+    "crack depth": 0.13888511648120327,
+    "stress amplitude": 0.1460626551624261,
+    "constraint factor alpha": 0.04690569871966521,
+    "growth curve C-n": 0.015433769338216163,
+    "crack shape a/c": 0.16063467491374195,
+    "critical-shape exponent q": 0.027393792147183182,
+    "toughness Kc": 0.008965136430458931,
+    "intrinsic crack length a0": -5.768210047030209e-05,
+    "threshold-shape exponent p": -0.005546346015413484,
+    "Smax/sigma0": -0.0033966572087553715,
+    "threshold dKth0": 0.0002614659072911474,
+    "stress ratio R": 0.0003575830966636717,
+    "thickness t": -0.0011277811379826197,
+    "Cth (R >= 0)": -0.00013131113371511738,
+    "width W": 1.5303839594360547e-05,
+    "Cth (R < 0)": 6.350618630968086e-08,
+    "crack tilt": -0.004426326476660192
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 3,
+   "n": 10000,
+   "stats": {
+    "mu": 3.435638021865608,
+    "sigma": 0.380870749842906,
+    "u90": 1.225515072913642,
+    "pf": 1.0,
+    "median": 3.467694640774889
+   },
+   "reduction": {
+    "crack depth": 0.07929877047452871,
+    "stress amplitude": 0.1574235812020257,
+    "constraint factor alpha": 0.03840144911401866,
+    "growth curve C-n": 0.015029797325905592,
+    "crack shape a/c": 0.23660183191869633,
+    "critical-shape exponent q": 0.044790320599581324,
+    "toughness Kc": 0.03482997872925109,
+    "intrinsic crack length a0": -4.682902376296205e-05,
+    "threshold-shape exponent p": -0.0016298188272416692,
+    "Smax/sigma0": -0.0028531205347102073,
+    "threshold dKth0": -0.0010531694570485861,
+    "stress ratio R": 0.00555594431459383,
+    "thickness t": 0.002164247749973036,
+    "Cth (R >= 0)": -9.938977435419716e-05,
+    "width W": -0.0005150494880103995,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.005591628005483296
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 6.018653009992047,
+    "sigma": 0.4429630164024979,
+    "u90": 1.3438077534208048,
+    "pf": 0.7176,
+    "median": 5.986071211990356
+   },
+   "reduction": {
+    "crack depth": 0.20817521269141392,
+    "material fit (C, m, p, dKth0)": 0.2105233115888515,
+    "load amplitude": 0.05242834220936354,
+    "crack opening factor kappa": 0.07365713298729715,
+    "SIF solution error": 0.009246676492040917,
+    "diameter D": -0.00016777762883490865,
+    "crack tilt": 0.03946850968654669,
+    "toughness Kc": 0.00023203197535248687,
+    "intrinsic crack length a0": -0.008228630104600843,
+    "stress ratio R": -7.75523607858819e-05
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.594967411784313,
+    "sigma": 0.39599026783739893,
+    "u90": 1.2640532446637343,
+    "pf": 0.9305,
+    "median": 5.568083949057583
+   },
+   "reduction": {
+    "crack depth": 0.32402563862933587,
+    "material fit (C, m, p, dKth0)": 0.08200361931240296,
+    "load amplitude": 0.09150884210222299,
+    "crack opening factor kappa": 0.0789874850129092,
+    "SIF solution error": 0.020820155131041518,
+    "diameter D": 0.010408633419635827,
+    "crack tilt": 0.005318962926443627,
+    "toughness Kc": 0.0011455430298592528,
+    "intrinsic crack length a0": 0.0025143754901661985,
+    "stress ratio R": 0.0011472794553489818
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.138799225121889,
+    "sigma": 0.3284681255749902,
+    "u90": 1.0817817668060732,
+    "pf": 0.9994,
+    "median": 5.131143001709582
+   },
+   "reduction": {
+    "crack depth": 0.24482824907244027,
+    "material fit (C, m, p, dKth0)": 0.06123656565148372,
+    "load amplitude": 0.13497177412646866,
+    "crack opening factor kappa": 0.10877317877900161,
+    "SIF solution error": 0.03551413264819314,
+    "diameter D": 0.010037191844028626,
+    "crack tilt": 0.001918433386605245,
+    "toughness Kc": 0.002594264003479285,
+    "intrinsic crack length a0": -0.00032604656998969084,
+    "stress ratio R": -0.0013852077531504303
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.425958995797753,
+    "sigma": 0.3060578221934225,
+    "u90": 1.0036324419945153,
+    "pf": 1.0,
+    "median": 4.42914614343644
+   },
+   "reduction": {
+    "crack depth": 0.17594975355402287,
+    "material fit (C, m, p, dKth0)": 0.06278229609416752,
+    "load amplitude": 0.13593040136846435,
+    "crack opening factor kappa": 0.11714791361559806,
+    "SIF solution error": 0.03331206078269311,
+    "diameter D": 0.011898506219846783,
+    "crack tilt": 3.8390291799195175e-05,
+    "toughness Kc": -0.0015214061085802033,
+    "intrinsic crack length a0": -0.000108405310399462,
+    "stress ratio R": -0.003045310047251615
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.084425856760702,
+    "sigma": 0.3524582113525246,
+    "u90": 1.1543601525269382,
+    "pf": 0.7985,
+    "median": 5.086702193833692
+   },
+   "reduction": {
+    "crack depth": 0.0783863320751722,
+    "stress amplitude": 0.06238299869756592,
+    "crack opening factor kappa": 0.07666787599998226,
+    "constraint factor alpha": 0.04201416802532265,
+    "SIF solution error": 0.0193299741223385,
+    "growth curve C-n": 0.03589473143503241,
+    "crack shape a/c": 0.05567014486637323,
+    "critical-shape exponent q": 0.00511984892070938,
+    "toughness Kc": 0.003001669942900409,
+    "intrinsic crack length a0": 0.013112167818380649,
+    "threshold-shape exponent p": 0.012499278103075051,
+    "Smax/sigma0": 5.629862525546869e-05,
+    "threshold dKth0": 0.0007930120009764785,
+    "stress ratio R": 0.0014112274538441438,
+    "thickness t": 0.00015709995144308486,
+    "Cth (R >= 0)": 0.0003057846018366117,
+    "width W": -4.975958904029909e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.00439908260529509
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.808214832520409,
+    "sigma": 0.3966073968982579,
+    "u90": 1.3056104221445706,
+    "pf": 0.9764,
+    "median": 4.806061966155961
+   },
+   "reduction": {
+    "crack depth": 0.1651964023302558,
+    "stress amplitude": 0.07596973315591915,
+    "crack opening factor kappa": 0.07095275915966004,
+    "constraint factor alpha": 0.03479730755660171,
+    "SIF solution error": 0.023157221484019108,
+    "growth curve C-n": 0.020973380452114943,
+    "crack shape a/c": 0.06629649944266147,
+    "critical-shape exponent q": 0.009556872526509497,
+    "toughness Kc": 0.005417967331218465,
+    "intrinsic crack length a0": 0.0013567274552689357,
+    "threshold-shape exponent p": -0.00030115604934533025,
+    "Smax/sigma0": 0.00183922364867517,
+    "threshold dKth0": 0.0022205569472304454,
+    "stress ratio R": 0.0009990236681192144,
+    "thickness t": -8.983536211815135e-06,
+    "Cth (R >= 0)": 0.0003677194341573653,
+    "width W": 1.9252574440464798e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.05626550904810723
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.410174826049721,
+    "sigma": 0.4063150071236503,
+    "u90": 1.350849739604194,
+    "pf": 0.9858,
+    "median": 4.396798894846052
+   },
+   "reduction": {
+    "crack depth": 0.26294782546133366,
+    "stress amplitude": 0.08940779184537129,
+    "crack opening factor kappa": 0.07013618729689908,
+    "constraint factor alpha": 0.03406410220457379,
+    "SIF solution error": 0.01911823663868162,
+    "growth curve C-n": 0.014671124364895816,
+    "crack shape a/c": 0.08492231544614415,
+    "critical-shape exponent q": 0.010333537808075888,
+    "toughness Kc": 0.006176481580799531,
+    "intrinsic crack length a0": -0.0009674760752742539,
+    "threshold-shape exponent p": -0.00248785840862209,
+    "Smax/sigma0": 0.0003598419262962338,
+    "threshold dKth0": -0.005026339260722379,
+    "stress ratio R": 5.900135652470162e-05,
+    "thickness t": 0.001385382027861537,
+    "Cth (R >= 0)": 0.0007168835136986962,
+    "width W": 1.660349143062234e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0008606479483939111
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.011070912425232,
+    "sigma": 0.36810455020655963,
+    "u90": 1.2041011858084705,
+    "pf": 0.9998,
+    "median": 4.020750411002893
+   },
+   "reduction": {
+    "crack depth": 0.11019727620169373,
+    "stress amplitude": 0.11562112930667345,
+    "crack opening factor kappa": 0.07970636746067628,
+    "constraint factor alpha": 0.03455421017941884,
+    "SIF solution error": 0.02914073858007582,
+    "growth curve C-n": 0.006924291808210303,
+    "crack shape a/c": 0.13182635621695682,
+    "critical-shape exponent q": 0.021050931120238592,
+    "toughness Kc": 0.006530463573992673,
+    "intrinsic crack length a0": -0.00023960390447586022,
+    "threshold-shape exponent p": -0.0011530668002335265,
+    "Smax/sigma0": -0.0025986271889029133,
+    "threshold dKth0": -0.0013667087417552626,
+    "stress ratio R": -0.00013698057293920485,
+    "thickness t": -0.00025532249820447994,
+    "Cth (R >= 0)": 3.5268260571208465e-05,
+    "width W": 4.795490151299209e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0035710123829995055
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4447111140740168,
+    "sigma": 0.41853182070199724,
+    "u90": 1.3417053263262377,
+    "pf": 1.0,
+    "median": 3.4757107866310406
+   },
+   "reduction": {
+    "crack depth": 0.05397931515839938,
+    "stress amplitude": 0.12440326775157462,
+    "crack opening factor kappa": 0.05801784569263169,
+    "constraint factor alpha": 0.03139919420320725,
+    "SIF solution error": 0.02873974853447636,
+    "growth curve C-n": 0.007210107447529923,
+    "crack shape a/c": 0.19367265353909524,
+    "critical-shape exponent q": 0.03565278987877296,
+    "toughness Kc": 0.029628032198156795,
+    "intrinsic crack length a0": -7.027199653264482e-05,
+    "threshold-shape exponent p": 0.0005358046162443619,
+    "Smax/sigma0": -0.0007467083880785541,
+    "threshold dKth0": -7.230226312193722e-05,
+    "stress ratio R": 0.0014570674473617373,
+    "thickness t": -0.0001806418886065586,
+    "Cth (R >= 0)": -0.0002350163524289517,
+    "width W": -5.909283162597312e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.003572401159676719
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 6.0132766299264375,
+    "sigma": 0.4149428656318775,
+    "u90": 1.2262388428425712,
+    "pf": 0.7183,
+    "median": 5.983779725540394
+   },
+   "reduction": {
+    "crack depth": 0.23006816350592874,
+    "material fit (C, m, p, dKth0)": 0.24742096845933204,
+    "load amplitude": 0.03314252586711408,
+    "diameter D": -0.014217718671351909,
+    "crack tilt": 0.033976613065254235,
+    "toughness Kc": 0.0011174817447469065,
+    "intrinsic crack length a0": -0.007761921514611636,
+    "stress ratio R": -0.0021656884745246963
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.587410633224387,
+    "sigma": 0.3607105311056369,
+    "u90": 1.1409715680786192,
+    "pf": 0.9331,
+    "median": 5.557721755101939
+   },
+   "reduction": {
+    "crack depth": 0.407873072549382,
+    "material fit (C, m, p, dKth0)": 0.08692705532148948,
+    "load amplitude": 0.11300181319078906,
+    "diameter D": 0.013069298546392827,
+    "crack tilt": -0.0024704758935190085,
+    "toughness Kc": -0.00016325368333602874,
+    "intrinsic crack length a0": 0.001422785730553655,
+    "stress ratio R": 4.2915907313201274e-05
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.129320014392462,
+    "sigma": 0.2864212637910471,
+    "u90": 0.9302884705218029,
+    "pf": 0.9995,
+    "median": 5.11980765417479
+   },
+   "reduction": {
+    "crack depth": 0.32415975152523036,
+    "material fit (C, m, p, dKth0)": 0.06270711347094093,
+    "load amplitude": 0.17564006233318497,
+    "diameter D": 0.019052409136420367,
+    "crack tilt": 0.004192605493860246,
+    "toughness Kc": 0.0011787351088335951,
+    "intrinsic crack length a0": -0.001424244535280783,
+    "stress ratio R": -0.00023841203180974269
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.416493346564193,
+    "sigma": 0.26110409789667627,
+    "u90": 0.8589589140429359,
+    "pf": 1.0,
+    "median": 4.420046603385754
+   },
+   "reduction": {
+    "crack depth": 0.25207277308532483,
+    "material fit (C, m, p, dKth0)": 0.0902708719313019,
+    "load amplitude": 0.20477039961367616,
+    "diameter D": 0.03228215108484067,
+    "crack tilt": 0.0019755741898568324,
+    "toughness Kc": 0.0021646124810401624,
+    "intrinsic crack length a0": -2.6014742076529984e-05,
+    "stress ratio R": -0.0035114288833815177
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 5.08133996184611,
+    "sigma": 0.3191397129917508,
+    "u90": 1.040219755200626,
+    "pf": 0.8039,
+    "median": 5.08175858150632
+   },
+   "reduction": {
+    "crack depth": 0.10612488857590496,
+    "stress amplitude": 0.06700505832296522,
+    "constraint factor alpha": 0.03274877316021785,
+    "growth curve C-n": 0.03888897890109,
+    "crack shape a/c": 0.05904630039575376,
+    "critical-shape exponent q": 0.00158786157180546,
+    "toughness Kc": 0.0026810879299422608,
+    "intrinsic crack length a0": 0.004247183024113976,
+    "threshold-shape exponent p": 0.011536208773159418,
+    "Smax/sigma0": -0.001115720955586319,
+    "threshold dKth0": 0.00875296920831714,
+    "stress ratio R": 0.0003236103876435026,
+    "thickness t": 0.00028333804938351914,
+    "Cth (R >= 0)": 0.0010365061077354243,
+    "width W": 4.002488936616366e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.017995505911334364
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.800435542990018,
+    "sigma": 0.36552238743768534,
+    "u90": 1.2041374679521288,
+    "pf": 0.9775,
+    "median": 4.798879235381744
+   },
+   "reduction": {
+    "crack depth": 0.19197120980088533,
+    "stress amplitude": 0.08777884822178039,
+    "constraint factor alpha": 0.04585894367404697,
+    "growth curve C-n": 0.02453354348817871,
+    "crack shape a/c": 0.07235364240497011,
+    "critical-shape exponent q": 0.0070456427110062725,
+    "toughness Kc": 0.006577724663154982,
+    "intrinsic crack length a0": -5.449298599491392e-05,
+    "threshold-shape exponent p": 0.003793068222710083,
+    "Smax/sigma0": 0.0008184105690581811,
+    "threshold dKth0": -0.0008424200360064305,
+    "stress ratio R": 0.005987203292127541,
+    "thickness t": 8.404900259539883e-05,
+    "Cth (R >= 0)": -0.0008290175110847731,
+    "width W": 1.797989670448974e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06970137552871725
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.402603629192201,
+    "sigma": 0.37635729801862805,
+    "u90": 1.2300349594110775,
+    "pf": 0.9868,
+    "median": 4.38790160477658
+   },
+   "reduction": {
+    "crack depth": 0.300916856722659,
+    "stress amplitude": 0.09735113947366558,
+    "constraint factor alpha": 0.03089772688503678,
+    "growth curve C-n": 0.005793098286370202,
+    "crack shape a/c": 0.08923370884879256,
+    "critical-shape exponent q": 0.008176807026481936,
+    "toughness Kc": 0.007140023813138274,
+    "intrinsic crack length a0": 0.002297999336209111,
+    "threshold-shape exponent p": -0.003418485365038748,
+    "Smax/sigma0": -0.002306283851471136,
+    "threshold dKth0": 0.0007052382627340537,
+    "stress ratio R": -0.0018195361130546317,
+    "thickness t": -0.0009309476953360818,
+    "Cth (R >= 0)": 0.0007394399605374913,
+    "width W": 1.8612139108586945e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.001105392309114439
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 4.002566985576168,
+    "sigma": 0.33178771626808107,
+    "u90": 1.0800310230303087,
+    "pf": 0.9998,
+    "median": 4.015162202695557
+   },
+   "reduction": {
+    "crack depth": 0.12646852457520807,
+    "stress amplitude": 0.14573488288674652,
+    "constraint factor alpha": 0.04219786038399442,
+    "growth curve C-n": 0.010237804453592458,
+    "crack shape a/c": 0.16166972181130201,
+    "critical-shape exponent q": 0.015119217515936145,
+    "toughness Kc": 0.014048992498838841,
+    "intrinsic crack length a0": -4.8452827337674975e-05,
+    "threshold-shape exponent p": 0.0020409569376798053,
+    "Smax/sigma0": 0.0015330324930662442,
+    "threshold dKth0": 0.002628154713668951,
+    "stress ratio R": 0.0015434412703282385,
+    "thickness t": 0.0006509607629775482,
+    "Cth (R >= 0)": 0.0006101033821519497,
+    "width W": 3.082623615235924e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.0006084643248537303
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 4,
+   "n": 10000,
+   "stats": {
+    "mu": 3.4370987584298187,
+    "sigma": 0.3829513518840145,
+    "u90": 1.2206160794315712,
+    "pf": 1.0,
+    "median": 3.4743587208077225
+   },
+   "reduction": {
+    "crack depth": 0.061865059557212665,
+    "stress amplitude": 0.1487378075006487,
+    "constraint factor alpha": 0.033301166008381955,
+    "growth curve C-n": 0.012934271705710154,
+    "crack shape a/c": 0.2377678609763032,
+    "critical-shape exponent q": 0.034152375985394334,
+    "toughness Kc": 0.02726864075011648,
+    "intrinsic crack length a0": 2.077235187425419e-05,
+    "threshold-shape exponent p": 0.002298190849396975,
+    "Smax/sigma0": -0.002876488941424782,
+    "threshold dKth0": 0.001763939319437302,
+    "stress ratio R": 0.0020212920306018622,
+    "thickness t": 0.0018586609733574067,
+    "Cth (R >= 0)": 9.85830617921124e-05,
+    "width W": -2.428936583598329e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.005711203722670977
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 6.019226246441516,
+    "sigma": 0.43233603771497076,
+    "u90": 1.3373890199691623,
+    "pf": 0.7263,
+    "median": 5.989241931364766
+   },
+   "reduction": {
+    "crack depth": 0.18239371959815265,
+    "material fit (C, m, p, dKth0)": 0.2058238830914173,
+    "load amplitude": 0.04138628010298184,
+    "crack opening factor kappa": 0.06345501060553804,
+    "SIF solution error": 0.007094158908769743,
+    "diameter D": -0.0002659623548757484,
+    "crack tilt": 0.03584646932294766,
+    "toughness Kc": 0.00041570280805536264,
+    "intrinsic crack length a0": 0.0007708955454091004,
+    "stress ratio R": -0.0036479569490102115
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.5916043443791645,
+    "sigma": 0.3895806490262097,
+    "u90": 1.2594049440427524,
+    "pf": 0.931,
+    "median": 5.569126478477546
+   },
+   "reduction": {
+    "crack depth": 0.3032726097191746,
+    "material fit (C, m, p, dKth0)": 0.07890481884123013,
+    "load amplitude": 0.08161115139542541,
+    "crack opening factor kappa": 0.08534530004266294,
+    "SIF solution error": 0.018427107939748333,
+    "diameter D": 0.012736688587868472,
+    "crack tilt": -0.0016360281191429848,
+    "toughness Kc": -0.00019491220593259584,
+    "intrinsic crack length a0": 0.002943909472312378,
+    "stress ratio R": -0.003020525162763299
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.137457494413341,
+    "sigma": 0.3313178428526618,
+    "u90": 1.0836316905522576,
+    "pf": 0.9999,
+    "median": 5.1273599050217324
+   },
+   "reduction": {
+    "crack depth": 0.22119008720694655,
+    "material fit (C, m, p, dKth0)": 0.05547459391674259,
+    "load amplitude": 0.11961227440113631,
+    "crack opening factor kappa": 0.10031880653294556,
+    "SIF solution error": 0.035156781925590797,
+    "diameter D": 0.004086107990664667,
+    "crack tilt": 0.003464326063780554,
+    "toughness Kc": 0.0002675894343772134,
+    "intrinsic crack length a0": -0.00021232254296865705,
+    "stress ratio R": -0.0021486548440154962
+   }
+  },
+  {
+   "config": "extended",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.423902629037385,
+    "sigma": 0.309351079823685,
+    "u90": 1.0117147427171078,
+    "pf": 1.0,
+    "median": 4.421914987683028
+   },
+   "reduction": {
+    "crack depth": 0.15435991902416457,
+    "material fit (C, m, p, dKth0)": 0.06693747519480275,
+    "load amplitude": 0.13488508511047925,
+    "crack opening factor kappa": 0.1223318096597682,
+    "SIF solution error": 0.028430457949048527,
+    "diameter D": 0.007851200663426705,
+    "crack tilt": -0.0009571010889959375,
+    "toughness Kc": 0.002101376962876267,
+    "intrinsic crack length a0": 8.281776063767676e-05,
+    "stress ratio R": 0.00032927699450113757
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.092269693030579,
+    "sigma": 0.35430425458026943,
+    "u90": 1.1595149367539248,
+    "pf": 0.804,
+    "median": 5.08898198991621
+   },
+   "reduction": {
+    "crack depth": 0.08776102411788322,
+    "stress amplitude": 0.07378654703570942,
+    "crack opening factor kappa": 0.08070118162302486,
+    "constraint factor alpha": 0.03227802884023856,
+    "SIF solution error": 0.012358888359138231,
+    "growth curve C-n": 0.03869519219567452,
+    "crack shape a/c": 0.06517475030278419,
+    "critical-shape exponent q": 0.011992667863065631,
+    "toughness Kc": 0.003992776129111308,
+    "intrinsic crack length a0": 0.012218410221514375,
+    "threshold-shape exponent p": 0.018540552146926514,
+    "Smax/sigma0": 0.0060556820560788704,
+    "threshold dKth0": 0.010408637468709236,
+    "stress ratio R": 0.008690925483747058,
+    "thickness t": -0.00045373816140714673,
+    "Cth (R >= 0)": 0.0021891412028930413,
+    "width W": 2.0910720953670747e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.013248863620238138
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.812566624989021,
+    "sigma": 0.39600407900494966,
+    "u90": 1.2900340716667165,
+    "pf": 0.9772,
+    "median": 4.810270610390097
+   },
+   "reduction": {
+    "crack depth": 0.14538023446197912,
+    "stress amplitude": 0.07866492914284773,
+    "crack opening factor kappa": 0.06003644926158003,
+    "constraint factor alpha": 0.02662827080983421,
+    "SIF solution error": 0.013452250143528355,
+    "growth curve C-n": 0.022295705404948074,
+    "crack shape a/c": 0.05987937094246698,
+    "critical-shape exponent q": 0.010916667345063136,
+    "toughness Kc": 0.0016229195739164703,
+    "intrinsic crack length a0": 0.0004405388790987841,
+    "threshold-shape exponent p": 0.008208679250909179,
+    "Smax/sigma0": -0.0011890060976549321,
+    "threshold dKth0": -0.003347738139941381,
+    "stress ratio R": -0.000635701384933185,
+    "thickness t": 0.0008801690891339087,
+    "Cth (R >= 0)": -0.000562219647074258,
+    "width W": 9.478208093827156e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.047826284431401356
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.411916328088813,
+    "sigma": 0.40443921290359164,
+    "u90": 1.3258001180062076,
+    "pf": 0.9853,
+    "median": 4.397710102888222
+   },
+   "reduction": {
+    "crack depth": 0.2361087200462305,
+    "stress amplitude": 0.07846989963982987,
+    "crack opening factor kappa": 0.04841477554038065,
+    "constraint factor alpha": 0.027530519070940174,
+    "SIF solution error": 0.007803026895958132,
+    "growth curve C-n": 0.018044591679407196,
+    "crack shape a/c": 0.08028028199442938,
+    "critical-shape exponent q": 0.009701121282497449,
+    "toughness Kc": 0.003602364003013503,
+    "intrinsic crack length a0": 0.001407486929986157,
+    "threshold-shape exponent p": -0.004070715418639681,
+    "Smax/sigma0": 0.0008583250289118105,
+    "threshold dKth0": 0.0029533529147379722,
+    "stress ratio R": 0.003203418919936918,
+    "thickness t": 0.0001014071790437221,
+    "Cth (R >= 0)": 0.0003236020433221576,
+    "width W": 9.519982504757607e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0015190958555588718
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.015334621198081,
+    "sigma": 0.36939047386279306,
+    "u90": 1.218736520792174,
+    "pf": 1.0,
+    "median": 4.0236195645773485
+   },
+   "reduction": {
+    "crack depth": 0.1094293123601503,
+    "stress amplitude": 0.13495471327047537,
+    "crack opening factor kappa": 0.07288660084105902,
+    "constraint factor alpha": 0.03702792914890107,
+    "SIF solution error": 0.025514625964778492,
+    "growth curve C-n": 0.023063161950180877,
+    "crack shape a/c": 0.1422810934096047,
+    "critical-shape exponent q": 0.031447840871627,
+    "toughness Kc": 0.011907809268238645,
+    "intrinsic crack length a0": 3.61490565422562e-05,
+    "threshold-shape exponent p": 0.0022099863736676495,
+    "Smax/sigma0": 0.0006892558935210902,
+    "threshold dKth0": -0.001339419710636447,
+    "stress ratio R": 0.00318327744132485,
+    "thickness t": 0.00014296374957301072,
+    "Cth (R >= 0)": -0.0005434716447842991,
+    "width W": -1.7194229895434177e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0034672363090955116
+   }
+  },
+  {
+   "config": "extended",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 3.450235041341283,
+    "sigma": 0.4217364995051301,
+    "u90": 1.3496214433080822,
+    "pf": 1.0,
+    "median": 3.478135306372906
+   },
+   "reduction": {
+    "crack depth": 0.05401097670364596,
+    "stress amplitude": 0.12811853414245744,
+    "crack opening factor kappa": 0.06100848003041792,
+    "constraint factor alpha": 0.026180873532410942,
+    "SIF solution error": 0.021538469634562296,
+    "growth curve C-n": 0.01188032503934322,
+    "crack shape a/c": 0.19799133061944163,
+    "critical-shape exponent q": 0.04136011169400233,
+    "toughness Kc": 0.02223101139702255,
+    "intrinsic crack length a0": -2.418679845295202e-05,
+    "threshold-shape exponent p": 0.0009584284728686443,
+    "Smax/sigma0": 0.0014003027710635108,
+    "threshold dKth0": -0.0011275255319163069,
+    "stress ratio R": -0.004623869778046075,
+    "thickness t": 0.001980799006640499,
+    "Cth (R >= 0)": -0.00016945943359747417,
+    "width W": 8.340360714953476e-05,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.005531592925594797
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 0.5,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 6.0141450480924155,
+    "sigma": 0.3973096946705767,
+    "u90": 1.2329341760089783,
+    "pf": 0.7285,
+    "median": 5.980196237522709
+   },
+   "reduction": {
+    "crack depth": 0.2542597015065101,
+    "material fit (C, m, p, dKth0)": 0.2662555184724126,
+    "load amplitude": 0.07569017085227092,
+    "diameter D": 0.00787050813898027,
+    "crack tilt": 0.05078479210937581,
+    "toughness Kc": 0.0008975564796691593,
+    "intrinsic crack length a0": 0.004043933506447384,
+    "stress ratio R": 0.001188052969463893
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 1.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.584027005662706,
+    "sigma": 0.35590712396036633,
+    "u90": 1.128454510930455,
+    "pf": 0.9323,
+    "median": 5.553155315299073
+   },
+   "reduction": {
+    "crack depth": 0.40670375353736077,
+    "material fit (C, m, p, dKth0)": 0.08831281384880352,
+    "load amplitude": 0.10120726142879177,
+    "diameter D": 0.007317329700880837,
+    "crack tilt": 5.072226376534594e-05,
+    "toughness Kc": 0.00019451667590242305,
+    "intrinsic crack length a0": 0.0021825920406655097,
+    "stress ratio R": 0.0013738194070108678
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 2.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.127758990594798,
+    "sigma": 0.2858359605495814,
+    "u90": 0.928906034497647,
+    "pf": 1.0,
+    "median": 5.116068603266449
+   },
+   "reduction": {
+    "crack depth": 0.3153118872656733,
+    "material fit (C, m, p, dKth0)": 0.07249763753027194,
+    "load amplitude": 0.17039940605632609,
+    "diameter D": 0.009849041617157384,
+    "crack tilt": 0.0014316471713901047,
+    "toughness Kc": 0.0022585217773498645,
+    "intrinsic crack length a0": 0.00034800012584257356,
+    "stress ratio R": -0.0009784724876595874
+   }
+  },
+  {
+   "config": "standard",
+   "case": "bar",
+   "depth_mm": 4.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.4143519435129,
+    "sigma": 0.26029788124934305,
+    "u90": 0.8533835255281894,
+    "pf": 1.0,
+    "median": 4.411961159989823
+   },
+   "reduction": {
+    "crack depth": 0.23456493107787846,
+    "material fit (C, m, p, dKth0)": 0.09053418644803146,
+    "load amplitude": 0.20573082559520173,
+    "diameter D": 0.019540035723838667,
+    "crack tilt": 0.00317473873618046,
+    "toughness Kc": 0.001981892771898308,
+    "intrinsic crack length a0": -0.0001664481031242726,
+    "stress ratio R": 0.0021586272431523
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.2,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 5.087983610407534,
+    "sigma": 0.3203652133407325,
+    "u90": 1.0477614143505418,
+    "pf": 0.8094,
+    "median": 5.085277336337272
+   },
+   "reduction": {
+    "crack depth": 0.108687882440614,
+    "stress amplitude": 0.08822466125829054,
+    "constraint factor alpha": 0.03501512700565923,
+    "growth curve C-n": 0.04660783265961865,
+    "crack shape a/c": 0.08377224185495824,
+    "critical-shape exponent q": -0.0007029845192414452,
+    "toughness Kc": 0.0003744673030720014,
+    "intrinsic crack length a0": 0.011997235186412492,
+    "threshold-shape exponent p": 0.018398553429534892,
+    "Smax/sigma0": -0.0007496250311820329,
+    "threshold dKth0": 0.009478801256870728,
+    "stress ratio R": 0.00099482424204278,
+    "thickness t": -7.67558529368717e-05,
+    "Cth (R >= 0)": 0.000730776619988549,
+    "width W": -6.4623905355887246e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.02690875906036727
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 0.5,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.805544919073081,
+    "sigma": 0.36526111645530385,
+    "u90": 1.1883340199022934,
+    "pf": 0.9794,
+    "median": 4.799654932489339
+   },
+   "reduction": {
+    "crack depth": 0.18351152532988602,
+    "stress amplitude": 0.0847475713838447,
+    "constraint factor alpha": 0.02425489693805183,
+    "growth curve C-n": 0.021801187700435598,
+    "crack shape a/c": 0.07395759456719309,
+    "critical-shape exponent q": 0.0037863519819235636,
+    "toughness Kc": 0.0024574698771923087,
+    "intrinsic crack length a0": -0.0014063222496467631,
+    "threshold-shape exponent p": 0.006673077980963282,
+    "Smax/sigma0": -0.0031615577454899846,
+    "threshold dKth0": -0.0019306619923473711,
+    "stress ratio R": 0.0002601836573555838,
+    "thickness t": 0.0005036799753366239,
+    "Cth (R >= 0)": -0.0013257738614853576,
+    "width W": -1.304999891704739e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": 0.06516041596517808
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 1.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.4047839417251735,
+    "sigma": 0.37500794250601904,
+    "u90": 1.2495324467065614,
+    "pf": 0.9864,
+    "median": 4.3924851481026685
+   },
+   "reduction": {
+    "crack depth": 0.3143422255156054,
+    "stress amplitude": 0.10296205185368412,
+    "constraint factor alpha": 0.04632789036268181,
+    "growth curve C-n": 0.029032510529425015,
+    "crack shape a/c": 0.10911822232815682,
+    "critical-shape exponent q": 0.018109054224260013,
+    "toughness Kc": 0.008799756252120927,
+    "intrinsic crack length a0": -0.0009474498592898506,
+    "threshold-shape exponent p": 0.003993405726159915,
+    "Smax/sigma0": 0.0017302286899408825,
+    "threshold dKth0": 0.002493761903760716,
+    "stress ratio R": 0.0038625353925735295,
+    "thickness t": -8.304457100560825e-05,
+    "Cth (R >= 0)": 0.0006849414850408353,
+    "width W": 1.241843645527485e-05,
+    "Cth (R < 0)": -8.354594491777334e-07,
+    "crack tilt": -0.001389766219132671
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 2.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.006784337072639,
+    "sigma": 0.3324493029533381,
+    "u90": 1.0838584947590828,
+    "pf": 1.0,
+    "median": 4.016727373822647
+   },
+   "reduction": {
+    "crack depth": 0.13930747517225162,
+    "stress amplitude": 0.15152577302851578,
+    "constraint factor alpha": 0.034790503661520145,
+    "growth curve C-n": 0.02161658194863525,
+    "crack shape a/c": 0.17244557980963904,
+    "critical-shape exponent q": 0.022784371886269472,
+    "toughness Kc": 0.013448644760270523,
+    "intrinsic crack length a0": 0.0001365798979531263,
+    "threshold-shape exponent p": 0.0012438805873349335,
+    "Smax/sigma0": 0.00011253446101699982,
+    "threshold dKth0": -0.0024049682998319444,
+    "stress ratio R": 0.0027663250422833574,
+    "thickness t": -0.0016095198928600674,
+    "Cth (R >= 0)": 0.0003256326377506502,
+    "width W": -7.530932896404607e-06,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.0010536171863035904
+   }
+  },
+  {
+   "config": "standard",
+   "case": "plate",
+   "depth_mm": 4.0,
+   "seed": 5,
+   "n": 10000,
+   "stats": {
+    "mu": 3.442615767374011,
+    "sigma": 0.3848523934354142,
+    "u90": 1.2257719672588343,
+    "pf": 1.0,
+    "median": 3.476804600049781
+   },
+   "reduction": {
+    "crack depth": 0.07119873732918192,
+    "stress amplitude": 0.16210162202102452,
+    "constraint factor alpha": 0.033106809654009806,
+    "growth curve C-n": 0.017883349341440757,
+    "crack shape a/c": 0.23454008453145736,
+    "critical-shape exponent q": 0.032144929426865865,
+    "toughness Kc": 0.025836266188195345,
+    "intrinsic crack length a0": 9.175964693575178e-05,
+    "threshold-shape exponent p": 0.0019877128841334635,
+    "Smax/sigma0": 0.0032534679130347133,
+    "threshold dKth0": 2.93104101367625e-06,
+    "stress ratio R": 0.00017482451502082164,
+    "thickness t": 0.00153933158286923,
+    "Cth (R >= 0)": 6.3920117884253e-05,
+    "width W": -0.00010601706328361438,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.003264058359694122
+   }
+  }
+ ]
+}

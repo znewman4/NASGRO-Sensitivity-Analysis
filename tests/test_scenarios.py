@@ -126,3 +126,23 @@ def test_tilt_lengthens_life_except_full_mode_one(case):
     for k in (0, 2, 3):
         assert mm.nominal_life(case, 1.0, 30.0, k) > mm.nominal_life(case, 1.0, 0.0, k)
     assert mm.nominal_life(case, 1.0, 30.0, 1) == pytest.approx(mm.nominal_life(case, 1.0, 0.0, 1))
+
+
+@pytest.mark.parametrize("case", ["bar", "plate"])
+def test_nasgro_only_fixes_kappa_and_sif_without_touching_other_draws(case):
+    ext = cases.sample(case, 1e-3, 500, seed=3)
+    std = cases.sample(case, 1e-3, 500, seed=3, fixed=("kappa", "sif"))
+    assert np.all(std["kappa"] == 1.0) and np.all(std["sif"] == 1.0)
+    for k in ext:
+        if k not in ("kappa", "sif"):
+            np.testing.assert_array_equal(ext[k], std[k])
+
+
+@pytest.mark.parametrize("case", ["bar", "plate"])
+def test_unit_spread_multipliers_reproduce_default_sampler(case):
+    a = cases.sample(case, 0.5e-3, 300, seed=2)
+    keys = ("depth", "S", "F", "ac", "alpha", "smax_sigma0", "material", "Cn", "Kc", "a0", "R", "tilt")
+    b = cases.sample(case, 0.5e-3, 300, seed=2, spread={k: 1.0 for k in keys if not
+                                                         (case == "bar" and k in ("alpha", "smax_sigma0"))})
+    for k in a:
+        np.testing.assert_array_equal(a[k], b[k])

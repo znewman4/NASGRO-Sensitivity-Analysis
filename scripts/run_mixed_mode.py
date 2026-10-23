@@ -41,7 +41,7 @@ def step2_task(case, depth_mm, prior, sized, n):
     inputs["crack tilt (mixed mode)"] = "mm_theta"
 
     def run(fixed=(), model=None, sized_=sized):
-        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=fixed)
+        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=runner.fx(fixed))
         s = mm.add_inputs(s, prior, sized_, seed=1, fixed=fixed, model=model)
         return life.chunked(lambda x: mm.mm_life(case, x), s)
 
@@ -63,7 +63,10 @@ def step2_task(case, depth_mm, prior, sized, n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=10000)
+    ap.add_argument("--standard", action="store_true",
+                    help="NASGRO-only: kappa and SIF error fixed at 1, results to the dated folder")
     args = ap.parse_args()
+    runner.set_standard(args.standard)
     s1 = step1()
     runner.save("mixed_mode_step1.json", dict(results=s1, models=mm.MODELS))
     tasks = [(c, d, p, z, args.n) for p in mm.PRIORS for z in (False, True)

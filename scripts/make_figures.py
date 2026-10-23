@@ -48,7 +48,7 @@ def _heat(ax, res_list, title, min_red=0.02, max_rows=8, always=()):
     for i in range(M.shape[0]):
         for j in range(M.shape[1]):
             v = M[i, j]
-            ax.text(j, i, f"{v:.0%}", ha="center", va="center", fontsize=9,
+            ax.text(j, i, f"{0.0 if abs(v) < 0.005 else v:.0%}", ha="center", va="center", fontsize=9,
                     color="white" if v > 0.25 else INK)
     ax.set_yticks(range(len(order)))
     ax.set_yticklabels([names[i].replace("(C, m, p, dKth0)", "").replace("kappa", "κ")
@@ -144,9 +144,19 @@ def va_figures():
     fig.savefig(os.path.join(OUT, "fig_va_rank.png"), dpi=150)
 
 
+def _base_u90():
+    """Baseline U90 by (case, depth) from the folder's own baseline run."""
+    if os.path.exists(os.path.join(runner.RESULTS, "baseline.json")):
+        rr = runner.load("baseline.json")["results"]
+    else:   # NASGRO-only folder: seed-1 standard ranking
+        rr = [r for r in runner.load("rankings.json")["results"]
+              if r["config"] == "standard" and r["seed"] == 1]
+    return {(r["case"], r["depth_mm"]): r["stats"]["u90"] for r in rr}
+
+
 def mm_figures():
     s1 = runner.load("mixed_mode_step1.json")["results"]
-    base = {(r["case"], r["depth_mm"]): r["stats"]["u90"] for r in runner.load("baseline.json")["results"]}
+    base = _base_u90()
     depths = {"bar": [0.5, 1.0, 4.0], "plate": [0.2, 1.0, 4.0]}
     fig, axes = plt.subplots(2, 3, figsize=(13, 7.2), sharex=True, sharey=True)
     styles = {"projection": "-", "full mode I": ":", "energy": "-", "tanaka": "-"}
@@ -221,7 +231,11 @@ def mm_figures():
 
 
 if __name__ == "__main__":
-    which = sys.argv[1:] or ["rs", "va", "mm"]
+    args = sys.argv[1:]
+    if "--standard" in args:   # NASGRO-only results in the dated folder
+        args.remove("--standard")
+        runner.RESULTS = OUT = runner.STANDARD_DIR
+    which = args or ["rs", "va", "mm"]
     if "rs" in which:
         residual_figures()
     if "va" in which:

@@ -25,14 +25,14 @@ def task(stage, case, depth_mm, n):
     size = 500 if stage == 1 else n
 
     def fn(fixed):
-        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=fixed)
-        s = va.add_inputs(s, case, seed=1, fixed=fixed)
+        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=runner.fx(fixed))
+        s = va.add_inputs(s, case, seed=1, fixed=runner.fx(fixed))
         return life.chunked(lambda x: fn_life(case, x), s, size=size)
 
     out = runner.rank_task(case, depth_mm, fn, extra_inputs=extra, n=n)
     out["stage"] = stage
     if stage == 2:   # stage-1 stats on the same samples, to isolate retardation
-        s = va.add_inputs(cases.sample(case, depth_mm * 1e-3, n, seed=1), case, seed=1)
+        s = va.add_inputs(cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=runner.fx(())), case, seed=1)
         out["stage1_stats"] = life.stats(life.chunked(lambda x: va.stage1_life(case, x), s))
     return out
 
@@ -42,7 +42,10 @@ def main():
     ap.add_argument("--n1", type=int, default=10000)
     ap.add_argument("--n2", type=int, default=3000)
     ap.add_argument("--stage", default="both")
+    ap.add_argument("--standard", action="store_true",
+                    help="NASGRO-only: kappa and SIF error fixed at 1, results to the dated folder")
     args = ap.parse_args()
+    runner.set_standard(args.standard)
     tasks = []
     if args.stage in ("1", "both"):
         tasks += [(1, c, d, args.n1) for c in ("bar", "plate") for d in runner.DEPTHS_MM[c]]

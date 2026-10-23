@@ -1,0 +1,36 @@
+/home/user/NASGRO-Sensitivity-Analysis/results/2026-10-23_nasgro_only/residual_stress.json
+plate_weld       0.2 mm  median 5.08->4.74  Pf 80%->99%  U90 1.05->1.14 | crack depth 14%, crack shape a/c 12%, stress amplitude 9%, crack tilt 8%
+plate_weld       0.5 mm  median 4.79->4.46  Pf 98%->100%  U90 1.20->1.18 | crack depth 13%, crack shape a/c 12%, stress amplitude 10%, crack tilt 8%
+plate_weld       1.0 mm  median 4.38->4.13  Pf 98%->100%  U90 1.24->1.25 | crack depth 20%, crack shape a/c 15%, stress amplitude 10%, constraint factor alpha 3%
+plate_weld       2.0 mm  median 4.01->3.84  Pf 100%->100%  U90 1.10->1.18 | crack shape a/c 21%, stress amplitude 14%, crack depth 6%, residual stress decay length 5%
+plate_weld       4.0 mm  median 3.47->3.42  Pf 100%->100%  U90 1.22->1.36 | crack shape a/c 28%, stress amplitude 15%, crack depth 6%, residual stress decay length 6%
+plate_weld_sd    0.2 mm  median 5.08->4.84  Pf 80%->99%  U90 1.05->1.09 | crack depth 16%, crack shape a/c 11%, crack tilt 8%, stress amplitude 7%
+plate_weld_sd    0.5 mm  median 4.79->4.55  Pf 98%->100%  U90 1.20->1.13 | crack depth 16%, crack shape a/c 12%, crack tilt 9%, stress amplitude 7%
+plate_weld_sd    1.0 mm  median 4.38->4.21  Pf 98%->100%  U90 1.24->1.19 | crack depth 25%, crack shape a/c 16%, stress amplitude 8%, constraint factor alpha 3%
+plate_weld_sd    2.0 mm  median 4.01->3.90  Pf 100%->100%  U90 1.10->1.09 | crack shape a/c 21%, stress amplitude 12%, crack depth 10%, constraint factor alpha 4%
+plate_weld_sd    4.0 mm  median 3.47->3.43  Pf 100%->100%  U90 1.22->1.28 | crack shape a/c 27%, stress amplitude 15%, crack depth 7%, critical-shape exponent q 5%
+plate_uniform    0.2 mm  median 5.08->4.61  Pf 80%->99%  U90 1.05->1.25 | crack depth 20%, crack shape a/c 8%, stress amplitude 7%, crack tilt 6%
+plate_uniform    0.5 mm  median 4.79->4.22  Pf 98%->100%  U90 1.20->1.45 | crack depth 25%, crack shape a/c 8%, stress amplitude 6%, crack tilt 5%
+plate_uniform    1.0 mm  median 4.38->3.65  Pf 98%->100%  U90 1.24->1.92 | crack depth 38%, crack shape a/c 9%, stress amplitude 4%, residual stress amplitude 4%
+plate_uniform    2.0 mm  median 4.01->2.96  Pf 100%->100%  U90 1.10->3.79 | crack depth 36%, crack shape a/c 34%, toughness Kc 31%, residual stress amplitude 27%
+plate_uniform    4.0 mm  median 3.47->0.00  Pf 100%->100%  U90 1.22->2.88 | crack shape a/c 6%, residual stress amplitude 5%, crack depth 3%, stress amplitude 3%
+bar_tensile      0.5 mm  median 5.98->5.58  Pf 73%->98%  U90 1.23->0.98 | crack depth 12%, crack tilt 11%, material fit (C, m, p, dKth0) 10%, load amplitude 9%
+bar_tensile      1.0 mm  median 5.55->5.28  Pf 93%->99%  U90 1.11->0.92 | crack depth 25%, load amplitude 12%, material fit (C, m, p, dKth0) 8%, residual stress decay length 7%
+bar_tensile      2.0 mm  median 5.11->4.98  Pf 100%->100%  U90 0.93->0.82 | load amplitude 18%, crack depth 18%, material fit (C, m, p, dKth0) 9%, residual stress decay length 6%
+bar_tensile      4.0 mm  median 4.41->4.41  Pf 100%->100%  U90 0.86->0.84 | crack depth 20%, load amplitude 20%, material fit (C, m, p, dKth0) 10%, diameter D 3%
+bar_tensile_sd   0.5 mm  median 5.98->5.62  Pf 73%->98%  U90 1.23->0.94 | crack depth 15%, crack tilt 12%, material fit (C, m, p, dKth0) 10%, load amplitude 8%
+bar_tensile_sd   1.0 mm  median 5.55->5.31  Pf 93%->99%  U90 1.11->0.90 | crack depth 29%, load amplitude 12%, material fit (C, m, p, dKth0) 8%, residual stress decay length 6%
+bar_tensile_sd   2.0 mm  median 5.11->5.00  Pf 100%->100%  U90 0.93->0.81 | crack depth 20%, load amplitude 18%, material fit (C, m, p, dKth0) 9%, residual stress decay length 5%
+bar_tensile_sd   4.0 mm  median 4.41->4.41  Pf 100%->100%  U90 0.86->0.84 | crack depth 20%, load amplitude 20%, material fit (C, m, p, dKth0) 9%, diameter D 3%
+bar_compressive  0.5 mm  median 5.98->5.96  Pf 73%->36%  U90 1.23->1.35 | material fit (C, m, p, dKth0) 25%, crack depth 9%, crack tilt 2%, diameter D 2%
+bar_compressive  1.0 mm  median 5.55->5.56  Pf 93%->82%  U90 1.11->1.18 | crack depth 31%, material fit (C, m, p, dKth0) 7%, load amplitude 6%, diameter D 2%
+bar_compressive  2.0 mm  median 5.11->5.10  Pf 100%->100%  U90 0.93->0.98 | crack depth 35%, load amplitude 15%, material fit (C, m, p, dKth0) 7%, residual stress decay length 2%
+bar_compressive  4.0 mm  median 4.41->4.39  Pf 100%->100%  U90 0.86->0.85 | crack depth 23%, load amplitude 19%, material fit (C, m, p, dKth0) 9%, diameter D 3%
+bar_uniform      0.5 mm  median 5.98->5.14  Pf 73%->99%  U90 1.23->1.23 | crack depth 27%, residual stress amplitude 11%, crack tilt 6%, material fit (C, m, p, dKth0) 5%
+bar_uniform      1.0 mm  median 5.55->4.66  Pf 93%->99%  U90 1.11->1.29 | crack depth 42%, residual stress amplitude 11%, material fit (C, m, p, dKth0) 4%, load amplitude 2%
+bar_uniform      2.0 mm  median 5.11->4.20  Pf 100%->100%  U90 0.93->1.04 | crack depth 25%, residual stress amplitude 18%, material fit (C, m, p, dKth0) 6%, load amplitude 4%
+bar_uniform      4.0 mm  median 4.41->3.46  Pf 100%->100%  U90 0.86->1.08 | residual stress amplitude 22%, crack depth 18%, material fit (C, m, p, dKth0) 9%, load amplitude 4%
+
+real	16m25.308s
+user	31m57.629s
+sys	30m11.917s

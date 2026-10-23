@@ -23,7 +23,7 @@ PUBLISHED = {
 
 def task(case, depth_mm, n):
     def fn(fixed):
-        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=fixed)
+        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=runner.fx(fixed))
         return life.chunked(lambda x: life.ca_life(case, x), s)
     return runner.rank_task(case, depth_mm, fn, n=n, with_baseline=False)
 
@@ -31,7 +31,10 @@ def task(case, depth_mm, n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=10000)
+    ap.add_argument("--standard", action="store_true",
+                    help="NASGRO-only: kappa and SIF error fixed at 1, results to the dated folder")
     args = ap.parse_args()
+    runner.set_standard(args.standard)
     tasks = [(c, d, args.n) for c in ("bar", "plate") for d in runner.DEPTHS_MM[c]]
     res = runner.run_pool(task, tasks)
     print(runner.save("baseline.json", dict(results=res, published=PUBLISHED)))

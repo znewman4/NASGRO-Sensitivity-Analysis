@@ -1,0 +1,41 @@
+/home/user/NASGRO-Sensitivity-Analysis/results/2026-10-23_nasgro_only/mixed_mode.json
+uniaxial unknown bar   0.5 mm  U90 1.18 | crack depth 29%, material fit (C, m, p, dKth0) 24%, load amplitude 5%, diameter D 1% | UT sizing -0%
+uniaxial unknown bar   1.0 mm  U90 1.11 | crack depth 38%, load amplitude 9%, material fit (C, m, p, dKth0) 9%, diameter D 2% | UT sizing -0%
+uniaxial unknown bar   2.0 mm  U90 0.93 | crack depth 30%, load amplitude 17%, material fit (C, m, p, dKth0) 8%, diameter D 2% | UT sizing 1%
+uniaxial unknown bar   4.0 mm  U90 0.87 | crack depth 22%, load amplitude 19%, material fit (C, m, p, dKth0) 10%, diameter D 3% | UT sizing 1%
+uniaxial unknown plate 0.2 mm  U90 1.03 | crack depth 15%, stress amplitude 10%, crack shape a/c 10%, growth curve C-n 5% | UT sizing 0%
+uniaxial unknown plate 0.5 mm  U90 1.13 | crack depth 25%, stress amplitude 11%, crack shape a/c 10%, constraint factor alpha 3% | UT sizing -1%
+uniaxial unknown plate 1.0 mm  U90 1.23 | crack depth 30%, crack shape a/c 10%, stress amplitude 10%, constraint factor alpha 3% | UT sizing -1%
+uniaxial unknown plate 2.0 mm  U90 1.09 | crack shape a/c 17%, stress amplitude 15%, crack depth 13%, constraint factor alpha 4% | UT sizing -1%
+uniaxial unknown plate 4.0 mm  U90 1.21 | crack shape a/c 23%, stress amplitude 15%, crack depth 8%, critical-shape exponent q 3% | UT sizing -1%
+uniaxial sized   bar   0.5 mm  U90 1.18 | crack depth 32%, material fit (C, m, p, dKth0) 23%, load amplitude 7%, diameter D 2%
+uniaxial sized   bar   1.0 mm  U90 1.11 | crack depth 40%, load amplitude 10%, material fit (C, m, p, dKth0) 8%, diameter D 3%
+uniaxial sized   bar   2.0 mm  U90 0.93 | crack depth 32%, load amplitude 17%, material fit (C, m, p, dKth0) 8%, diameter D 3%
+uniaxial sized   bar   4.0 mm  U90 0.86 | crack depth 23%, load amplitude 20%, material fit (C, m, p, dKth0) 9%, diameter D 3%
+uniaxial sized   plate 0.2 mm  U90 1.03 | crack depth 15%, stress amplitude 9%, crack shape a/c 8%, growth curve C-n 4%
+uniaxial sized   plate 0.5 mm  U90 1.13 | crack depth 26%, stress amplitude 11%, crack shape a/c 10%, constraint factor alpha 4%
+uniaxial sized   plate 1.0 mm  U90 1.24 | crack depth 31%, stress amplitude 11%, crack shape a/c 10%, constraint factor alpha 3%
+uniaxial sized   plate 2.0 mm  U90 1.09 | crack shape a/c 17%, stress amplitude 15%, crack depth 14%, constraint factor alpha 4%
+uniaxial sized   plate 4.0 mm  U90 1.22 | crack shape a/c 24%, stress amplitude 15%, crack depth 8%, critical-shape exponent q 3%
+inclined unknown bar   0.5 mm  U90 1.19 | material fit (C, m, p, dKth0) 29%, crack depth 24%, load amplitude 4%, stress ratio R 0% | UT sizing -1%
+inclined unknown bar   1.0 mm  U90 1.10 | crack depth 29%, material fit (C, m, p, dKth0) 10%, load amplitude 7%, crack tilt (mixed mode) 3% | UT sizing 3%
+inclined unknown bar   2.0 mm  U90 1.00 | crack depth 24%, load amplitude 15%, crack tilt (mixed mode) 10%, material fit (C, m, p, dKth0) 7% | UT sizing 9%
+inclined unknown bar   4.0 mm  U90 0.98 | crack tilt (mixed mode) 16%, crack depth 15%, load amplitude 14%, material fit (C, m, p, dKth0) 6% | UT sizing 14%
+inclined unknown plate 0.2 mm  U90 1.00 | crack depth 13%, crack shape a/c 9%, stress amplitude 9%, growth curve C-n 5% | UT sizing -0%
+inclined unknown plate 0.5 mm  U90 1.13 | crack depth 21%, stress amplitude 10%, crack shape a/c 9%, constraint factor alpha 4% | UT sizing 2%
+inclined unknown plate 1.0 mm  U90 1.22 | crack depth 25%, crack shape a/c 10%, stress amplitude 10%, constraint factor alpha 3% | UT sizing 2%
+inclined unknown plate 2.0 mm  U90 1.12 | crack shape a/c 16%, stress amplitude 13%, crack depth 11%, crack tilt (mixed mode) 6% | UT sizing 5%
+inclined unknown plate 4.0 mm  U90 1.25 | crack shape a/c 19%, stress amplitude 13%, crack tilt (mixed mode) 8%, crack depth 5% | UT sizing 7%
+inclined sized   bar   0.5 mm  U90 1.20 | material fit (C, m, p, dKth0) 30%, crack depth 26%, load amplitude 7%, diameter D 2%
+inclined sized   bar   1.0 mm  U90 1.07 | crack depth 34%, material fit (C, m, p, dKth0) 9%, load amplitude 9%, diameter D 2%
+inclined sized   bar   2.0 mm  U90 0.92 | crack depth 29%, load amplitude 18%, material fit (C, m, p, dKth0) 8%, diameter D 2%
+inclined sized   bar   4.0 mm  U90 0.84 | crack depth 20%, load amplitude 20%, material fit (C, m, p, dKth0) 9%, diameter D 3%
+inclined sized   plate 0.2 mm  U90 1.00 | crack depth 14%, crack shape a/c 10%, stress amplitude 9%, growth curve C-n 6%
+inclined sized   plate 0.5 mm  U90 1.10 | crack depth 23%, stress amplitude 9%, crack shape a/c 9%, constraint factor alpha 4%
+inclined sized   plate 1.0 mm  U90 1.19 | crack depth 28%, crack shape a/c 10%, stress amplitude 10%, constraint factor alpha 3%
+inclined sized   plate 2.0 mm  U90 1.06 | crack shape a/c 17%, stress amplitude 15%, crack depth 13%, constraint factor alpha 5%
+inclined sized   plate 4.0 mm  U90 1.15 | crack shape a/c 23%, stress amplitude 15%, crack depth 7%, constraint factor alpha 4%
+
+real	5m0.084s
+user	12m20.380s
+sys	6m18.158s

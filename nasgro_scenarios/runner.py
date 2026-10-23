@@ -8,11 +8,33 @@ import numpy as np
 from . import cases, life
 
 DEPTHS_MM = {"bar": [0.5, 1.0, 2.0, 4.0], "plate": [0.2, 0.5, 1.0, 2.0, 4.0]}
-RESULTS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RESULTS = os.path.join(ROOT, "results")
+
+# NASGRO-only ("standard variables") mode: the two inputs that are not in the
+# NASGRO equation (crack-opening factor kappa, SIF-solution error) sit at their
+# nominal value of 1 in every run and drop out of the rankings.
+NON_NASGRO = ("kappa", "sif")
+ALWAYS_FIXED = ()
+STANDARD_DIR = os.path.join(RESULTS, "2026-10-23_nasgro_only")
+
+
+def set_standard(on=True):
+    """Switch to NASGRO-only mode; results then go to the dated folder."""
+    global ALWAYS_FIXED, RESULTS
+    if on:
+        ALWAYS_FIXED = NON_NASGRO
+        RESULTS = STANDARD_DIR
+
+
+def fx(fixed):
+    """The run's fixed inputs plus the mode's always-fixed ones."""
+    return tuple(fixed) + ALWAYS_FIXED
 
 
 def base_inputs(case):
-    return dict(cases.BAR_INPUTS if case == "bar" else cases.PLATE_INPUTS)
+    inp = dict(cases.BAR_INPUTS if case == "bar" else cases.PLATE_INPUTS)
+    return {k: v for k, v in inp.items() if v not in ALWAYS_FIXED}
 
 
 def rank_task(case, depth_mm, life_of_samples, extra_inputs=None, n=10000, seed=1,
@@ -26,9 +48,10 @@ def rank_task(case, depth_mm, life_of_samples, extra_inputs=None, n=10000, seed=
     inputs = base_inputs(case)
     inputs.update(extra_inputs or {})
     st, red = life.u90_reduction(life_of_samples, inputs)
-    out = dict(case=case, depth_mm=depth_mm, n=n, stats=st, reduction=red)
+    out = dict(case=case, depth_mm=depth_mm, n=n, stats=st, reduction=red,
+               always_fixed=list(ALWAYS_FIXED))
     if with_baseline:
-        s = cases.sample(case, depth_mm * 1e-3, n, seed=seed)
+        s = cases.sample(case, depth_mm * 1e-3, n, seed=seed, fixed=fx(()))
         out["baseline_stats"] = life.stats(life.chunked(lambda x: life.ca_life(case, x), s))
     return out
 

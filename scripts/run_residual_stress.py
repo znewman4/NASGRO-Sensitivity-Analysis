@@ -25,8 +25,8 @@ def task(name, depth_mm, n):
         extra.pop("residual stress decay length")
 
     def fn(fixed):
-        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=fixed)
-        s = rs.add_inputs(s, sc, seed=1, fixed=fixed)
+        s = cases.sample(case, depth_mm * 1e-3, n, seed=1, fixed=runner.fx(fixed))
+        s = rs.add_inputs(s, sc, seed=1, fixed=runner.fx(fixed))
         return life.chunked(lambda x: life.ca_life(case, x, kfn), s, size=500)
 
     out = runner.rank_task(case, depth_mm, fn, extra_inputs=extra, n=n)
@@ -39,7 +39,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=10000)
     ap.add_argument("--only", default="")
+    ap.add_argument("--standard", action="store_true",
+                    help="NASGRO-only: kappa and SIF error fixed at 1, results to the dated folder")
     args = ap.parse_args()
+    runner.set_standard(args.standard)
     names = args.only.split(",") if args.only else list(rs.SCENARIOS)
     tasks = [(nm, d, args.n) for nm in names for d in runner.DEPTHS_MM[rs.SCENARIOS[nm]["case"]]]
     res = runner.run_pool(task, tasks)
