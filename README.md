@@ -11,7 +11,10 @@ tied to its assumptions.
 | `scripts/run_residual_stress.py` | Residual stress: K_res(a) superposed on applied K (7 scenarios) |
 | `scripts/run_variable_amplitude.py` | Variable amplitude: stage 1 repeating block without interaction; stage 2 generalised Willenborg retardation |
 | `scripts/run_mixed_mode.py` | Mixed mode (tilted crack): step 1 model comparison at nominal inputs; step 2 Monte Carlo, knowing the tilt vs knowing the criterion |
-| `scripts/make_figures.py` | Figures in `results/` |
+| `scripts/run_nasgro_only.py` | NASGRO-equation inputs only: κ and SIF error fixed at 1; rankings with and without them (5 seeds), checks, doubling, scenarios, phases, sweeps |
+| `scripts/run_elasticity.py` | Raw +10 % sensitivity of each NASGRO input at nominal |
+| `scripts/make_figures.py` | Figures in `results/` (`--standard` for the NASGRO-only folder) |
+| `scripts/make_figures_nasgro_only.py` | Core NASGRO-only figures |
 
 ```bash
 pip install numpy scipy matplotlib pytest
@@ -21,7 +24,26 @@ python scripts/run_residual_stress.py          # ~20 min on 4 cores, n = 10 000
 python scripts/run_variable_amplitude.py       # stage 1 n = 10 000, stage 2 n = 3 000
 python scripts/run_mixed_mode.py               # ~5 min
 python scripts/make_figures.py
+
+# NASGRO-equation inputs only (results/2026-10-23_nasgro_only/, results/ untouched)
+python scripts/run_nasgro_only.py              # ~25 min on 4 cores
+python scripts/run_elasticity.py
+python scripts/run_residual_stress.py --standard
+python scripts/run_mixed_mode.py --standard
+python scripts/run_variable_amplitude.py --standard
+python scripts/make_figures_nasgro_only.py
+python scripts/make_figures.py --standard
 ```
+
+## NASGRO-only run (2026-10-23)
+
+κ (crack-opening factor) and the SIF-solution error are not NASGRO-equation terms.
+`runner.set_standard()` / `--standard` fixes both at 1 in every run (they stay in
+the code path), so every other input keeps identical draws and the previous
+results in `results/` remain the "with" comparison. Checks: median moves ≤ 0.013
+decades, stress CoV unchanged, no other draw differs (tested). U90 narrows 8–14 %;
+crack depth's share rises (bar 1 mm: 31 → 40 %); closure via α and Smax/σ0 ≤ 4 %
+at judged spreads, top four only when doubled.
 
 ## Relation to the original pipeline
 
