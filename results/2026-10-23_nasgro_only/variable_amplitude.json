@@ -1,0 +1,663 @@
+{
+ "results": [
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 3000,
+   "stats": {
+    "mu": 5.959409851670782,
+    "sigma": 0.4310614024135128,
+    "u90": 1.3715364766430742,
+    "pf": 0.9943333333333333,
+    "median": 5.911237157443021
+   },
+   "reduction": {
+    "crack depth": 0.4292469366079745,
+    "material fit (C, m, p, dKth0)": 0.041366556981758174,
+    "load amplitude": 0.1583841722724726,
+    "diameter D": 0.01346871014482931,
+    "crack tilt": 0.0031458812019298232,
+    "toughness Kc": -0.001257180089997867,
+    "intrinsic crack length a0": 0.0038217965389478747,
+    "stress ratio R": -0.01281962345903409,
+    "spectrum shape h": 0.008035347132896775,
+    "block length n_b": -0.006463435436463882,
+    "shut-off ratio SOLR": 0.003562280341474877,
+    "overload plastic-zone factor beta": -3.3050972365611386e-06
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 5.582421939305641,
+    "sigma": 0.3559936375731101,
+    "u90": 1.1199908000438041,
+    "pf": 0.932,
+    "median": 5.555823444233013
+   },
+   "stage": 2,
+   "stage1_stats": {
+    "mu": 5.6493874999875455,
+    "sigma": 0.41896136697735553,
+    "u90": 1.289742269877162,
+    "pf": 0.9946666666666667,
+    "median": 5.599460262733568
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 3000,
+   "stats": {
+    "mu": 4.742348259644221,
+    "sigma": 0.3094404540752347,
+    "u90": 1.0147111327156235,
+    "pf": 1.0,
+    "median": 4.735516478856914
+   },
+   "reduction": {
+    "crack depth": 0.18006079325305901,
+    "material fit (C, m, p, dKth0)": 0.08884813666997016,
+    "load amplitude": 0.2378234530921517,
+    "diameter D": 0.03255752132525647,
+    "crack tilt": -0.00148860932228434,
+    "toughness Kc": 0.009468473511013098,
+    "intrinsic crack length a0": 0.0,
+    "stress ratio R": 0.00485734196556864,
+    "spectrum shape h": 0.002564879414028276,
+    "block length n_b": -0.0020628496189618595,
+    "shut-off ratio SOLR": 0.012340044195669586,
+    "overload plastic-zone factor beta": 0.00023138305540570947
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.414978858443398,
+    "sigma": 0.2631514543808261,
+    "u90": 0.8713255092666903,
+    "pf": 1.0,
+    "median": 4.4161976687612015
+   },
+   "stage": 2,
+   "stage1_stats": {
+    "mu": 4.410593320539568,
+    "sigma": 0.25908267245234456,
+    "u90": 0.850401188159104,
+    "pf": 1.0,
+    "median": 4.4168260549820335
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "n": 3000,
+   "stats": {
+    "mu": 5.144930893489032,
+    "sigma": 0.41326633510389993,
+    "u90": 1.3494204143824433,
+    "pf": 0.9986666666666667,
+    "median": 5.133066729920875
+   },
+   "reduction": {
+    "crack depth": 0.20220749167695207,
+    "stress amplitude": 0.11339525154198604,
+    "constraint factor alpha": 0.026655188537259455,
+    "growth curve C-n": 0.035389774013998565,
+    "crack shape a/c": 0.05581281359496115,
+    "critical-shape exponent q": 0.004459760872675078,
+    "toughness Kc": 0.012699027132363927,
+    "intrinsic crack length a0": -0.0013066321671224568,
+    "threshold-shape exponent p": 0.0032313482174034514,
+    "Smax/sigma0": 0.008510524932319408,
+    "threshold dKth0": 0.008820272644900817,
+    "stress ratio R": 8.198137072090717e-05,
+    "thickness t": 0.0006746189428368243,
+    "Cth (R >= 0)": 0.0,
+    "width W": 2.4564019902362233e-05,
+    "Cth (R < 0)": 0.0004692026843098329,
+    "crack tilt": 0.10476430774780743,
+    "spectrum shape h": 0.0016943126543029763,
+    "block length n_b": 0.007793333011775649,
+    "shut-off ratio SOLR": 0.003216196599517218,
+    "overload plastic-zone factor beta": 0.00016052880767891686
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.800485706130889,
+    "sigma": 0.36601395190629343,
+    "u90": 1.1920893675379949,
+    "pf": 0.9773333333333334,
+    "median": 4.800308395763207
+   },
+   "stage": 2,
+   "stage1_stats": {
+    "mu": 4.928996944716671,
+    "sigma": 0.39465151909247004,
+    "u90": 1.273606189417202,
+    "pf": 0.9986666666666667,
+    "median": 4.921449317102045
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "n": 3000,
+   "stats": {
+    "mu": 4.72242545734714,
+    "sigma": 0.43548440900961727,
+    "u90": 1.3953341095213858,
+    "pf": 1.0,
+    "median": 4.6974840125278945
+   },
+   "reduction": {
+    "crack depth": 0.31729371788041716,
+    "stress amplitude": 0.0981783911068368,
+    "constraint factor alpha": 0.01922055007842849,
+    "growth curve C-n": 0.019290493574329215,
+    "crack shape a/c": 0.07892502408324953,
+    "critical-shape exponent q": 0.013495129425356134,
+    "toughness Kc": -0.005358485455067452,
+    "intrinsic crack length a0": 0.00061955593765739,
+    "threshold-shape exponent p": 0.013076681591199457,
+    "Smax/sigma0": -0.002629297367530592,
+    "threshold dKth0": -0.0012482246149041476,
+    "stress ratio R": -0.0008279122293881613,
+    "thickness t": 8.03896303681606e-05,
+    "Cth (R >= 0)": 0.0,
+    "width W": 0.0,
+    "Cth (R < 0)": 1.1028026817627712e-05,
+    "crack tilt": -0.0008103203765674749,
+    "spectrum shape h": -0.00683385458814878,
+    "block length n_b": 0.002836929457171178,
+    "shut-off ratio SOLR": -0.0032555465843195908,
+    "overload plastic-zone factor beta": -0.0001941183860572071
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.398101130172414,
+    "sigma": 0.3724038086412103,
+    "u90": 1.238946370544678,
+    "pf": 0.9856666666666667,
+    "median": 4.382255096585167
+   },
+   "stage": 2,
+   "stage1_stats": {
+    "mu": 4.512463609810763,
+    "sigma": 0.42257286948401046,
+    "u90": 1.350572190559086,
+    "pf": 1.0,
+    "median": 4.482289554790217
+   }
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "n": 3000,
+   "stats": {
+    "mu": 3.603777981092591,
+    "sigma": 0.5283054097277102,
+    "u90": 1.7119925531812448,
+    "pf": 1.0,
+    "median": 3.684425993576766
+   },
+   "reduction": {
+    "crack depth": 0.08851188958495992,
+    "stress amplitude": 0.1201785461523156,
+    "constraint factor alpha": 0.015432612917552935,
+    "growth curve C-n": 0.007919377941309591,
+    "crack shape a/c": 0.31014201688614706,
+    "critical-shape exponent q": 0.02244236849650416,
+    "toughness Kc": 0.10383737550415917,
+    "intrinsic crack length a0": 0.0,
+    "threshold-shape exponent p": -0.0006763764037538422,
+    "Smax/sigma0": 0.005491054171500531,
+    "threshold dKth0": 4.804749220510551e-05,
+    "stress ratio R": 0.0004144199352790201,
+    "thickness t": 0.00634222095056014,
+    "Cth (R >= 0)": 0.0,
+    "width W": 0.0,
+    "Cth (R < 0)": 0.0,
+    "crack tilt": -0.016082132874303712,
+    "spectrum shape h": 0.009002972143376864,
+    "block length n_b": -0.004675910227904367,
+    "shut-off ratio SOLR": 0.011643768823810907,
+    "overload plastic-zone factor beta": 0.00021108337409581068
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 3.4345847907530853,
+    "sigma": 0.38557405896585,
+    "u90": 1.2105378491342353,
+    "pf": 1.0,
+    "median": 3.4713277670373666
+   },
+   "stage": 2,
+   "stage1_stats": {
+    "mu": 3.360248688657313,
+    "sigma": 0.6473767425292692,
+    "u90": 1.7147069578146032,
+    "pf": 1.0,
+    "median": 3.478558070843394
+   }
+  },
+  {
+   "case": "bar",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 6.1295358188765405,
+    "sigma": 0.4067651973537211,
+    "u90": 1.3056867885877335,
+    "pf": 0.996,
+    "median": 6.099225985548269
+   },
+   "reduction": {
+    "crack depth": 0.3862724523490303,
+    "material fit (C, m, p, dKth0)": 0.07593821661127731,
+    "load amplitude": 0.07773962824306657,
+    "diameter D": 0.002198032719108345,
+    "crack tilt": 0.12322306089049095,
+    "toughness Kc": -0.00015533205323059462,
+    "intrinsic crack length a0": -0.004201093770277442,
+    "stress ratio R": -0.003841827822435473,
+    "spectrum shape h": -0.0017108009629358545,
+    "block length n_b": -0.0023375413517658927
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 6.008395395338159,
+    "sigma": 0.39132318109397957,
+    "u90": 1.2319867284160146,
+    "pf": 0.7267,
+    "median": 5.978008219477594
+   },
+   "stage": 1
+  },
+  {
+   "case": "bar",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.644914639759293,
+    "sigma": 0.40991493579746013,
+    "u90": 1.2707160337597019,
+    "pf": 0.9933,
+    "median": 5.58917974485868
+   },
+   "reduction": {
+    "crack depth": 0.5510253486868208,
+    "material fit (C, m, p, dKth0)": 0.05489590396564359,
+    "load amplitude": 0.06102026990217646,
+    "diameter D": 0.007918140857711475,
+    "crack tilt": 0.00047658325958555015,
+    "toughness Kc": 0.0003134713904806574,
+    "intrinsic crack length a0": 0.0035648743952513273,
+    "stress ratio R": -0.0016984736631520114,
+    "spectrum shape h": 0.0022435398037807808,
+    "block length n_b": 0.00036151051413690904
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 5.581778439220568,
+    "sigma": 0.36113195493319633,
+    "u90": 1.1122500623103182,
+    "pf": 0.9314,
+    "median": 5.552121471613205
+   },
+   "stage": 1
+  },
+  {
+   "case": "bar",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 5.136596825066736,
+    "sigma": 0.2698907645757513,
+    "u90": 0.8846983886604862,
+    "pf": 1.0,
+    "median": 5.128186752412047
+   },
+   "reduction": {
+    "crack depth": 0.3561533336139632,
+    "material fit (C, m, p, dKth0)": 0.09488940135925239,
+    "load amplitude": 0.12304883543391787,
+    "diameter D": 0.016223420226992857,
+    "crack tilt": 0.0054758145286155635,
+    "toughness Kc": 0.005228045076701826,
+    "intrinsic crack length a0": -5.310242620293337e-05,
+    "stress ratio R": -0.0006985647520316718,
+    "spectrum shape h": 0.0048416123113474985,
+    "block length n_b": -0.0007855637936859949
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 5.126268195530259,
+    "sigma": 0.2842399097594086,
+    "u90": 0.9295469505529228,
+    "pf": 0.9995,
+    "median": 5.113736209790102
+   },
+   "stage": 1
+  },
+  {
+   "case": "bar",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.410634698339588,
+    "sigma": 0.2554627881258617,
+    "u90": 0.8425626948812956,
+    "pf": 1.0,
+    "median": 4.408110365648048
+   },
+   "reduction": {
+    "crack depth": 0.2678095190218919,
+    "material fit (C, m, p, dKth0)": 0.12716566045301336,
+    "load amplitude": 0.12775043243257223,
+    "diameter D": 0.024929390170207344,
+    "crack tilt": 0.0017339277200935088,
+    "toughness Kc": 0.007305574182981056,
+    "intrinsic crack length a0": -1.5696651859409272e-05,
+    "stress ratio R": 0.00448109449502776,
+    "spectrum shape h": 0.004709919433006582,
+    "block length n_b": 0.003443094365895849
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.4144979480354465,
+    "sigma": 0.2602181028450646,
+    "u90": 0.8592287313652944,
+    "pf": 1.0,
+    "median": 4.410807919596753
+   },
+   "stage": 1
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.2,
+   "n": 10000,
+   "stats": {
+    "mu": 5.31920336608185,
+    "sigma": 0.4260700990687663,
+    "u90": 1.377149521353898,
+    "pf": 0.9893,
+    "median": 5.278425308668173
+   },
+   "reduction": {
+    "crack depth": 0.24975770082482085,
+    "stress amplitude": 0.10115259911026186,
+    "constraint factor alpha": 0.027531642403809675,
+    "growth curve C-n": 0.024197336590931817,
+    "crack shape a/c": 0.08790068485608371,
+    "critical-shape exponent q": 0.005923969193579071,
+    "toughness Kc": -0.001801012311414718,
+    "intrinsic crack length a0": -0.003958477979952857,
+    "threshold-shape exponent p": 0.005489271474491519,
+    "Smax/sigma0": -0.00021830477434692241,
+    "threshold dKth0": 0.009438332168387853,
+    "stress ratio R": 0.00019374372111014004,
+    "thickness t": 7.706472014434862e-05,
+    "Cth (R >= 0)": 5.533607144581065e-05,
+    "width W": -1.9121653123121973e-06,
+    "Cth (R < 0)": -0.0005303774718272702,
+    "crack tilt": 0.11060082538617277,
+    "spectrum shape h": -0.005539505581568127,
+    "block length n_b": 0.0006326924096202724
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 5.074997992065652,
+    "sigma": 0.32047108377016553,
+    "u90": 1.049669039816167,
+    "pf": 0.8036,
+    "median": 5.076307893834674
+   },
+   "stage": 1
+  },
+  {
+   "case": "plate",
+   "depth_mm": 0.5,
+   "n": 10000,
+   "stats": {
+    "mu": 4.925758460465815,
+    "sigma": 0.39531613935531806,
+    "u90": 1.27411829186586,
+    "pf": 0.9991,
+    "median": 4.913800369688869
+   },
+   "reduction": {
+    "crack depth": 0.2351461995685531,
+    "stress amplitude": 0.09857952983858442,
+    "constraint factor alpha": 0.031541737560153105,
+    "growth curve C-n": 0.03357533332802376,
+    "crack shape a/c": 0.08792084801683697,
+    "critical-shape exponent q": 0.010482173280700557,
+    "toughness Kc": 0.004592532096962532,
+    "intrinsic crack length a0": -0.004020742305427927,
+    "threshold-shape exponent p": 0.004018294316836979,
+    "Smax/sigma0": 0.0034311049813802175,
+    "threshold dKth0": 0.003185043026117107,
+    "stress ratio R": 0.007907034715493921,
+    "thickness t": 0.0004213654700663261,
+    "Cth (R >= 0)": -0.0009010202105688148,
+    "width W": 7.456605619626799e-07,
+    "Cth (R < 0)": 5.6551340769095404e-05,
+    "crack tilt": 0.08664745497459758,
+    "spectrum shape h": 0.0016229977927038064,
+    "block length n_b": 0.002376082879423036
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.796385608505052,
+    "sigma": 0.36553991417205206,
+    "u90": 1.1987297202206557,
+    "pf": 0.977,
+    "median": 4.792457767266647
+   },
+   "stage": 1
+  },
+  {
+   "case": "plate",
+   "depth_mm": 1.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.510937798497255,
+    "sigma": 0.423708492374256,
+    "u90": 1.3633344796880138,
+    "pf": 0.9987,
+    "median": 4.485792873046852
+   },
+   "reduction": {
+    "crack depth": 0.35440755131536616,
+    "stress amplitude": 0.09235594768514976,
+    "constraint factor alpha": 0.026947738859917192,
+    "growth curve C-n": 0.02967447776656318,
+    "crack shape a/c": 0.1143905499532405,
+    "critical-shape exponent q": 0.01892056377315665,
+    "toughness Kc": 0.011982805282855225,
+    "intrinsic crack length a0": -0.0009700613215444243,
+    "threshold-shape exponent p": 0.0012047216824458973,
+    "Smax/sigma0": 0.002862753557972053,
+    "threshold dKth0": 0.0048828742033526495,
+    "stress ratio R": 0.010216458220988711,
+    "thickness t": -0.00023488791445935853,
+    "Cth (R >= 0)": 0.00020156401818838265,
+    "width W": -3.613619373066257e-05,
+    "Cth (R < 0)": -0.0003525646915689684,
+    "crack tilt": 0.001509503378038568,
+    "spectrum shape h": 0.00038379097868734835,
+    "block length n_b": -0.0006040434879426293
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.397691392537635,
+    "sigma": 0.37592730350404946,
+    "u90": 1.2427973508366463,
+    "pf": 0.9849,
+    "median": 4.384628789288221
+   },
+   "stage": 1
+  },
+  {
+   "case": "plate",
+   "depth_mm": 2.0,
+   "n": 10000,
+   "stats": {
+    "mu": 4.066015161098953,
+    "sigma": 0.36429315179865857,
+    "u90": 1.1846704383337436,
+    "pf": 1.0,
+    "median": 4.08315665244651
+   },
+   "reduction": {
+    "crack depth": 0.1540545118953388,
+    "stress amplitude": 0.11970469826712127,
+    "constraint factor alpha": 0.02820973935281923,
+    "growth curve C-n": 0.015519764067355335,
+    "crack shape a/c": 0.18054995837108034,
+    "critical-shape exponent q": 0.029853901022459106,
+    "toughness Kc": 0.022978403711465756,
+    "intrinsic crack length a0": 0.00038974190305007816,
+    "threshold-shape exponent p": 0.002823265723816859,
+    "Smax/sigma0": 0.0031058958603448206,
+    "threshold dKth0": 0.0013115739953710737,
+    "stress ratio R": 0.007164775067511453,
+    "thickness t": 0.0006138291810470209,
+    "Cth (R >= 0)": 0.00033684657128763007,
+    "width W": -4.953546881591997e-05,
+    "Cth (R < 0)": -3.5311191952658305e-06,
+    "crack tilt": 0.0032108906577830165,
+    "spectrum shape h": -0.0007172019323713474,
+    "block length n_b": -0.00186548981944612
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 4.001055323443756,
+    "sigma": 0.3326622499592709,
+    "u90": 1.0975364823496565,
+    "pf": 1.0,
+    "median": 4.012598966357097
+   },
+   "stage": 1
+  },
+  {
+   "case": "plate",
+   "depth_mm": 4.0,
+   "n": 10000,
+   "stats": {
+    "mu": 3.363128811167991,
+    "sigma": 0.6386298835566823,
+    "u90": 1.697230049152862,
+    "pf": 1.0,
+    "median": 3.4744670099488726
+   },
+   "reduction": {
+    "crack depth": 0.09131327863854388,
+    "stress amplitude": 0.09942780412726038,
+    "constraint factor alpha": 0.011026691723570625,
+    "growth curve C-n": -0.007678978948031823,
+    "crack shape a/c": 0.31420562391712537,
+    "critical-shape exponent q": 0.029274259886123866,
+    "toughness Kc": 0.08762232982712348,
+    "intrinsic crack length a0": 8.370230102316967e-05,
+    "threshold-shape exponent p": -0.00039472636848381093,
+    "Smax/sigma0": -0.004466594138288871,
+    "threshold dKth0": -0.00010270538346546232,
+    "stress ratio R": -0.0022299719482572478,
+    "thickness t": -0.0019340393017626134,
+    "Cth (R >= 0)": -6.431073843882196e-05,
+    "width W": -0.0002004400145232399,
+    "Cth (R < 0)": -4.9949794316273e-06,
+    "crack tilt": -0.021682864142522185,
+    "spectrum shape h": -0.00784176195362174,
+    "block length n_b": -0.012113391024236142
+   },
+   "always_fixed": [
+    "kappa",
+    "sif"
+   ],
+   "baseline_stats": {
+    "mu": 3.436590244279102,
+    "sigma": 0.38259320313639383,
+    "u90": 1.2218607182657912,
+    "pf": 1.0,
+    "median": 3.469265031632696
+   },
+   "stage": 1
+  }
+ ],
+ "spectrum": {
+  "bar": {
+   "h": [
+    1.2,
+    2.0
+   ],
+   "nb": [
+    1000.0,
+    30000.0
+   ],
+   "solr": [
+    1.7,
+    2.7
+   ],
+   "beta": [
+    2.0,
+    6.0
+   ]
+  },
+  "plate": {
+   "h": [
+    1.2,
+    2.0
+   ],
+   "nb": [
+    300.0,
+    3000.0
+   ],
+   "solr": [
+    2.5,
+    3.5
+   ],
+   "beta": [
+    2.0,
+    6.0
+   ]
+  }
+ }
+}

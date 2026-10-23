@@ -1,0 +1,19 @@
+/home/user/NASGRO-Sensitivity-Analysis/results/2026-10-23_nasgro_only/variable_amplitude.json
+stage 2 bar   1.0 mm  median 5.56->5.91  Pf 93%->99%  U90 1.12->1.37 | crack depth 43%, load amplitude 16%, material fit (C, m, p, dKth0) 4%, diameter D 1%
+stage 2 bar   4.0 mm  median 4.42->4.74  Pf 100%->100%  U90 0.87->1.01 | load amplitude 24%, crack depth 18%, material fit (C, m, p, dKth0) 9%, diameter D 3%
+stage 2 plate 0.5 mm  median 4.80->5.13  Pf 98%->100%  U90 1.19->1.35 | crack depth 20%, stress amplitude 11%, crack tilt 10%, crack shape a/c 6%
+stage 2 plate 1.0 mm  median 4.38->4.70  Pf 99%->100%  U90 1.24->1.40 | crack depth 32%, stress amplitude 10%, crack shape a/c 8%, growth curve C-n 2%
+stage 2 plate 4.0 mm  median 3.47->3.68  Pf 100%->100%  U90 1.21->1.71 | crack shape a/c 31%, stress amplitude 12%, toughness Kc 10%, crack depth 9%
+stage 1 bar   0.5 mm  median 5.98->6.10  Pf 73%->100%  U90 1.23->1.31 | crack depth 39%, crack tilt 12%, load amplitude 8%, material fit (C, m, p, dKth0) 8%
+stage 1 bar   1.0 mm  median 5.55->5.59  Pf 93%->99%  U90 1.11->1.27 | crack depth 55%, load amplitude 6%, material fit (C, m, p, dKth0) 5%, diameter D 1%
+stage 1 bar   2.0 mm  median 5.11->5.13  Pf 100%->100%  U90 0.93->0.88 | crack depth 36%, load amplitude 12%, material fit (C, m, p, dKth0) 9%, diameter D 2%
+stage 1 bar   4.0 mm  median 4.41->4.41  Pf 100%->100%  U90 0.86->0.84 | crack depth 27%, load amplitude 13%, material fit (C, m, p, dKth0) 13%, diameter D 2%
+stage 1 plate 0.2 mm  median 5.08->5.28  Pf 80%->99%  U90 1.05->1.38 | crack depth 25%, crack tilt 11%, stress amplitude 10%, crack shape a/c 9%
+stage 1 plate 0.5 mm  median 4.79->4.91  Pf 98%->100%  U90 1.20->1.27 | crack depth 24%, stress amplitude 10%, crack shape a/c 9%, crack tilt 9%
+stage 1 plate 1.0 mm  median 4.38->4.49  Pf 98%->100%  U90 1.24->1.36 | crack depth 35%, crack shape a/c 11%, stress amplitude 9%, growth curve C-n 3%
+stage 1 plate 2.0 mm  median 4.01->4.08  Pf 100%->100%  U90 1.10->1.18 | crack shape a/c 18%, crack depth 15%, stress amplitude 12%, critical-shape exponent q 3%
+stage 1 plate 4.0 mm  median 3.47->3.47  Pf 100%->100%  U90 1.22->1.70 | crack shape a/c 31%, stress amplitude 10%, crack depth 9%, toughness Kc 9%
+
+real	53m16.486s
+user	177m35.898s
+sys	13m15.568s
