@@ -82,3 +82,22 @@ def nominal_life(case, a_mm, theta_deg, model):
     s["mm_model"] = np.array([model])
     s["tilt"] = np.zeros(1)
     return float(mm_life(case, s)[0])
+
+
+def mm_profile(case, s, n_grid=400):
+    """Depth grid, Kmax and growth rate per sample under each sample's model (for depth histories).
+
+    Returns (edges, kmax, rate, offset): the grid starts at the model's start depth
+    (a cos(theta) for projection); `offset` = a_i - start depth, so edges + offset
+    is the crack's extent measured from the same detected start for every model.
+    """
+    model, th = s["mm_model"], s["mm_theta"]
+    a_start = np.where(model == 0, s["a_i"] * np.cos(th), s["a_i"])
+    sp = dict(s, a_i=a_start)
+    edges, a, da = life.depth_grid(a_start, cases.a_limit(case, sp), n_grid)
+    k1 = cases.k_unit(case, sp, a)
+    m = m_factor(model, th)[:, None]
+    relax = 1.0 - (1.0 - m) * np.exp(-(a - a_start[:, None]) / a_start[:, None])
+    kmax = k1 * relax * cases.max_stress(case, s)[:, None]
+    rate = nasgro.growth_rate(kmax, kmax * s["R"][:, None], a, cases.material(s))
+    return edges, kmax, rate, s["a_i"] - a_start

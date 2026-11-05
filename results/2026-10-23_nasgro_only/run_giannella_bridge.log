@@ -1,0 +1,38 @@
+Part A: reproduction of Giannella's own setup
+
+  pool original: dKth0 5/50/95 % [5.85 6.35 7.17], best-fit log10 N 5.564
+  corr  C-n -0.99 (-0.99)  C-p +0.93 (+0.88)  C-dK -0.27 (-0.47)  n-p -0.88 (-0.81)  n-dK +0.24 (+0.40)  p-dK -0.46 (-0.70)
+  150 MPa  mu 6.383 (6.672)  sd 0.330 (0.646)  Pf 0.68 (0.17)
+  200 MPa  mu 5.863 (5.802)  sd 0.123 (0.194)  Pf 1.00 (0.97)
+  250 MPa  mu 5.591 (5.422)  sd 0.115 (0.118)  Pf 1.00 (1.00)
+  300 MPa  mu 5.394 (5.174)  sd 0.116 (0.124)  Pf 1.00 (1.00)
+  400 MPa  mu 5.101 (4.792)  sd 0.131 (0.164)  Pf 1.00 (1.00)
+  500 MPa  mu 4.875 (4.498)  sd 0.153 (0.201)  Pf 1.00 (1.00)
+  sweep crack depth     sd 0.115 -> 0.098 (0.118 -> 0.086): 15% (27%)
+  sweep diameter D      sd 0.115 -> 0.109 (0.117 -> 0.109): 5% (7%)
+  sweep load amplitude  sd 0.115 -> 0.114 (0.118 -> 0.116): 1% (2%)
+
+  pool corrected: dKth0 5/50/95 % [6.35 7.1  7.65], best-fit log10 N 5.334
+  corr  C-n -0.99 (-0.99)  C-p +0.88 (+0.88)  C-dK -0.76 (-0.47)  n-p -0.83 (-0.81)  n-dK +0.73 (+0.40)  p-dK -0.87 (-0.70)
+  150 MPa  mu 6.603 (6.672)  sd 0.624 (0.646)  Pf 0.32 (0.17)
+  200 MPa  mu 5.788 (5.802)  sd 0.175 (0.194)  Pf 0.99 (0.97)
+  250 MPa  mu 5.435 (5.422)  sd 0.117 (0.118)  Pf 1.00 (1.00)
+  300 MPa  mu 5.193 (5.174)  sd 0.104 (0.124)  Pf 1.00 (1.00)
+  400 MPa  mu 4.828 (4.792)  sd 0.110 (0.164)  Pf 1.00 (1.00)
+  500 MPa  mu 4.537 (4.498)  sd 0.133 (0.201)  Pf 1.00 (1.00)
+  sweep crack depth     sd 0.117 -> 0.087 (0.118 -> 0.086): 26% (27%)
+  sweep diameter D      sd 0.117 -> 0.108 (0.117 -> 0.109): 8% (7%)
+  sweep load amplitude  sd 0.117 -> 0.115 (0.118 -> 0.116): 2% (2%)
+
+Part B: bridge, 250 MPa, 1 mm crack, corrected pool
+  Giannella's setup                             sd 0.117  U90 0.382  mu 5.435  Pf 1.00  | crack depth 26%/25%, material 24%/24%, diameter D 8%/9%, load amplitude 2%/2%
+  + crack depth sd 0.15 -> 0.5 mm (UT sizing)   sd 0.275  U90 0.803  mu 5.429  Pf 0.89  | crack depth 68%/64%, material 24%/15%, diameter D 3%/2%, load amplitude 1%/1%
+  + load CoV 1.5 % -> 10 %                      sd 0.303  U90 0.905  mu 5.431  Pf 0.88  | crack depth 44%/40%, material 21%/13%, diameter D 2%/1%, load amplitude 10%/12%
+  + Kc, a0, R and tilt uncertain                sd 0.309  U90 0.913  mu 5.438  Pf 0.88  | crack depth 43%/38%, material 22%/12%, diameter D 1%/1%, load amplitude 10%/11%, Kc, a0, R, tilt 2%/1%
+  + this study's material model                 sd 0.351  U90 1.116  mu 5.585  Pf 0.94  | crack depth 41%/39%, material 12%/8%, diameter D -0%/1%, load amplitude 8%/10%, Kc, a0, R, tilt -1%/-0%
+  alone: + crack depth sd 0.15 -> 0.5 mm (UT sizing) sd 0.275  U90 0.803
+  alone: + load CoV 1.5 % -> 10 %               sd 0.192  U90 0.608
+  alone: + Kc, a0, R and tilt uncertain         sd 0.123  U90 0.403
+  alone: + this study's material model          sd 0.156  U90 0.508
+  study bar check (sd, U90): 0.35085786857669937 1.1156967473059565
+C:\Research\NASGRO Sensitivity Analysis\results\2026-10-23_nasgro_only\giannella_bridge.json

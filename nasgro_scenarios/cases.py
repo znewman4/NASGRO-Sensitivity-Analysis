@@ -169,8 +169,13 @@ def k_unit(case, s, a):
 
 
 def a_limit(case, s):
-    """Geometric end of the solution: 0.7 D (bar) or 0.8 t (plate breakthrough)."""
-    return 0.7 * s["D"] if case == "bar" else 0.8 * s["t"]
+    """Geometric end of the solution: 0.7 D (bar) or 0.8 t (plate breakthrough).
+
+    A sample set may carry its own bar limit as "a_lim_ratio" (Giannella: 0.5 D).
+    """
+    if case == "bar":
+        return s.get("a_lim_ratio", 0.7) * s["D"]
+    return 0.8 * s["t"]
 
 
 def material(s):
