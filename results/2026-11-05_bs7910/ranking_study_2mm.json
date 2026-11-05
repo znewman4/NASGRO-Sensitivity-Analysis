@@ -1,0 +1,31 @@
+{
+ "bar": {
+  "crack depth": 31.2,
+  "material fit (C, m, p, dKth0)": 7.8,
+  "load amplitude": 16.9,
+  "diameter D": 2.3,
+  "crack tilt": 0.5,
+  "toughness Kc": 0.2,
+  "intrinsic crack length a0": -0.0,
+  "stress ratio R": 0.0
+ },
+ "plate": {
+  "crack depth": 13.9,
+  "stress amplitude": 14.3,
+  "constraint factor alpha": 4.0,
+  "growth curve C-n": 2.1,
+  "crack shape a/c": 16.6,
+  "critical-shape exponent q": 2.8,
+  "toughness Kc": 1.4,
+  "intrinsic crack length a0": -0.0,
+  "threshold-shape exponent p": 0.1,
+  "Smax/sigma0": -0.1,
+  "threshold dKth0": 0.0,
+  "stress ratio R": 0.1,
+  "thickness t": -0.1,
+  "Cth (R >= 0)": -0.0,
+  "width W": -0.0,
+  "Cth (R < 0)": 0.0,
+  "crack tilt": -0.1
+ }
+}
