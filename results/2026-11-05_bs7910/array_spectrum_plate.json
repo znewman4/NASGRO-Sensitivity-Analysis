@@ -1,0 +1,214 @@
+{
+ "plate": {
+  "interval": 1027.1120341216472,
+  "a0_mm": 2.0,
+  "reference_u90_conventional_ut": 2.204400961094807,
+  "levels": {
+   "guided-wave SHM network": {
+    "sd_mm": 2.3,
+    "fixed": [],
+    "one_reading": {
+     "u90": 2.2036595283702978,
+     "reduction": 0.000336342043754545
+    },
+    "regimes": {
+     "periodic": {
+      "sd_mm": 2.3,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 1,
+      "after_ten": {
+       "u90": 1.434535663173749,
+       "coverage": 0.8823529411764706,
+       "ess": 72997.62473522412,
+       "n": 34,
+       "reduction": 0.34924013893493655
+      },
+      "at_detection": {
+       "u90": 2.2036996932057598,
+       "coverage": 0.85,
+       "ess": 300000.0,
+       "n": 80
+      }
+     },
+     "permanent": {
+      "sd_mm": 2.3,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 10,
+      "after_ten": {
+       "u90": 1.0318236944346035,
+       "coverage": 0.7647058823529411,
+       "ess": 24387.715871220593,
+       "n": 34,
+       "reduction": 0.5319255831198003
+      },
+      "at_detection": {
+       "u90": 2.2036996932057598,
+       "coverage": 0.85,
+       "ess": 300000.0,
+       "n": 80
+      }
+     }
+    }
+   },
+   "sparse permanent array": {
+    "sd_mm": 1.15,
+    "fixed": [],
+    "one_reading": {
+     "u90": 1.6103818294261454,
+     "reduction": 0.2694696392137501
+    },
+    "regimes": {
+     "periodic": {
+      "sd_mm": 1.15,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 1,
+      "after_ten": {
+       "u90": 1.1143698397816588,
+       "coverage": 0.8409090909090909,
+       "ess": 40921.1908320821,
+       "n": 44,
+       "reduction": 0.4944795164541157
+      },
+      "at_detection": {
+       "u90": 1.610394851197385,
+       "coverage": 0.8875,
+       "ess": 300000.0,
+       "n": 80
+      }
+     },
+     "permanent": {
+      "sd_mm": 1.15,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 10,
+      "after_ten": {
+       "u90": 0.7680775425829625,
+       "coverage": 0.9318181818181818,
+       "ess": 10277.972238312348,
+       "n": 44,
+       "reduction": 0.6515708547861003
+      },
+      "at_detection": {
+       "u90": 1.610394851197385,
+       "coverage": 0.8875,
+       "ess": 300000.0,
+       "n": 80
+      }
+     },
+     "permanent, as change": {
+      "sd_mm": 0.17,
+      "offset_sd_mm": 1.15,
+      "readings_per_interval": 10,
+      "after_ten": {
+       "u90": 0.3881100344194732,
+       "coverage": 0.9772727272727273,
+       "ess": 7052.699247016705,
+       "n": 44,
+       "reduction": 0.8239385478099592
+      },
+      "at_detection": {
+       "u90": 1.610394851197385,
+       "coverage": 0.8875,
+       "ess": 300000.0,
+       "n": 80
+      }
+     }
+    }
+   },
+   "dense linear array": {
+    "sd_mm": 0.38,
+    "fixed": [],
+    "one_reading": {
+     "u90": 1.0172059173229009,
+     "reduction": 0.5385567620068041
+    },
+    "regimes": {
+     "periodic": {
+      "sd_mm": 0.38,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 1,
+      "after_ten": {
+       "u90": 0.5472357746514183,
+       "coverage": 0.8717948717948718,
+       "ess": 15244.99887683231,
+       "n": 39,
+       "reduction": 0.7517530683802479
+      },
+      "at_detection": {
+       "u90": 1.0172118644362027,
+       "coverage": 0.9,
+       "ess": 300000.0,
+       "n": 80
+      }
+     },
+     "permanent": {
+      "sd_mm": 0.38,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 10,
+      "after_ten": {
+       "u90": 0.2766299380097248,
+       "coverage": 0.8717948717948718,
+       "ess": 2078.6669344951106,
+       "n": 39,
+       "reduction": 0.8745101536009412
+      },
+      "at_detection": {
+       "u90": 1.0172118644362027,
+       "coverage": 0.9,
+       "ess": 300000.0,
+       "n": 80
+      }
+     }
+    }
+   },
+   "dense 2D array": {
+    "sd_mm": 0.38,
+    "fixed": [
+     "ac",
+     "tilt"
+    ],
+    "one_reading": {
+     "u90": 0.8257324298452451,
+     "reduction": 0.6254164081678006
+    },
+    "regimes": {
+     "periodic": {
+      "sd_mm": 0.38,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 1,
+      "after_ten": {
+       "u90": 0.5045926644412231,
+       "coverage": 0.7567567567567568,
+       "ess": 9176.897983336617,
+       "n": 37,
+       "reduction": 0.771097602774307
+      },
+      "at_detection": {
+       "u90": 0.8257399235604539,
+       "coverage": 0.9125,
+       "ess": 300000.0,
+       "n": 80
+      }
+     },
+     "permanent": {
+      "sd_mm": 0.38,
+      "offset_sd_mm": 0.0,
+      "readings_per_interval": 10,
+      "after_ten": {
+       "u90": 0.26618109581274396,
+       "coverage": 0.8108108108108109,
+       "ess": 1481.5593791810322,
+       "n": 37,
+       "reduction": 0.8792501452727791
+      },
+      "at_detection": {
+       "u90": 0.8257399235604539,
+       "coverage": 0.9125,
+       "ess": 300000.0,
+       "n": 80
+      }
+     }
+    }
+   }
+  }
+ }
+}
