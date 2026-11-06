@@ -1,0 +1,14 @@
+{
+ "plate": {
+  "reference_u90_conventional_ut": 2.204400961094807,
+  "sd_change_mm": 0.1,
+  "offset_sd_mm": 1.15,
+  "after_ten": {
+   "u90": 0.3319941136749178,
+   "coverage": 0.9545454545454546,
+   "ess": 3495.815877008561,
+   "n": 44,
+   "reduction": 0.849394860765242
+  }
+ }
+}
